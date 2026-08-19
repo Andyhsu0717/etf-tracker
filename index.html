@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ETF 持股與異動追蹤</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="app">
+        <!-- 導覽列 -->
+        <header>
+            <div class="header-content">
+                <h1>ETF 追蹤面板</h1>
+                <p>每日自動更新成分股與買賣異動</p>
+            </div>
+        </header>
+
+        <!-- 首頁 (ETF 卡片列表) -->
+        <main id="home-view" class="view active">
+            <div class="cards-container" id="etf-cards">
+                <!-- 卡片將由 JS 動態生成 -->
+            </div>
+        </main>
+
+        <!-- 詳細頁面 -->
+        <main id="detail-view" class="view">
+            <button id="back-btn" class="btn-back">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+                返回列表
+            </button>
+            
+            <div class="detail-header">
+                <h2 id="detail-title">--</h2>
+                <div class="detail-meta">
+                    <span id="detail-date" class="badge">--</span>
+                    <span id="detail-nav" class="badge highlight">--</span>
+                </div>
+            </div>
+
+            <div class="tabs">
+                <button class="tab-btn active" data-target="changes-content">今日異動</button>
+                <button class="tab-btn" data-target="holdings-content">所有持股</button>
+            </div>
+
+            <div class="tab-content">
+                <!-- 今日異動 -->
+                <div id="changes-content" class="content-pane active">
+                    <div id="summary-cards" class="summary-grid">
+                        <!-- 總結卡片動態生成 -->
+                    </div>
+                    
+                    <div class="changes-lists">
+                        <div class="change-section" id="added-section" style="display:none;">
+                            <h3 class="text-green">🟢 新增成分股</h3>
+                            <ul id="added-list" class="item-list"></ul>
+                        </div>
+                        <div class="change-section" id="removed-section" style="display:none;">
+                            <h3 class="text-red">🔴 剔除成分股</h3>
+                            <ul id="removed-list" class="item-list"></ul>
+                        </div>
+                        <div class="change-section" id="changed-section" style="display:none;">
+                            <h3 class="text-blue">🔄 持股異動</h3>
+                            <div class="table-responsive">
+                                <table class="data-table">
+                                    <thead>
+                                        <tr>
+                                            <th>股票</th>
+                                            <th>股數變化</th>
+                                            <th>權重變化</th>
+                                            <th>收盤價</th>
+                                            <th>估算買賣金額</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="changed-tbody"></tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div id="no-changes-msg" class="empty-state" style="display:none;">
+                            <p>今日無任何持股變動</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 所有持股 -->
+                <div id="holdings-content" class="content-pane">
+                    <div class="table-responsive">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>排名</th>
+                                    <th>股票名稱</th>
+                                    <th>權重</th>
+                                    <th>股數</th>
+                                    <th>收盤價</th>
+                                    <th>總市值(估)</th>
+                                </tr>
+                            </thead>
+                            <tbody id="holdings-tbody"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
