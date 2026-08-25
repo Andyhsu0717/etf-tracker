@@ -25,5 +25,23 @@
         "frequency": "月配",
         "scraper": "cathay",
         "fund_code": "EA"
+    },
+    {
+        "code": "00982A",
+        "name": "主動群益台灣強棒",
+        "type": "國內股票",
+        "company": "群益投信",
+        "frequency": "季配",
+        "scraper": "moneydj",
+        "fund_code": ""
+    },
+    {
+        "code": "00992A",
+        "name": "主動群益科技創新",
+        "type": "國內股票",
+        "company": "群益投信",
+        "frequency": "季配",
+        "scraper": "moneydj",
+        "fund_code": ""
     }
 ]
