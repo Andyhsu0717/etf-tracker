@@ -1,5 +1,6 @@
 import os
 import json
+import sqlite3
 import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
@@ -8,6 +9,34 @@ from dotenv import load_dotenv
 load_dotenv()
 WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL")
 HEADERS = {"User-Agent": "Mozilla/5.0"}
+DB_PATH = "tracker.db"
+
+def init_db():
+    conn = sqlite3.connect(DB_PATH)
+    cursor = conn.cursor()
+    cursor.execute('''
+        CREATE TABLE IF NOT EXISTS daily_nav (
+            date TEXT,
+            etf_code TEXT,
+            nav REAL,
+            PRIMARY KEY (date, etf_code)
+        )
+    ''')
+    cursor.execute('''
+        CREATE TABLE IF NOT EXISTS daily_holdings (
+            date TEXT,
+            etf_code TEXT,
+            stock_code TEXT,
+            name TEXT,
+            share REAL,
+            weight REAL,
+            amount REAL,
+            price REAL,
+            PRIMARY KEY (date, etf_code, stock_code)
+        )
+    ''')
+    conn.commit()
+    return conn
 
 def fetch_00981A_data():
     url = "https://www.ezmoney.com.tw/ETF/Fund/Info?fundCode=49YTW"
@@ -119,7 +148,6 @@ def fetch_00400A_data():
         code = st.get("stockCode")
         if not code:
             continue
-        # Shares are formatted with commas, e.g., "770,000"
         share_str = st.get("volumn", "0").replace(",", "")
         weight_str = st.get("weights", "0.0")
         
@@ -130,23 +158,50 @@ def fetch_00400A_data():
         }
     return holdings, None
 
-def load_previous_data(file_name):
-    if os.path.exists(file_name):
-        with open(file_name, "r", encoding="utf-8") as f:
-            data = json.load(f)
-            # 判斷是否為新格式（含有 current 和 date）
-            if "current" in data and "date" in data:
-                return data
-            else:
-                # 若為舊格式，進行無縫升級
-                return {
-                    "date": "1970-01-01",  # 故意用舊日期，讓它觸發換日邏輯
-                    "current": data,
-                    "previous": data
-                }
-    return None
+def load_previous_data(conn, etf_code, today_str):
+    cursor = conn.cursor()
+    cursor.execute('SELECT DISTINCT date FROM daily_holdings WHERE etf_code = ? AND date < ? ORDER BY date DESC LIMIT 1', (etf_code, today_str))
+    row = cursor.fetchone()
+    if not row:
+        return None
+    
+    prev_date = row[0]
+    
+    cursor.execute('SELECT stock_code, name, share, weight, amount, price FROM daily_holdings WHERE etf_code = ? AND date = ?', (etf_code, prev_date))
+    holdings = {}
+    for r in cursor.fetchall():
+        holdings[r[0]] = {
+            "name": r[1],
+            "share": r[2],
+            "weight": r[3],
+            "amount": r[4],
+            "price": r[5]
+        }
+        
+    cursor.execute('SELECT nav FROM daily_nav WHERE etf_code = ? AND date = ?', (etf_code, prev_date))
+    nav_row = cursor.fetchone()
+    prev_nav = nav_row[0] if nav_row else None
+    
+    return {
+        "date": prev_date,
+        "current": holdings,
+        "current_nav": prev_nav
+    }
 
-def save_current_data(file_name, data):
+def save_to_db(conn, etf_code, date_str, holdings, nav):
+    cursor = conn.cursor()
+    if nav is not None:
+        cursor.execute('INSERT OR REPLACE INTO daily_nav (date, etf_code, nav) VALUES (?, ?, ?)', (date_str, etf_code, nav))
+    
+    for code, data in holdings.items():
+        cursor.execute('''
+            INSERT OR REPLACE INTO daily_holdings 
+            (date, etf_code, stock_code, name, share, weight, amount, price) 
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+        ''', (date_str, etf_code, code, data.get("name"), data.get("share"), data.get("weight"), data.get("amount", 0.0), data.get("price", 0.0)))
+    conn.commit()
+
+def save_json_data(file_name, data):
     with open(file_name, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
@@ -260,7 +315,7 @@ def send_discord_notification(etf_name, curr_holdings, changes, is_first_run=Fal
                 msg += "\n🔴 **【剔除成分股】**\n"
                 for st in changes["removed"]:
                     old_avg = st.get('avg_price', st.get('price', 0.0))
-                    sell_price = st.get('price', 0.0) # 昨日收盤價估算
+                    sell_price = st.get('price', 0.0)
                     pnl = 0.0
                     pnl_str = ""
                     if old_avg > 0 and sell_price > 0:
@@ -303,7 +358,6 @@ def send_discord_notification(etf_name, curr_holdings, changes, is_first_run=Fal
                             
                     msg += f"• **{st['name']}**: 股數 {sign}{share_diff:,.0f} 股 | 權重 {st['prev_weight']:.2f}% ➔ {st['curr_weight']:.2f}% ({w_diff:+.2f}%){price_str}{trade_val_str}\n"
 
-                # 加總買賣金額
                 if total_buy > 0 or total_sell > 0:
                     net_trade = total_buy - total_sell
                     net_sign = "+" if net_trade > 0 else ""
@@ -315,7 +369,6 @@ def send_discord_notification(etf_name, curr_holdings, changes, is_first_run=Fal
                         msg += f"- 賣出總損益: {pnl_sign_total}約 {abs(total_pnl)/10000:,.0f} 萬\n"
                     msg += f"- 淨買賣金額: 約 {net_sign}{net_trade/10000:,.0f} 萬\n"
 
-    # 新增：無論是否有變動，都在最後附上所有持股清單
     msg += "\n📋 **【目前所有持股清單】** (依權重排序)\n"
     sorted_holdings = sorted(curr_holdings.values(), key=lambda x: x["weight"], reverse=True)
     for st in sorted_holdings:
@@ -324,7 +377,6 @@ def send_discord_notification(etf_name, curr_holdings, changes, is_first_run=Fal
         avg_str = f" | 均價: {st['avg_price']:.2f}" if 'avg_price' in st and st['avg_price'] > 0 else ""
         msg += f"- {st['name']}: {st['weight']:.2f}% ({st['share']:,.0f} 股){avg_str}{price_str}{amount_str}\n"
 
-    # 因為加上所有持股可能會超過 Discord 單則訊息 2000 字元的限制，所以需要進行分段發送
     chunks = []
     curr_chunk = ""
     for line in msg.split('\n'):
@@ -348,22 +400,22 @@ def send_discord_notification(etf_name, curr_holdings, changes, is_first_run=Fal
         else:
             print(f"Successfully sent Discord notification chunk for {etf_name}!")
 
-def process_etf(etf_name, fetch_func, file_name):
+def process_etf(conn, etf_code, etf_name, fetch_func, json_file_name):
     print(f"\n--- Processing {etf_name} ---")
     today_str = datetime.now().strftime("%Y-%m-%d")
     try:
         print("Fetching current data...")
         curr_holdings, curr_nav = fetch_func()
         
-        print("Loading previous data...")
-        file_data = load_previous_data(file_name)
+        print("Loading previous data from DB...")
+        prev_data = load_previous_data(conn, etf_code, today_str)
         
-        is_first_run = (file_data is None)
-        
+        is_first_run = (prev_data is None)
         prev_nav = None
+        
         if is_first_run:
-            changes = None
-            file_data = {
+            changes = compare_data(None, curr_holdings)
+            json_export = {
                 "date": today_str,
                 "current": curr_holdings,
                 "previous": curr_holdings,
@@ -371,43 +423,40 @@ def process_etf(etf_name, fetch_func, file_name):
                 "previous_nav": curr_nav
             }
         else:
-            if file_data["date"] != today_str:
-                # 換日了！今天的比較基準是「昨天的最新資料」
-                baseline = file_data["current"]
-                file_data["previous"] = baseline
-                file_data["previous_nav"] = file_data.get("current_nav")
-                file_data["date"] = today_str
-            else:
-                # 同一天重複執行！基準仍然維持「昨天的資料」，避免被稍早的執行覆蓋
-                baseline = file_data["previous"]
-                
-            prev_nav = file_data.get("previous_nav")
+            baseline = prev_data["current"]
+            prev_nav = prev_data.get("current_nav")
             print("Comparing data...")
             changes = compare_data(baseline, curr_holdings)
-            # 更新今天的最新資料
-            file_data["current"] = curr_holdings
-            file_data["current_nav"] = curr_nav
+            
+            json_export = {
+                "date": today_str,
+                "current": curr_holdings,
+                "previous": baseline,
+                "current_nav": curr_nav,
+                "previous_nav": prev_nav
+            }
             
         print("Sending Discord notification...")
         send_discord_notification(etf_name, curr_holdings, changes, is_first_run, curr_nav, prev_nav)
         
-        print("Saving current data...")
-        save_current_data(file_name, file_data)
+        print("Saving current data to DB...")
+        save_to_db(conn, etf_code, today_str, curr_holdings, curr_nav)
+        
+        print("Exporting to JSON for Web UI...")
+        save_json_data(json_file_name, json_export)
         
         print(f"{etf_name} processed successfully.")
     except Exception as e:
         print(f"An error occurred while processing {etf_name}: {e}")
 
 def main():
-    # 00981A 主動統一台股增長
-    process_etf("00981A 主動統一台股增長", fetch_00981A_data, "00981A_holdings.json")
+    conn = init_db()
     
-    # 00403A 統一台股升級50
-    process_etf("00403A 統一台股升級50", fetch_00403A_data, "00403A_holdings.json")
+    process_etf(conn, "00981A", "00981A 主動統一台股增長", fetch_00981A_data, "00981A_holdings.json")
+    process_etf(conn, "00403A", "00403A 統一台股升級50", fetch_00403A_data, "00403A_holdings.json")
+    process_etf(conn, "00400A", "00400A 國泰台股動能高息", fetch_00400A_data, "00400A_holdings.json")
     
-    # 00400A 國泰台股動能高息
-    process_etf("00400A 國泰台股動能高息", fetch_00400A_data, "00400A_holdings.json")
-    
+    conn.close()
     print("\nAll tasks completed.")
 
 if __name__ == "__main__":
