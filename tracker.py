@@ -44,6 +44,21 @@ def init_db():
     conn.commit()
     return conn
 
+def fetch_yahoo_price(stock_id):
+    import time
+    for suffix in ['.TW', '.TWO']:
+        url = f"https://query1.finance.yahoo.com/v8/finance/chart/{stock_id}{suffix}"
+        try:
+            res = requests.get(url, headers=HEADERS, timeout=10)
+            if res.status_code == 200:
+                data = res.json()
+                price = data['chart']['result'][0]['meta']['regularMarketPrice']
+                return float(price)
+        except Exception:
+            pass
+        time.sleep(0.1)
+    return 0.0
+
 def fetch_00981A_data():
     url = "https://www.ezmoney.com.tw/ETF/Fund/Info?fundCode=49YTW"
     res = requests.get(url, headers=HEADERS, timeout=10)
@@ -157,10 +172,17 @@ def fetch_00400A_data():
         share_str = st.get("volumn", "0").replace(",", "")
         weight_str = st.get("weights", "0.0")
         
+        share = float(share_str)
+        weight = float(weight_str)
+        price = fetch_yahoo_price(code)
+        amount = share * price
+        
         holdings[code] = {
             "name": st.get("stockName", ""),
-            "share": float(share_str),
-            "weight": float(weight_str)
+            "share": share,
+            "weight": weight,
+            "price": price,
+            "amount": amount
         }
     return holdings, None
 
