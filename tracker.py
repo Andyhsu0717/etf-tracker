@@ -78,32 +78,8 @@ def fetch_00981A_data():
     for item in data:
         if item.get("AssetName") == "每單位淨值":
             nav = float(item.get("Value", 0.0))
-            break
-            
-    stock_group = next((item for item in data if item.get("AssetCode") == "ST"), None)
-    if not stock_group or "Details" not in stock_group:
-        raise ValueError("Could not find stock details in data")
-        
-    stocks = stock_group["Details"]
-    holdings = {}
-    for st in stocks:
-        code = st.get("DetailCode")
-        if not code:
-            continue
-        share = float(st.get("Share", 0))
-        amount = float(st.get("Amount", 0))
-        price = amount / share if share > 0 else 0.0
-        holdings[code] = {
-            "name": st.get("DetailName", ""),
-            "share": share,
-            "weight": float(st.get("NavRate", 0.0)),
-            "amount": amount,
-            "price": price
-        }
-    return holdings, nav
-
-def fetch_00403A_data():
-    url = "https://www.ezmoney.com.tw/ETF/Fund/Info?fundCode=63YTW"
+def fetch_ezmoney_data(fund_code):
+    url = f"https://www.ezmoney.com.tw/ETF/Fund/Info?fundCode={fund_code}"
     res = requests.get(url, headers=HEADERS, timeout=10)
     res.raise_for_status()
     soup = BeautifulSoup(res.text, "html.parser")
@@ -476,9 +452,26 @@ def process_etf(conn, etf_code, etf_name, fetch_func, json_file_name):
 def main():
     conn = init_db()
     
-    process_etf(conn, "00981A", "00981A 主動統一台股增長", fetch_00981A_data, "00981A_holdings.json")
-    process_etf(conn, "00403A", "00403A 統一台股升級50", fetch_00403A_data, "00403A_holdings.json")
-    process_etf(conn, "00400A", "00400A 國泰台股動能高息", fetch_00400A_data, "00400A_holdings.json")
+    import importlib
+    try:
+        with open('config.json', 'r', encoding='utf-8') as f:
+            etfs = json.load(f)
+    except FileNotFoundError:
+        print("config.json not found")
+        return
+        
+    for etf in etfs:
+        code = etf['code']
+        name = f"{code} {etf['name']}"
+        scraper_name = etf['scraper']
+        json_file_name = f"{code}_holdings.json"
+        
+        try:
+            module = importlib.import_module(f"scrapers.{scraper_name}")
+            fetch_func = lambda etf=etf, module=module: module.fetch_holdings(etf, fetch_yahoo_price)
+            process_etf(conn, code, name, fetch_func, json_file_name)
+        except Exception as e:
+            print(f"Failed to process {name}: {e}")
     
     conn.close()
     print("\nAll tasks completed.")

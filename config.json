@@ -1,0 +1,29 @@
+[
+    {
+        "code": "00981A",
+        "name": "主動統一台股增長",
+        "type": "國內股票",
+        "company": "統一投信",
+        "frequency": "季配",
+        "scraper": "ezmoney",
+        "fund_code": "49YTW"
+    },
+    {
+        "code": "00403A",
+        "name": "主動統一台股升級50",
+        "type": "國內股票",
+        "company": "統一投信",
+        "frequency": "月配",
+        "scraper": "ezmoney",
+        "fund_code": "63YTW"
+    },
+    {
+        "code": "00400A",
+        "name": "主動國泰動能高息",
+        "type": "國內股票",
+        "company": "國泰投信",
+        "frequency": "月配",
+        "scraper": "cathay",
+        "fund_code": "EA"
+    }
+]

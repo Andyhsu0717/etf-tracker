@@ -1,18 +1,27 @@
-const etfs = [
-    { id: '00981A', name: '00981A 主動統一台股增長', file: '00981A_holdings.json' },
-    { id: '00403A', name: '00403A 統一台股升級50', file: '00403A_holdings.json' },
-    { id: '00400A', name: '00400A 國泰台股動能高息', file: '00400A_holdings.json' }
-];
-
+let etfs = [];
 let etfData = {};
 
 document.addEventListener('DOMContentLoaded', async () => {
-    await loadData();
+    await loadConfigAndData();
     renderHome();
     setupEvents();
 });
 
-async function loadData() {
+async function loadConfigAndData() {
+    try {
+        const res = await fetch('config.json');
+        if (res.ok) {
+            const config = await res.json();
+            etfs = config.map(c => ({
+                id: c.code,
+                name: `${c.code} ${c.name}`,
+                file: `${c.code}_holdings.json`
+            }));
+        }
+    } catch (err) {
+        console.error('Failed to load config.json', err);
+    }
+
     for (const etf of etfs) {
         try {
             // 在 GitHub Pages 環境下直接讀取同一目錄的 JSON
