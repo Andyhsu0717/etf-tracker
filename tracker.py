@@ -35,6 +35,12 @@ def init_db():
             PRIMARY KEY (date, etf_code, stock_code)
         )
     ''')
+    
+    cursor.execute("PRAGMA table_info(daily_holdings)")
+    columns = [col[1] for col in cursor.fetchall()]
+    if "avg_price" not in columns:
+        cursor.execute("ALTER TABLE daily_holdings ADD COLUMN avg_price REAL DEFAULT 0.0")
+
     conn.commit()
     return conn
 
@@ -167,7 +173,7 @@ def load_previous_data(conn, etf_code, today_str):
     
     prev_date = row[0]
     
-    cursor.execute('SELECT stock_code, name, share, weight, amount, price FROM daily_holdings WHERE etf_code = ? AND date = ?', (etf_code, prev_date))
+    cursor.execute('SELECT stock_code, name, share, weight, amount, price, avg_price FROM daily_holdings WHERE etf_code = ? AND date = ?', (etf_code, prev_date))
     holdings = {}
     for r in cursor.fetchall():
         holdings[r[0]] = {
@@ -175,7 +181,8 @@ def load_previous_data(conn, etf_code, today_str):
             "share": r[2],
             "weight": r[3],
             "amount": r[4],
-            "price": r[5]
+            "price": r[5],
+            "avg_price": r[6]
         }
         
     cursor.execute('SELECT nav FROM daily_nav WHERE etf_code = ? AND date = ?', (etf_code, prev_date))
@@ -196,9 +203,9 @@ def save_to_db(conn, etf_code, date_str, holdings, nav):
     for code, data in holdings.items():
         cursor.execute('''
             INSERT OR REPLACE INTO daily_holdings 
-            (date, etf_code, stock_code, name, share, weight, amount, price) 
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?)
-        ''', (date_str, etf_code, code, data.get("name"), data.get("share"), data.get("weight"), data.get("amount", 0.0), data.get("price", 0.0)))
+            (date, etf_code, stock_code, name, share, weight, amount, price, avg_price) 
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+        ''', (date_str, etf_code, code, data.get("name"), data.get("share"), data.get("weight"), data.get("amount", 0.0), data.get("price", 0.0), data.get("avg_price", 0.0)))
     conn.commit()
 
 def save_json_data(file_name, data):
