@@ -369,13 +369,8 @@ def send_discord_notification(etf_name, curr_holdings, changes, is_first_run=Fal
                         msg += f"- 賣出總損益: {pnl_sign_total}約 {abs(total_pnl)/10000:,.0f} 萬\n"
                     msg += f"- 淨買賣金額: 約 {net_sign}{net_trade/10000:,.0f} 萬\n"
 
-    msg += "\n📋 **【目前所有持股清單】** (依權重排序)\n"
-    sorted_holdings = sorted(curr_holdings.values(), key=lambda x: x["weight"], reverse=True)
-    for st in sorted_holdings:
-        amount_str = f" | 價值: 約 {st['amount']/10000:,.0f} 萬" if 'amount' in st and st['amount'] > 0 else ""
-        price_str = f" | 收盤價: {st['price']:.2f}" if 'price' in st and st['price'] > 0 else ""
-        avg_str = f" | 均價: {st['avg_price']:.2f}" if 'avg_price' in st and st['avg_price'] > 0 else ""
-        msg += f"- {st['name']}: {st['weight']:.2f}% ({st['share']:,.0f} 股){avg_str}{price_str}{amount_str}\n"
+    msg += "\n🌐 **查看完整持股與詳細資訊：**\n"
+    msg += "👉 https://andyhsu0717.github.io/etf-tracker/\n"
 
     chunks = []
     curr_chunk = ""
