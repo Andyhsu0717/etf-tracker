@@ -218,6 +218,7 @@ function renderHoldings(current) {
             <td>${st.weight.toFixed(2)}%</td>
             <td>${formatNumber(st.share)}</td>
             <td>${st.price > 0 ? st.price.toFixed(2) : '-'}</td>
+            <td class="text-secondary">${st.avg_price > 0 ? st.avg_price.toFixed(2) : '-'}</td>
             <td>${st.amount > 0 ? formatMoney(st.amount) : '-'}</td>
         </tr>
     `).join('');
