@@ -13,7 +13,8 @@ def fetch_holdings(config, fetch_yahoo_price_func):
     Fetches data from MoneyDJ
     """
     etf_code = config.get("code")
-    url = f"https://www.moneydj.com/ETF/X/Basic/Basic0007.xdjhtm?etfid={etf_code}.TW"
+    # Basic0007B.xdjhtm displays all holdings instead of just the top 10
+    url = f"https://www.moneydj.com/ETF/X/Basic/Basic0007B.xdjhtm?etfid={etf_code}.TW"
     
     res = requests.get(url, headers=HEADERS, timeout=15)
     if res.status_code != 200:
