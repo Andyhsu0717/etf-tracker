@@ -49,4 +49,11 @@ def fetch_holdings(config, fetch_yahoo_price_func):
             "price": price,
             "amount": amount
         }
-    return holdings, None
+        
+    try:
+        from scrapers.moneydj import get_nav_from_moneydj
+        nav = get_nav_from_moneydj(config.get("code"))
+    except ImportError:
+        nav = None
+        
+    return holdings, nav

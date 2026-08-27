@@ -79,5 +79,29 @@ def fetch_holdings(config, fetch_yahoo_price_func):
     if not found_table or not holdings:
         raise ValueError(f"No holding data found on MoneyDJ for {etf_code}. It might not be listed yet.")
         
-    # MoneyDJ doesn't provide NAV easily on this exact HTML segment, so we pass None
-    return holdings, None
+    nav = get_nav_from_moneydj(etf_code)
+    return holdings, nav
+
+def get_nav_from_moneydj(etf_code):
+    """
+    Fetches the NAV for the given ETF code from MoneyDJ's NAV table page.
+    """
+    url = f"https://www.moneydj.com/ETF/X/Basic/Basic0003.xdjhtm?etfid={etf_code}.TW"
+    try:
+        res = requests.get(url, headers=HEADERS, timeout=10)
+        if res.status_code != 200:
+            return None
+        res.encoding = 'utf-8'
+        soup = BeautifulSoup(res.text, 'html.parser')
+        
+        for td in soup.find_all('td'):
+            if '淨值(' in td.text:
+                nxt = td.find_next_sibling('td')
+                if nxt:
+                    m = re.search(r'([0-9.]+)', nxt.text)
+                    if m:
+                        return float(m.group(1))
+    except Exception as e:
+        print(f"Error fetching NAV for {etf_code} from MoneyDJ: {e}")
+    return None
+
