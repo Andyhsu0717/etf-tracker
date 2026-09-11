@@ -288,8 +288,13 @@ def send_discord_notification(etf_name, curr_holdings, changes, is_first_run=Fal
     if not WEBHOOK_URL:
         print("Warning: No webhook URL configured. Skipping Discord notification.")
         return
+        
+    now = datetime.now()
+    if now.hour < 8:
+        print(f"Time is before 8 AM ({now.strftime('%H:%M')}). Skipping Discord notification for {etf_name}.")
+        return
 
-    today_str = datetime.now().strftime("%Y-%m-%d")
+    today_str = now.strftime("%Y-%m-%d")
     msg = ""
     
     nav_str = ""

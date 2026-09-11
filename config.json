@@ -43,5 +43,77 @@
         "frequency": "季配",
         "scraper": "moneydj",
         "fund_code": ""
+    },
+    {
+        "code": "00980A",
+        "name": "主動野村臺灣優選",
+        "type": "國內股票",
+        "company": "野村投信",
+        "frequency": "季配",
+        "scraper": "moneydj",
+        "fund_code": ""
+    },
+    {
+        "code": "00984A",
+        "name": "主動安聯台灣高息",
+        "type": "國內股票",
+        "company": "安聯投信",
+        "frequency": "季配",
+        "scraper": "moneydj",
+        "fund_code": ""
+    },
+    {
+        "code": "00985A",
+        "name": "主動野村台灣50",
+        "type": "國內股票",
+        "company": "野村投信",
+        "frequency": "年配",
+        "scraper": "moneydj",
+        "fund_code": ""
+    },
+    {
+        "code": "00987A",
+        "name": "主動台新優勢成長",
+        "type": "國內股票",
+        "company": "台新投信",
+        "frequency": "年配",
+        "scraper": "moneydj",
+        "fund_code": ""
+    },
+    {
+        "code": "00991A",
+        "name": "主動復華未來50",
+        "type": "國內股票",
+        "company": "復華投信",
+        "frequency": "半年配",
+        "scraper": "moneydj",
+        "fund_code": ""
+    },
+    {
+        "code": "00993A",
+        "name": "主動安聯台灣",
+        "type": "國內股票",
+        "company": "安聯投信",
+        "frequency": "年配",
+        "scraper": "moneydj",
+        "fund_code": ""
+    },
+    {
+        "code": "00994A",
+        "name": "主動第一金台股優",
+        "type": "國內股票",
+        "company": "第一金投信",
+        "frequency": "季配",
+        "scraper": "moneydj",
+        "fund_code": ""
+    },
+    {
+        "code": "00995A",
+        "name": "主動中信台灣卓越",
+        "type": "國內股票",
+        "company": "中信投信",
+        "frequency": "不明",
+        "scraper": "moneydj",
+        "fund_code": ""
     }
 ]
