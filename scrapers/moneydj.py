@@ -37,7 +37,11 @@ def fetch_holdings(config, fetch_yahoo_price_func):
             
         # Verify it's the right table by checking headers
         headers = [th.text.strip() for th in rows[0].find_all('th')]
-        if '個股名稱' not in headers or '持有股數' not in headers:
+        
+        has_name = any('個股名稱' in h for h in headers)
+        has_share = any('持有股數' in h for h in headers)
+        
+        if not has_name or not has_share:
             continue
             
         found_table = True
