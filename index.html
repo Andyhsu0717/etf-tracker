@@ -19,6 +19,34 @@
 
         <!-- 首頁 (ETF 卡片列表) -->
         <main id="home-view" class="view active">
+            
+            <div class="section-header" style="margin-bottom: 1rem;">
+                <h2 style="font-size: 1.5rem; color: #fff;">全球即時大宗商品</h2>
+            </div>
+            
+            <!-- TradingView Widget BEGIN -->
+            <div class="tradingview-widget-container" style="margin-bottom: 2rem;">
+              <div class="tradingview-widget-container__widget"></div>
+              <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
+              {
+              "symbol": "TVC:UKOIL",
+              "width": "100%",
+              "height": "220",
+              "locale": "zh_TW",
+              "dateRange": "1D",
+              "colorTheme": "dark",
+              "isTransparent": true,
+              "autosize": false,
+              "largeChartUrl": ""
+            }
+              </script>
+            </div>
+            <!-- TradingView Widget END -->
+
+            <div class="section-header" style="margin-bottom: 1rem;">
+                <h2 style="font-size: 1.5rem; color: #fff;">國內主動式 ETF</h2>
+            </div>
+
             <div class="cards-container" id="etf-cards">
                 <!-- 卡片將由 JS 動態生成 -->
             </div>
