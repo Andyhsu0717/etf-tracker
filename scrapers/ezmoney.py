@@ -22,17 +22,7 @@ def fetch_holdings(config, fetch_yahoo_price_func=None):
         
     soup = BeautifulSoup(res.text, 'html.parser')
     
-    # get nav
-    nav = 0.0
-    nav_div = soup.find('div', class_='Net-num')
-    if nav_div:
-        nav_str = nav_div.text.strip().replace(",", "")
-        try:
-            nav = float(nav_str)
-        except:
-            pass
-            
-    # get holdings
+    # get holdings and nav from data
     data_div = soup.find('div', id='DataAsset')
     if not data_div:
         raise ValueError("Could not find DataAsset div in HTML. Structure might have changed.")
@@ -42,6 +32,24 @@ def fetch_holdings(config, fetch_yahoo_price_func=None):
         raise ValueError("No data-content attribute found.")
         
     data = json.loads(data_content)
+    
+    # get nav
+    nav = None
+    for item in data:
+        if item.get('AssetName') == '每單位淨值':
+            try:
+                nav = float(item.get('Value'))
+            except:
+                pass
+            break
+            
+    if not nav or nav == 0.0:
+        try:
+            from scrapers.moneydj import get_nav_from_moneydj
+            nav = get_nav_from_moneydj(config.get("code"))
+        except ImportError:
+            pass
+            
     stock_group = next((item for item in data if item.get('AssetCode') == 'ST'), None)
     
     if not stock_group or 'Details' not in stock_group:
