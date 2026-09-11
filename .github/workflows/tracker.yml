@@ -31,6 +31,7 @@ jobs:
         DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
       run: |
         python tracker.py
+        python track_oil.py
         
     - name: Commit and push changes
       run: |
