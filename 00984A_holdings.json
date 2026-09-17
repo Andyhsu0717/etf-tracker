@@ -1,252 +1,252 @@
 {
-  "date": "2026-09-16",
+  "date": "2026-09-17",
   "current": {
     "2603": {
       "name": "長榮",
       "share": 1526000.0,
-      "weight": 3.8,
-      "price": 239.0,
-      "amount": 364714000.0,
+      "weight": 3.86,
+      "price": 242.5,
+      "amount": 370055000.0,
       "avg_price": 234.5
     },
     "2330": {
       "name": "台積電",
       "share": 142000.0,
-      "weight": 3.52,
-      "price": 2380.0,
-      "amount": 337960000.0,
+      "weight": 3.57,
+      "price": 2425.0,
+      "amount": 344350000.0,
       "avg_price": 2410.0
     },
     "3045": {
       "name": "台灣大",
       "share": 2194000.0,
-      "weight": 2.84,
-      "price": 124.5,
-      "amount": 273153000.0,
+      "weight": 2.82,
+      "price": 124.0,
+      "amount": 272056000.0,
       "avg_price": 121.0
     },
     "2379": {
       "name": "瑞昱",
       "share": 362000.0,
-      "weight": 2.71,
-      "price": 720.0,
-      "amount": 260640000.0,
+      "weight": 2.68,
+      "price": 715.0,
+      "amount": 258830000.0,
       "avg_price": 704.0
+    },
+    "1303": {
+      "name": "南亞",
+      "share": 1063000.0,
+      "weight": 2.6,
+      "price": 236.0,
+      "amount": 250868000.0,
+      "avg_price": 234.5
     },
     "5876": {
       "name": "上海商銀",
       "share": 4977000.0,
       "weight": 2.58,
-      "price": 49.75,
-      "amount": 247605750.0,
+      "price": 49.95,
+      "amount": 248601150.0,
       "avg_price": 48.65
     },
     "2059": {
       "name": "川湖",
       "share": 20000.0,
-      "weight": 2.51,
-      "price": 12045.0,
-      "amount": 240900000.0,
+      "weight": 2.55,
+      "price": 12295.0,
+      "amount": 245900000.0,
       "avg_price": 12080.0
-    },
-    "1303": {
-      "name": "南亞",
-      "share": 1063000.0,
-      "weight": 2.48,
-      "price": 224.0,
-      "amount": 238112000.0,
-      "avg_price": 234.5
     },
     "2618": {
       "name": "長榮航",
       "share": 5386000.0,
-      "weight": 2.31,
-      "price": 41.3,
-      "amount": 222441799.99999997,
+      "weight": 2.35,
+      "price": 42.05,
+      "amount": 226481299.99999997,
       "avg_price": 42.35
-    },
-    "2408": {
-      "name": "南亞科",
-      "share": 441000.0,
-      "weight": 2.26,
-      "price": 492.5,
-      "amount": 217192500.0,
-      "avg_price": 493.0
     },
     "6446": {
       "name": "藥華藥",
       "share": 180424.0,
-      "weight": 2.26,
-      "price": 1205.0,
-      "amount": 217410920.0,
+      "weight": 2.24,
+      "price": 1195.0,
+      "amount": 215606680.0,
       "avg_price": 1280.0
+    },
+    "2408": {
+      "name": "南亞科",
+      "share": 441000.0,
+      "weight": 2.23,
+      "price": 488.0,
+      "amount": 215208000.0,
+      "avg_price": 493.0
     },
     "5871": {
       "name": "中租-KY",
       "share": 1908840.0,
-      "weight": 2.23,
-      "price": 112.5,
-      "amount": 214744500.0,
+      "weight": 2.22,
+      "price": 112.0,
+      "amount": 213790080.0,
       "avg_price": 111.5
     },
     "6139": {
       "name": "亞翔",
       "share": 290000.0,
-      "weight": 2.13,
-      "price": 707.0,
-      "amount": 205030000.0,
+      "weight": 2.09,
+      "price": 696.0,
+      "amount": 201840000.0,
       "avg_price": 709.0
     },
     "6187": {
       "name": "萬潤",
       "share": 165000.0,
-      "weight": 2.09,
-      "price": 1220.0,
-      "amount": 201300000.0,
+      "weight": 2.07,
+      "price": 1210.0,
+      "amount": 199650000.0,
       "avg_price": 1250.0
-    },
-    "2383": {
-      "name": "台光電",
-      "share": 36000.0,
-      "weight": 1.9,
-      "price": 5085.0,
-      "amount": 183060000.0,
-      "avg_price": 5365.0
     },
     "1402": {
       "name": "遠東新",
       "share": 6658000.0,
-      "weight": 1.9,
-      "price": 27.4,
-      "amount": 182429200.0,
+      "weight": 1.94,
+      "price": 28.1,
+      "amount": 187089800.0,
       "avg_price": 28.65
     },
     "1102": {
       "name": "亞泥",
       "share": 4789000.0,
-      "weight": 1.74,
-      "price": 34.95,
-      "amount": 167375550.0,
+      "weight": 1.75,
+      "price": 35.3,
+      "amount": 169051700.0,
       "avg_price": 35.3
+    },
+    "2383": {
+      "name": "台光電",
+      "share": 36000.0,
+      "weight": 1.75,
+      "price": 4695.0,
+      "amount": 169020000.0,
+      "avg_price": 5365.0
     },
     "2542": {
       "name": "興富發",
       "share": 3571000.0,
-      "weight": 1.71,
-      "price": 45.9,
-      "amount": 163908900.0,
+      "weight": 1.74,
+      "price": 46.85,
+      "amount": 167301350.0,
       "avg_price": 46.5
     },
     "3037": {
       "name": "欣興",
       "share": 164000.0,
-      "weight": 1.64,
-      "price": 961.0,
-      "amount": 157604000.0,
+      "weight": 1.6,
+      "price": 940.0,
+      "amount": 154160000.0,
       "avg_price": 977.0
     },
     "2885": {
       "name": "元大金",
       "share": 2199880.0,
-      "weight": 1.59,
-      "price": 69.4,
-      "amount": 152671672.0,
+      "weight": 1.57,
+      "price": 69.0,
+      "amount": 151791720.0,
       "avg_price": 70.57748604469334
     },
     "6669": {
       "name": "緯穎",
       "share": 70741.0,
-      "weight": 1.59,
-      "price": 2165.0,
-      "amount": 153154265.0,
+      "weight": 1.57,
+      "price": 2135.0,
+      "amount": 151032035.0,
       "avg_price": 2310.0
     },
     "3008": {
       "name": "大立光",
       "share": 24000.0,
-      "weight": 1.55,
-      "price": 6225.0,
-      "amount": 149400000.0,
+      "weight": 1.5,
+      "price": 6020.0,
+      "amount": 144480000.0,
       "avg_price": 6660.0
     },
     "3017": {
       "name": "奇鋐",
       "share": 44000.0,
       "weight": 1.45,
-      "price": 3175.0,
-      "amount": 139700000.0,
+      "price": 3185.0,
+      "amount": 140140000.0,
       "avg_price": 3370.0
-    },
-    "3450": {
-      "name": "聯鈞",
-      "share": 256000.0,
-      "weight": 1.44,
-      "price": 541.0,
-      "amount": 138496000.0,
-      "avg_price": 511.1328125
     },
     "2845": {
       "name": "遠東銀",
       "share": 10159094.0,
-      "weight": 1.44,
-      "price": 13.6,
-      "amount": 138163678.4,
+      "weight": 1.45,
+      "price": 13.75,
+      "amount": 139687542.5,
       "avg_price": 13.712151674155196
     },
     "2395": {
       "name": "研華",
       "share": 199000.0,
-      "weight": 1.44,
-      "price": 695.0,
-      "amount": 138305000.0,
-      "avg_price": 674.0
-    },
-    "6213": {
-      "name": "聯茂",
-      "share": 248000.0,
       "weight": 1.42,
-      "price": 550.0,
-      "amount": 136400000.0,
-      "avg_price": 509.0
+      "price": 686.0,
+      "amount": 136514000.0,
+      "avg_price": 674.0
     },
     "2344": {
       "name": "華邦電",
       "share": 801000.0,
       "weight": 1.41,
-      "price": 169.0,
-      "amount": 135369000.0,
+      "price": 170.0,
+      "amount": 136170000.0,
       "avg_price": 171.5
-    },
-    "3189": {
-      "name": "景碩",
-      "share": 165000.0,
-      "weight": 1.41,
-      "price": 820.0,
-      "amount": 135300000.0,
-      "avg_price": 822.0
     },
     "6548": {
       "name": "長科*",
       "share": 1855000.0,
-      "weight": 1.38,
-      "price": 71.6,
-      "amount": 132817999.99999999,
+      "weight": 1.4,
+      "price": 72.6,
+      "amount": 134673000.0,
       "avg_price": 70.0
+    },
+    "3450": {
+      "name": "聯鈞",
+      "share": 256000.0,
+      "weight": 1.39,
+      "price": 525.0,
+      "amount": 134400000.0,
+      "avg_price": 511.1328125
+    },
+    "3189": {
+      "name": "景碩",
+      "share": 165000.0,
+      "weight": 1.38,
+      "price": 805.0,
+      "amount": 132825000.0,
+      "avg_price": 822.0
     },
     "2301": {
       "name": "光寶科",
       "share": 446000.0,
       "weight": 1.29,
-      "price": 277.0,
-      "amount": 123542000.0,
+      "price": 278.0,
+      "amount": 123988000.0,
       "avg_price": 277.0
+    },
+    "6213": {
+      "name": "聯茂",
+      "share": 248000.0,
+      "weight": 1.27,
+      "price": 495.0,
+      "amount": 122760000.0,
+      "avg_price": 509.0
     },
     "2006": {
       "name": "東和鋼鐵",
       "share": 1466000.0,
-      "weight": 1.24,
-      "price": 81.1,
-      "amount": 118892599.99999999,
+      "weight": 1.25,
+      "price": 82.5,
+      "amount": 120945000.0,
       "avg_price": 82.5
     },
     "2467": {
@@ -260,521 +260,521 @@
     "6173": {
       "name": "信昌電",
       "share": 359000.0,
-      "weight": 1.18,
-      "price": 315.0,
-      "amount": 113085000.0,
+      "weight": 1.13,
+      "price": 303.5,
+      "amount": 108956500.0,
       "avg_price": 293.7367688022284
-    },
-    "2464": {
-      "name": "盟立",
-      "share": 572000.0,
-      "weight": 1.09,
-      "price": 183.0,
-      "amount": 104676000.0,
-      "avg_price": 188.5
     },
     "2851": {
       "name": "中再保",
       "share": 2234000.0,
-      "weight": 1.08,
-      "price": 46.35,
-      "amount": 103545900.0,
+      "weight": 1.09,
+      "price": 47.0,
+      "amount": 104998000.0,
       "avg_price": 47.258974932855864
-    },
-    "3653": {
-      "name": "健策",
-      "share": 19000.0,
-      "weight": 1.04,
-      "price": 5240.0,
-      "amount": 99560000.0,
-      "avg_price": 5765.0
-    },
-    "2882": {
-      "name": "國泰金",
-      "share": 873000.0,
-      "weight": 1.02,
-      "price": 112.5,
-      "amount": 98212500.0,
-      "avg_price": 112.5
     },
     "3264": {
       "name": "欣銓",
       "share": 431000.0,
-      "weight": 1.0,
-      "price": 223.0,
-      "amount": 96113000.0,
+      "weight": 1.09,
+      "price": 244.5,
+      "amount": 105379500.0,
       "avg_price": 230.5
     },
-    "9941": {
-      "name": "裕融",
-      "share": 1105000.0,
-      "weight": 0.93,
-      "price": 80.8,
-      "amount": 89284000.0,
-      "avg_price": 81.11710407239819
+    "3653": {
+      "name": "健策",
+      "share": 19000.0,
+      "weight": 1.06,
+      "price": 5355.0,
+      "amount": 101745000.0,
+      "avg_price": 5765.0
+    },
+    "2464": {
+      "name": "盟立",
+      "share": 572000.0,
+      "weight": 1.06,
+      "price": 179.5,
+      "amount": 102674000.0,
+      "avg_price": 188.5
+    },
+    "2882": {
+      "name": "國泰金",
+      "share": 873000.0,
+      "weight": 1.01,
+      "price": 112.0,
+      "amount": 97776000.0,
+      "avg_price": 112.5
     },
     "4763": {
       "name": "材料*-KY",
       "share": 1972000.0,
-      "weight": 0.92,
-      "price": 44.9,
-      "amount": 88542800.0,
+      "weight": 0.98,
+      "price": 47.7,
+      "amount": 94064400.0,
       "avg_price": 48.85
     },
     "3443": {
       "name": "創意",
       "share": 14000.0,
-      "weight": 0.9,
-      "price": 6170.0,
-      "amount": 86380000.0,
+      "weight": 0.94,
+      "price": 6500.0,
+      "amount": 91000000.0,
       "avg_price": 6120.0
+    },
+    "9941": {
+      "name": "裕融",
+      "share": 1105000.0,
+      "weight": 0.92,
+      "price": 80.7,
+      "amount": 89173500.0,
+      "avg_price": 81.11710407239819
+    },
+    "2303": {
+      "name": "聯電",
+      "share": 564000.0,
+      "weight": 0.86,
+      "price": 147.5,
+      "amount": 83190000.0,
+      "avg_price": 140.5
     },
     "2633": {
       "name": "台灣高鐵",
       "share": 3057000.0,
       "weight": 0.83,
-      "price": 25.95,
-      "amount": 79329150.0,
+      "price": 26.05,
+      "amount": 79634850.0,
       "avg_price": 26.05
-    },
-    "2303": {
-      "name": "聯電",
-      "share": 564000.0,
-      "weight": 0.83,
-      "price": 142.0,
-      "amount": 80088000.0,
-      "avg_price": 140.5
     },
     "2883": {
       "name": "凱基金",
       "share": 2015000.0,
-      "weight": 0.82,
-      "price": 39.15,
-      "amount": 78887250.0,
+      "weight": 0.83,
+      "price": 39.65,
+      "amount": 79894750.0,
       "avg_price": 38.85263027295285
     },
     "2887": {
       "name": "台新新光金",
       "share": 1770000.0,
-      "weight": 0.82,
-      "price": 44.4,
-      "amount": 78588000.0,
+      "weight": 0.81,
+      "price": 44.05,
+      "amount": 77968500.0,
       "avg_price": 43.67774011299435
     },
     "2890": {
       "name": "永豐金",
       "share": 1661000.0,
-      "weight": 0.78,
-      "price": 45.3,
-      "amount": 75243300.0,
+      "weight": 0.79,
+      "price": 45.95,
+      "amount": 76322950.0,
       "avg_price": 44.875255869957854
-    },
-    "2881": {
-      "name": "富邦金",
-      "share": 474000.0,
-      "weight": 0.75,
-      "price": 153.0,
-      "amount": 72522000.0,
-      "avg_price": 153.84810126582278
     },
     "2855": {
       "name": "統一證",
       "share": 1378000.0,
-      "weight": 0.74,
-      "price": 51.6,
-      "amount": 71104800.0,
+      "weight": 0.75,
+      "price": 52.5,
+      "amount": 72345000.0,
       "avg_price": 52.70471698113207
+    },
+    "2881": {
+      "name": "富邦金",
+      "share": 474000.0,
+      "weight": 0.74,
+      "price": 151.5,
+      "amount": 71811000.0,
+      "avg_price": 153.84810126582278
+    },
+    "2615": {
+      "name": "萬海",
+      "share": 592000.0,
+      "weight": 0.74,
+      "price": 120.5,
+      "amount": 71336000.0,
+      "avg_price": 112.0
     },
     "2891": {
       "name": "中信金",
       "share": 973000.0,
       "weight": 0.72,
-      "price": 70.8,
-      "amount": 68888400.0,
+      "price": 71.2,
+      "amount": 69277600.0,
       "avg_price": 68.50513874614593
     },
-    "3044": {
-      "name": "健鼎",
-      "share": 135000.0,
-      "weight": 0.71,
-      "price": 504.0,
-      "amount": 68040000.0,
-      "avg_price": 508.0
+    "8021": {
+      "name": "尖點",
+      "share": 155000.0,
+      "weight": 0.72,
+      "price": 450.0,
+      "amount": 69750000.0,
+      "avg_price": 418.5
     },
     "3532": {
       "name": "台勝科",
       "share": 155000.0,
       "weight": 0.71,
-      "price": 440.0,
-      "amount": 68200000.0,
+      "price": 441.5,
+      "amount": 68432500.0,
       "avg_price": 423.0
     },
     "4967": {
       "name": "十銓",
       "share": 249000.0,
-      "weight": 0.71,
-      "price": 275.0,
-      "amount": 68475000.0,
+      "weight": 0.7,
+      "price": 271.0,
+      "amount": 67479000.0,
       "avg_price": 280.5
     },
-    "2615": {
-      "name": "萬海",
-      "share": 592000.0,
-      "weight": 0.71,
-      "price": 115.0,
-      "amount": 68080000.0,
-      "avg_price": 112.0
-    },
-    "8021": {
-      "name": "尖點",
-      "share": 155000.0,
-      "weight": 0.71,
-      "price": 440.0,
-      "amount": 68200000.0,
-      "avg_price": 418.5
-    },
-    "8046": {
-      "name": "南電",
-      "share": 60000.0,
-      "weight": 0.69,
-      "price": 1105.0,
-      "amount": 66300000.0,
-      "avg_price": 1080.0
-    },
-    "5904": {
-      "name": "寶雅*",
-      "share": 902000.0,
-      "weight": 0.69,
-      "price": 73.6,
-      "amount": 66387199.99999999,
-      "avg_price": 72.3
-    },
-    "6214": {
-      "name": "精誠",
-      "share": 349000.0,
-      "weight": 0.69,
-      "price": 191.0,
-      "amount": 66659000.0,
-      "avg_price": 188.5
-    },
-    "3006": {
-      "name": "晶豪科",
-      "share": 235000.0,
-      "weight": 0.69,
-      "price": 281.0,
-      "amount": 66035000.0,
-      "avg_price": 290.5
-    },
-    "3260": {
-      "name": "威剛",
-      "share": 165000.0,
-      "weight": 0.69,
-      "price": 399.5,
-      "amount": 65917500.0,
-      "avg_price": 402.5
-    },
-    "2351": {
-      "name": "順德",
-      "share": 278000.0,
-      "weight": 0.68,
-      "price": 236.0,
-      "amount": 65608000.0,
-      "avg_price": 234.0
+    "3044": {
+      "name": "健鼎",
+      "share": 135000.0,
+      "weight": 0.7,
+      "price": 502.0,
+      "amount": 67770000.0,
+      "avg_price": 508.0
     },
     "1409": {
       "name": "新纖",
       "share": 2720000.0,
-      "weight": 0.68,
-      "price": 23.95,
-      "amount": 65144000.0,
+      "weight": 0.7,
+      "price": 24.8,
+      "amount": 67456000.0,
       "avg_price": 24.45
+    },
+    "6214": {
+      "name": "精誠",
+      "share": 349000.0,
+      "weight": 0.7,
+      "price": 193.0,
+      "amount": 67357000.0,
+      "avg_price": 188.5
+    },
+    "2351": {
+      "name": "順德",
+      "share": 278000.0,
+      "weight": 0.69,
+      "price": 238.0,
+      "amount": 66164000.0,
+      "avg_price": 234.0
+    },
+    "3260": {
+      "name": "威剛",
+      "share": 165000.0,
+      "weight": 0.68,
+      "price": 395.0,
+      "amount": 65175000.0,
+      "avg_price": 402.5
+    },
+    "3006": {
+      "name": "晶豪科",
+      "share": 235000.0,
+      "weight": 0.68,
+      "price": 278.5,
+      "amount": 65447500.0,
+      "avg_price": 290.5
+    },
+    "5904": {
+      "name": "寶雅*",
+      "share": 902000.0,
+      "weight": 0.68,
+      "price": 72.6,
+      "amount": 65485199.99999999,
+      "avg_price": 72.3
     },
     "2357": {
       "name": "華碩",
       "share": 68000.0,
-      "weight": 0.66,
-      "price": 939.0,
-      "amount": 63852000.0,
+      "weight": 0.67,
+      "price": 948.0,
+      "amount": 64464000.0,
       "avg_price": 924.0
-    },
-    "1229": {
-      "name": "聯華",
-      "share": 1543000.0,
-      "weight": 0.64,
-      "price": 40.05,
-      "amount": 61797149.99999999,
-      "avg_price": 40.7
     },
     "1326": {
       "name": "台化",
       "share": 935000.0,
-      "weight": 0.64,
-      "price": 65.8,
-      "amount": 61523000.0,
+      "weight": 0.67,
+      "price": 68.6,
+      "amount": 64140999.99999999,
       "avg_price": 70.2
+    },
+    "8046": {
+      "name": "南電",
+      "share": 60000.0,
+      "weight": 0.66,
+      "price": 1065.0,
+      "amount": 63900000.0,
+      "avg_price": 1080.0
+    },
+    "1229": {
+      "name": "聯華",
+      "share": 1543000.0,
+      "weight": 0.65,
+      "price": 40.35,
+      "amount": 62260050.0,
+      "avg_price": 40.7
     },
     "5351": {
       "name": "鈺創",
       "share": 585000.0,
       "weight": 0.64,
-      "price": 105.5,
-      "amount": 61717500.0,
+      "price": 106.0,
+      "amount": 62010000.0,
       "avg_price": 108.5
     },
     "7750": {
       "name": "新代",
       "share": 31000.0,
       "weight": 0.61,
-      "price": 1895.0,
-      "amount": 58745000.0,
+      "price": 1900.0,
+      "amount": 58900000.0,
       "avg_price": 1990.6451612903227
     },
     "8039": {
       "name": "台虹",
       "share": 211000.0,
-      "weight": 0.6,
-      "price": 275.5,
-      "amount": 58130500.0,
+      "weight": 0.56,
+      "price": 257.0,
+      "amount": 54227000.0,
       "avg_price": 272.0
     },
     "3665": {
       "name": "貿聯-KY",
       "share": 25000.0,
       "weight": 0.52,
-      "price": 1995.0,
-      "amount": 49875000.0,
+      "price": 2010.0,
+      "amount": 50250000.0,
       "avg_price": 1875.0
-    },
-    "4958": {
-      "name": "臻鼎-KY",
-      "share": 92000.0,
-      "weight": 0.47,
-      "price": 493.5,
-      "amount": 45402000.0,
-      "avg_price": 495.0
     },
     "3711": {
       "name": "日月光投控",
       "share": 72000.0,
-      "weight": 0.45,
-      "price": 605.0,
-      "amount": 43560000.0,
+      "weight": 0.46,
+      "price": 614.0,
+      "amount": 44208000.0,
       "avg_price": 618.0
     },
     "1560": {
       "name": "中砂",
       "share": 55000.0,
-      "weight": 0.42,
-      "price": 741.0,
-      "amount": 40755000.0,
+      "weight": 0.46,
+      "price": 815.0,
+      "amount": 44825000.0,
       "avg_price": 790.0
+    },
+    "4958": {
+      "name": "臻鼎-KY",
+      "share": 92000.0,
+      "weight": 0.45,
+      "price": 476.0,
+      "amount": 43792000.0,
+      "avg_price": 495.0
     },
     "6426": {
       "name": "統新",
       "share": 118000.0,
-      "weight": 0.41,
-      "price": 330.0,
-      "amount": 38940000.0,
+      "weight": 0.44,
+      "price": 363.0,
+      "amount": 42834000.0,
       "avg_price": 302.0
+    },
+    "5534": {
+      "name": "長虹",
+      "share": 505000.0,
+      "weight": 0.39,
+      "price": 74.4,
+      "amount": 37572000.0,
+      "avg_price": 74.0
+    },
+    "2520": {
+      "name": "冠德",
+      "share": 976000.0,
+      "weight": 0.38,
+      "price": 37.35,
+      "amount": 36453600.0,
+      "avg_price": 36.45
     },
     "9933": {
       "name": "中鼎",
       "share": 853619.0,
       "weight": 0.38,
-      "price": 42.75,
-      "amount": 36492212.25,
+      "price": 42.4,
+      "amount": 36193445.6,
       "avg_price": 41.7
     },
-    "5534": {
-      "name": "長虹",
-      "share": 505000.0,
-      "weight": 0.38,
-      "price": 72.9,
-      "amount": 36814500.0,
-      "avg_price": 74.0
+    "6670": {
+      "name": "復盛應用",
+      "share": 129000.0,
+      "weight": 0.37,
+      "price": 273.5,
+      "amount": 35281500.0,
+      "avg_price": 275.0
+    },
+    "6177": {
+      "name": "達麗",
+      "share": 748000.0,
+      "weight": 0.37,
+      "price": 47.65,
+      "amount": 35642200.0,
+      "avg_price": 47.5
     },
     "2850": {
       "name": "新產",
       "share": 224000.0,
       "weight": 0.37,
-      "price": 157.0,
-      "amount": 35168000.0,
+      "price": 158.5,
+      "amount": 35504000.0,
       "avg_price": 159.0
-    },
-    "2520": {
-      "name": "冠德",
-      "share": 976000.0,
-      "weight": 0.37,
-      "price": 36.4,
-      "amount": 35526400.0,
-      "avg_price": 36.45
     },
     "1808": {
       "name": "潤隆",
       "share": 1033000.0,
-      "weight": 0.36,
-      "price": 33.65,
-      "amount": 34760450.0,
+      "weight": 0.37,
+      "price": 34.15,
+      "amount": 35276950.0,
       "avg_price": 34.45
+    },
+    "1907": {
+      "name": "永豐餘",
+      "share": 1178000.0,
+      "weight": 0.36,
+      "price": 29.45,
+      "amount": 34692100.0,
+      "avg_price": 29.05
     },
     "2903": {
       "name": "遠百",
       "share": 1595000.0,
       "weight": 0.36,
-      "price": 21.8,
-      "amount": 34771000.0,
+      "price": 22.05,
+      "amount": 35169750.0,
       "avg_price": 22.3
-    },
-    "6670": {
-      "name": "復盛應用",
-      "share": 129000.0,
-      "weight": 0.36,
-      "price": 270.0,
-      "amount": 34830000.0,
-      "avg_price": 275.0
     },
     "6584": {
       "name": "南俊國際",
       "share": 62000.0,
-      "weight": 0.36,
-      "price": 555.0,
-      "amount": 34410000.0,
-      "avg_price": 567.0
-    },
-    "6177": {
-      "name": "達麗",
-      "share": 748000.0,
-      "weight": 0.36,
-      "price": 46.7,
-      "amount": 34931600.0,
-      "avg_price": 47.5
-    },
-    "1907": {
-      "name": "永豐餘",
-      "share": 1178000.0,
       "weight": 0.35,
-      "price": 28.85,
-      "amount": 33985300.0,
-      "avg_price": 29.05
+      "price": 551.0,
+      "amount": 34162000.0,
+      "avg_price": 567.0
     },
     "2897": {
       "name": "王道銀行",
       "share": 2785000.0,
       "weight": 0.32,
-      "price": 11.15,
-      "amount": 31052750.0,
+      "price": 11.25,
+      "amount": 31331250.0,
       "avg_price": 11.0
     },
     "9802": {
       "name": "鈺齊-KY",
       "share": 410000.0,
-      "weight": 0.27,
-      "price": 63.7,
-      "amount": 26117000.0,
+      "weight": 0.28,
+      "price": 65.5,
+      "amount": 26855000.0,
       "avg_price": 64.7
     },
     "5274": {
       "name": "信驊",
       "share": 1200.0,
       "weight": 0.23,
-      "price": 18250.0,
-      "amount": 21900000.0,
+      "price": 18275.0,
+      "amount": 21930000.0,
       "avg_price": 17885.0
     },
     "6592": {
       "name": "和潤企業",
       "share": 357000.0,
       "weight": 0.22,
-      "price": 59.6,
-      "amount": 21277200.0,
+      "price": 59.8,
+      "amount": 21348600.0,
       "avg_price": 59.8
     },
     "2454": {
       "name": "聯發科",
       "share": 4000.0,
       "weight": 0.19,
-      "price": 4530.0,
-      "amount": 18120000.0,
+      "price": 4500.0,
+      "amount": 18000000.0,
       "avg_price": 4585.0
     },
     "3661": {
       "name": "世芯-KY",
       "share": 5000.0,
       "weight": 0.17,
-      "price": 3345.0,
-      "amount": 16725000.0,
+      "price": 3295.0,
+      "amount": 16475000.0,
       "avg_price": 3650.0
-    },
-    "5306": {
-      "name": "桂盟",
-      "share": 113000.0,
-      "weight": 0.11,
-      "price": 89.7,
-      "amount": 10136100.0,
-      "avg_price": 88.5
     },
     "7780": {
       "name": "大研生醫*",
       "share": 645000.0,
       "weight": 0.11,
-      "price": 16.15,
-      "amount": 10416750.0,
+      "price": 16.25,
+      "amount": 10481250.0,
       "avg_price": 16.4
+    },
+    "5306": {
+      "name": "桂盟",
+      "share": 113000.0,
+      "weight": 0.1,
+      "price": 89.4,
+      "amount": 10102200.0,
+      "avg_price": 88.5
     },
     "6223": {
       "name": "旺矽",
       "share": 1000.0,
       "weight": 0.06,
-      "price": 5600.0,
-      "amount": 5600000.0,
+      "price": 5500.0,
+      "amount": 5500000.0,
       "avg_price": 5620.0
     },
     "8415": {
       "name": "大國鋼",
       "share": 125000.0,
       "weight": 0.05,
-      "price": 34.65,
-      "amount": 4331250.0,
+      "price": 34.8,
+      "amount": 4350000.0,
       "avg_price": 35.55
     },
     "6274": {
       "name": "台燿",
       "share": 2000.0,
       "weight": 0.03,
-      "price": 1415.0,
-      "amount": 2830000.0,
+      "price": 1320.0,
+      "amount": 2640000.0,
       "avg_price": 1365.0
     },
     "5289": {
       "name": "宜鼎",
       "share": 1355.0,
       "weight": 0.02,
-      "price": 1295.0,
-      "amount": 1754725.0,
+      "price": 1260.0,
+      "amount": 1707300.0,
       "avg_price": 1295.0
     },
     "2546": {
       "name": "根基",
       "share": 19560.0,
       "weight": 0.02,
-      "price": 106.5,
-      "amount": 2083140.0,
+      "price": 104.0,
+      "amount": 2034240.0,
       "avg_price": 101.0
     },
     "4123": {
       "name": "晟德",
       "share": 30842.0,
       "weight": 0.01,
-      "price": 30.75,
-      "amount": 948391.5,
+      "price": 30.8,
+      "amount": 949933.6,
       "avg_price": 30.25
     },
     "1795": {
       "name": "美時",
       "share": 572.0,
       "weight": 0.0,
-      "price": 178.0,
-      "amount": 101816.0,
+      "price": 180.0,
+      "amount": 102960.0,
       "avg_price": 173.5
     }
   },
@@ -782,31 +782,31 @@
     "1102": {
       "name": "亞泥",
       "share": 4789000.0,
-      "weight": 1.78,
-      "amount": 168572800.0,
-      "price": 35.2,
+      "weight": 1.74,
+      "amount": 167375550.0,
+      "price": 34.95,
       "avg_price": 35.3
     },
     "1229": {
       "name": "聯華",
       "share": 1543000.0,
-      "weight": 0.66,
-      "amount": 62260050.0,
-      "price": 40.35,
+      "weight": 0.64,
+      "amount": 61797149.99999999,
+      "price": 40.05,
       "avg_price": 40.7
     },
     "1303": {
       "name": "南亞",
       "share": 1063000.0,
       "weight": 2.48,
-      "amount": 235454500.0,
-      "price": 221.5,
+      "amount": 238112000.0,
+      "price": 224.0,
       "avg_price": 234.5
     },
     "1326": {
       "name": "台化",
       "share": 935000.0,
-      "weight": 0.65,
+      "weight": 0.64,
       "amount": 61523000.0,
       "price": 65.8,
       "avg_price": 70.2
@@ -814,47 +814,47 @@
     "1402": {
       "name": "遠東新",
       "share": 6658000.0,
-      "weight": 1.95,
-      "amount": 185092400.0,
-      "price": 27.8,
+      "weight": 1.9,
+      "amount": 182429200.0,
+      "price": 27.4,
       "avg_price": 28.65
     },
     "1409": {
       "name": "新纖",
       "share": 2720000.0,
       "weight": 0.68,
-      "amount": 65007999.99999999,
-      "price": 23.9,
+      "amount": 65144000.0,
+      "price": 23.95,
       "avg_price": 24.45
     },
     "1560": {
       "name": "中砂",
       "share": 55000.0,
-      "weight": 0.43,
-      "amount": 40425000.0,
-      "price": 735.0,
+      "weight": 0.42,
+      "amount": 40755000.0,
+      "price": 741.0,
       "avg_price": 790.0
     },
     "1795": {
       "name": "美時",
       "share": 572.0,
       "weight": 0.0,
-      "amount": 102102.0,
-      "price": 178.5,
+      "amount": 101816.0,
+      "price": 178.0,
       "avg_price": 173.5
     },
     "1808": {
       "name": "潤隆",
       "share": 1033000.0,
       "weight": 0.36,
-      "amount": 34089000.0,
-      "price": 33.0,
+      "amount": 34760450.0,
+      "price": 33.65,
       "avg_price": 34.45
     },
     "1907": {
       "name": "永豐餘",
       "share": 1178000.0,
-      "weight": 0.36,
+      "weight": 0.35,
       "amount": 33985300.0,
       "price": 28.85,
       "avg_price": 29.05
@@ -862,599 +862,583 @@
     "2006": {
       "name": "東和鋼鐵",
       "share": 1466000.0,
-      "weight": 1.25,
-      "amount": 118599400.00000001,
-      "price": 80.9,
+      "weight": 1.24,
+      "amount": 118892599.99999999,
+      "price": 81.1,
       "avg_price": 82.5
     },
     "2059": {
       "name": "川湖",
       "share": 20000.0,
-      "weight": 2.47,
-      "amount": 234300000.0,
-      "price": 11715.0,
+      "weight": 2.51,
+      "amount": 240900000.0,
+      "price": 12045.0,
       "avg_price": 12080.0
     },
     "2301": {
       "name": "光寶科",
       "share": 446000.0,
       "weight": 1.29,
-      "amount": 122204000.0,
-      "price": 274.0,
+      "amount": 123542000.0,
+      "price": 277.0,
       "avg_price": 277.0
     },
     "2303": {
       "name": "聯電",
       "share": 564000.0,
-      "weight": 0.82,
-      "amount": 78114000.0,
-      "price": 138.5,
+      "weight": 0.83,
+      "amount": 80088000.0,
+      "price": 142.0,
       "avg_price": 140.5
     },
     "2330": {
       "name": "台積電",
       "share": 142000.0,
-      "weight": 3.57,
-      "amount": 338670000.0,
-      "price": 2385.0,
+      "weight": 3.52,
+      "amount": 337960000.0,
+      "price": 2380.0,
       "avg_price": 2410.0
     },
     "2344": {
       "name": "華邦電",
       "share": 801000.0,
-      "weight": 1.35,
-      "amount": 127759500.0,
-      "price": 159.5,
+      "weight": 1.41,
+      "amount": 135369000.0,
+      "price": 169.0,
       "avg_price": 171.5
     },
     "2351": {
       "name": "順德",
       "share": 278000.0,
-      "weight": 0.74,
-      "amount": 69917000.0,
-      "price": 251.5,
+      "weight": 0.68,
+      "amount": 65608000.0,
+      "price": 236.0,
       "avg_price": 234.0
     },
     "2357": {
       "name": "華碩",
       "share": 68000.0,
       "weight": 0.66,
-      "amount": 63104000.0,
-      "price": 928.0,
+      "amount": 63852000.0,
+      "price": 939.0,
       "avg_price": 924.0
     },
     "2379": {
       "name": "瑞昱",
       "share": 362000.0,
-      "weight": 2.68,
-      "amount": 254486000.0,
-      "price": 703.0,
+      "weight": 2.71,
+      "amount": 260640000.0,
+      "price": 720.0,
       "avg_price": 704.0
     },
     "2383": {
       "name": "台光電",
       "share": 36000.0,
-      "weight": 1.94,
-      "amount": 184140000.0,
-      "price": 5115.0,
+      "weight": 1.9,
+      "amount": 183060000.0,
+      "price": 5085.0,
       "avg_price": 5365.0
     },
     "2395": {
       "name": "研華",
       "share": 199000.0,
       "weight": 1.44,
-      "amount": 136315000.0,
-      "price": 685.0,
+      "amount": 138305000.0,
+      "price": 695.0,
       "avg_price": 674.0
     },
     "2408": {
       "name": "南亞科",
       "share": 441000.0,
-      "weight": 2.16,
-      "amount": 205285500.0,
-      "price": 465.5,
+      "weight": 2.26,
+      "amount": 217192500.0,
+      "price": 492.5,
       "avg_price": 493.0
     },
     "2454": {
       "name": "聯發科",
       "share": 4000.0,
       "weight": 0.19,
-      "amount": 17720000.0,
-      "price": 4430.0,
+      "amount": 18120000.0,
+      "price": 4530.0,
       "avg_price": 4585.0
-    },
-    "2455": {
-      "name": "全新",
-      "share": 144000.0,
-      "weight": 0.79,
-      "amount": 74880000.0,
-      "price": 520.0,
-      "avg_price": 515.0
     },
     "2464": {
       "name": "盟立",
       "share": 572000.0,
-      "weight": 1.06,
-      "amount": 100672000.0,
-      "price": 176.0,
+      "weight": 1.09,
+      "amount": 104676000.0,
+      "price": 183.0,
       "avg_price": 188.5
     },
     "2467": {
       "name": "志聖",
       "share": 221000.0,
-      "weight": 1.2,
-      "amount": 114036000.0,
-      "price": 516.0,
+      "weight": 1.19,
+      "amount": 114699000.0,
+      "price": 519.0,
       "avg_price": 552.0
     },
     "2520": {
       "name": "冠德",
       "share": 976000.0,
-      "weight": 0.38,
-      "amount": 35624000.0,
-      "price": 36.5,
+      "weight": 0.37,
+      "amount": 35526400.0,
+      "price": 36.4,
       "avg_price": 36.45
     },
     "2542": {
       "name": "興富發",
       "share": 3571000.0,
-      "weight": 1.7,
-      "amount": 161587750.0,
-      "price": 45.25,
+      "weight": 1.71,
+      "amount": 163908900.0,
+      "price": 45.9,
       "avg_price": 46.5
     },
     "2546": {
       "name": "根基",
       "share": 19560.0,
       "weight": 0.02,
-      "amount": 2063580.0,
-      "price": 105.5,
+      "amount": 2083140.0,
+      "price": 106.5,
       "avg_price": 101.0
     },
     "2603": {
       "name": "長榮",
       "share": 1526000.0,
-      "weight": 3.72,
-      "amount": 356321000.0,
-      "price": 233.5,
+      "weight": 3.8,
+      "amount": 364714000.0,
+      "price": 239.0,
       "avg_price": 234.5
     },
     "2615": {
       "name": "萬海",
       "share": 592000.0,
-      "weight": 0.7,
-      "amount": 66304000.0,
-      "price": 112.0,
+      "weight": 0.71,
+      "amount": 68080000.0,
+      "price": 115.0,
       "avg_price": 112.0
     },
     "2618": {
       "name": "長榮航",
       "share": 5386000.0,
-      "weight": 2.34,
-      "amount": 221903200.00000003,
-      "price": 41.2,
+      "weight": 2.31,
+      "amount": 222441799.99999997,
+      "price": 41.3,
       "avg_price": 42.35
     },
     "2633": {
       "name": "台灣高鐵",
       "share": 3057000.0,
       "weight": 0.83,
-      "amount": 79023450.0,
-      "price": 25.85,
+      "amount": 79329150.0,
+      "price": 25.95,
       "avg_price": 26.05
     },
     "2845": {
       "name": "遠東銀",
-      "share": 9481094.0,
-      "weight": 1.36,
-      "amount": 128942878.39999999,
+      "share": 10159094.0,
+      "weight": 1.44,
+      "amount": 138163678.4,
       "price": 13.6,
-      "avg_price": 13.720171722799078
+      "avg_price": 13.712151674155196
     },
     "2850": {
       "name": "新產",
       "share": 224000.0,
       "weight": 0.37,
-      "amount": 34832000.0,
-      "price": 155.5,
+      "amount": 35168000.0,
+      "price": 157.0,
       "avg_price": 159.0
     },
     "2851": {
       "name": "中再保",
-      "share": 2026000.0,
-      "weight": 0.99,
-      "amount": 94209000.0,
-      "price": 46.5,
-      "avg_price": 47.35229516288253
+      "share": 2234000.0,
+      "weight": 1.08,
+      "amount": 103545900.0,
+      "price": 46.35,
+      "avg_price": 47.258974932855864
     },
     "2855": {
       "name": "統一證",
-      "share": 1171000.0,
-      "weight": 0.64,
-      "amount": 60306500.0,
-      "price": 51.5,
-      "avg_price": 52.9
+      "share": 1378000.0,
+      "weight": 0.74,
+      "amount": 71104800.0,
+      "price": 51.6,
+      "avg_price": 52.70471698113207
     },
     "2881": {
       "name": "富邦金",
-      "share": 402000.0,
-      "weight": 0.64,
-      "amount": 60702000.0,
-      "price": 151.0,
-      "avg_price": 154.0
+      "share": 474000.0,
+      "weight": 0.75,
+      "amount": 72522000.0,
+      "price": 153.0,
+      "avg_price": 153.84810126582278
     },
     "2882": {
       "name": "國泰金",
-      "share": 742000.0,
-      "weight": 0.86,
-      "amount": 81620000.0,
-      "price": 110.0,
+      "share": 873000.0,
+      "weight": 1.02,
+      "amount": 98212500.0,
+      "price": 112.5,
       "avg_price": 112.5
     },
     "2883": {
       "name": "凱基金",
-      "share": 1712000.0,
-      "weight": 0.69,
-      "amount": 65312800.0,
-      "price": 38.15,
-      "avg_price": 38.8
+      "share": 2015000.0,
+      "weight": 0.82,
+      "amount": 78887250.0,
+      "price": 39.15,
+      "avg_price": 38.85263027295285
     },
     "2885": {
       "name": "元大金",
-      "share": 1875880.0,
-      "weight": 1.35,
-      "amount": 128122604.0,
-      "price": 68.3,
-      "avg_price": 70.78086018295413
+      "share": 2199880.0,
+      "weight": 1.59,
+      "amount": 152671672.0,
+      "price": 69.4,
+      "avg_price": 70.57748604469334
     },
     "2887": {
       "name": "台新新光金",
-      "share": 1504000.0,
-      "weight": 0.69,
-      "amount": 65273600.0,
-      "price": 43.4,
-      "avg_price": 43.55
+      "share": 1770000.0,
+      "weight": 0.82,
+      "amount": 78588000.0,
+      "price": 44.4,
+      "avg_price": 43.67774011299435
     },
     "2890": {
       "name": "永豐金",
-      "share": 1411000.0,
-      "weight": 0.66,
-      "amount": 62860049.99999999,
-      "price": 44.55,
-      "avg_price": 44.8
+      "share": 1661000.0,
+      "weight": 0.78,
+      "amount": 75243300.0,
+      "price": 45.3,
+      "avg_price": 44.875255869957854
     },
     "2891": {
       "name": "中信金",
-      "share": 827000.0,
-      "weight": 0.61,
-      "amount": 57641900.0,
-      "price": 69.7,
-      "avg_price": 68.1
+      "share": 973000.0,
+      "weight": 0.72,
+      "amount": 68888400.0,
+      "price": 70.8,
+      "avg_price": 68.50513874614593
     },
     "2897": {
       "name": "王道銀行",
       "share": 2785000.0,
-      "weight": 0.33,
-      "amount": 31191999.999999996,
-      "price": 11.2,
+      "weight": 0.32,
+      "amount": 31052750.0,
+      "price": 11.15,
       "avg_price": 11.0
     },
     "2903": {
       "name": "遠百",
       "share": 1595000.0,
-      "weight": 0.37,
-      "amount": 34850750.0,
-      "price": 21.85,
+      "weight": 0.36,
+      "amount": 34771000.0,
+      "price": 21.8,
       "avg_price": 22.3
     },
     "3006": {
       "name": "晶豪科",
       "share": 235000.0,
-      "weight": 0.65,
-      "amount": 62040000.0,
-      "price": 264.0,
+      "weight": 0.69,
+      "amount": 66035000.0,
+      "price": 281.0,
       "avg_price": 290.5
     },
     "3008": {
       "name": "大立光",
       "share": 24000.0,
-      "weight": 1.53,
-      "amount": 145320000.0,
-      "price": 6055.0,
+      "weight": 1.55,
+      "amount": 149400000.0,
+      "price": 6225.0,
       "avg_price": 6660.0
     },
     "3017": {
       "name": "奇鋐",
       "share": 44000.0,
-      "weight": 1.44,
-      "amount": 137060000.0,
-      "price": 3115.0,
+      "weight": 1.45,
+      "amount": 139700000.0,
+      "price": 3175.0,
       "avg_price": 3370.0
     },
     "3037": {
       "name": "欣興",
       "share": 164000.0,
       "weight": 1.64,
-      "amount": 155964000.0,
-      "price": 951.0,
+      "amount": 157604000.0,
+      "price": 961.0,
       "avg_price": 977.0
     },
     "3044": {
       "name": "健鼎",
       "share": 135000.0,
-      "weight": 0.7,
-      "amount": 66217500.0,
-      "price": 490.5,
+      "weight": 0.71,
+      "amount": 68040000.0,
+      "price": 504.0,
       "avg_price": 508.0
     },
     "3045": {
       "name": "台灣大",
       "share": 2194000.0,
-      "weight": 2.87,
-      "amount": 272056000.0,
-      "price": 124.0,
+      "weight": 2.84,
+      "amount": 273153000.0,
+      "price": 124.5,
       "avg_price": 121.0
     },
     "3189": {
       "name": "景碩",
       "share": 165000.0,
-      "weight": 1.38,
-      "amount": 131175000.0,
-      "price": 795.0,
+      "weight": 1.41,
+      "amount": 135300000.0,
+      "price": 820.0,
       "avg_price": 822.0
     },
     "3260": {
       "name": "威剛",
       "share": 165000.0,
-      "weight": 0.68,
-      "amount": 64102500.0,
-      "price": 388.5,
+      "weight": 0.69,
+      "amount": 65917500.0,
+      "price": 399.5,
       "avg_price": 402.5
     },
     "3264": {
       "name": "欣銓",
       "share": 431000.0,
       "weight": 1.0,
-      "amount": 95251000.0,
-      "price": 221.0,
+      "amount": 96113000.0,
+      "price": 223.0,
       "avg_price": 230.5
     },
     "3443": {
       "name": "創意",
       "share": 14000.0,
-      "weight": 0.89,
-      "amount": 84490000.0,
-      "price": 6035.0,
+      "weight": 0.9,
+      "amount": 86380000.0,
+      "price": 6170.0,
       "avg_price": 6120.0
     },
     "3450": {
       "name": "聯鈞",
       "share": 256000.0,
-      "weight": 1.33,
-      "amount": 126080000.0,
-      "price": 492.5,
+      "weight": 1.44,
+      "amount": 138496000.0,
+      "price": 541.0,
       "avg_price": 511.1328125
     },
     "3532": {
       "name": "台勝科",
       "share": 155000.0,
-      "weight": 0.66,
-      "amount": 63085000.0,
-      "price": 407.0,
+      "weight": 0.71,
+      "amount": 68200000.0,
+      "price": 440.0,
       "avg_price": 423.0
     },
     "3653": {
       "name": "健策",
       "share": 19000.0,
-      "weight": 1.06,
-      "amount": 100890000.0,
-      "price": 5310.0,
+      "weight": 1.04,
+      "amount": 99560000.0,
+      "price": 5240.0,
       "avg_price": 5765.0
     },
     "3661": {
       "name": "世芯-KY",
       "share": 5000.0,
-      "weight": 0.18,
-      "amount": 16775000.0,
-      "price": 3355.0,
+      "weight": 0.17,
+      "amount": 16725000.0,
+      "price": 3345.0,
       "avg_price": 3650.0
     },
     "3665": {
       "name": "貿聯-KY",
       "share": 25000.0,
       "weight": 0.52,
-      "amount": 49500000.0,
-      "price": 1980.0,
+      "amount": 49875000.0,
+      "price": 1995.0,
       "avg_price": 1875.0
     },
     "3711": {
       "name": "日月光投控",
       "share": 72000.0,
       "weight": 0.45,
-      "amount": 42624000.0,
-      "price": 592.0,
+      "amount": 43560000.0,
+      "price": 605.0,
       "avg_price": 618.0
     },
     "4123": {
       "name": "晟德",
       "share": 30842.0,
       "weight": 0.01,
-      "amount": 936054.7000000001,
-      "price": 30.35,
+      "amount": 948391.5,
+      "price": 30.75,
       "avg_price": 30.25
     },
     "4763": {
       "name": "材料*-KY",
       "share": 1972000.0,
-      "weight": 1.0,
-      "amount": 94853200.0,
-      "price": 48.1,
+      "weight": 0.92,
+      "amount": 88542800.0,
+      "price": 44.9,
       "avg_price": 48.85
     },
     "4958": {
       "name": "臻鼎-KY",
       "share": 92000.0,
-      "weight": 0.46,
-      "amount": 43930000.0,
-      "price": 477.5,
+      "weight": 0.47,
+      "amount": 45402000.0,
+      "price": 493.5,
       "avg_price": 495.0
     },
     "4967": {
       "name": "十銓",
       "share": 249000.0,
-      "weight": 0.7,
-      "amount": 66234000.0,
-      "price": 266.0,
+      "weight": 0.71,
+      "amount": 68475000.0,
+      "price": 275.0,
       "avg_price": 280.5
     },
     "5274": {
       "name": "信驊",
       "share": 1200.0,
-      "weight": 0.22,
-      "amount": 21024000.0,
-      "price": 17520.0,
+      "weight": 0.23,
+      "amount": 21900000.0,
+      "price": 18250.0,
       "avg_price": 17885.0
     },
     "5289": {
       "name": "宜鼎",
       "share": 1355.0,
       "weight": 0.02,
-      "amount": 1727625.0,
-      "price": 1275.0,
+      "amount": 1754725.0,
+      "price": 1295.0,
       "avg_price": 1295.0
     },
     "5306": {
       "name": "桂盟",
       "share": 113000.0,
       "weight": 0.11,
-      "amount": 10113500.0,
-      "price": 89.5,
+      "amount": 10136100.0,
+      "price": 89.7,
       "avg_price": 88.5
     },
     "5351": {
       "name": "鈺創",
       "share": 585000.0,
-      "weight": 0.63,
-      "amount": 59962500.0,
-      "price": 102.5,
+      "weight": 0.64,
+      "amount": 61717500.0,
+      "price": 105.5,
       "avg_price": 108.5
     },
     "5534": {
       "name": "長虹",
       "share": 505000.0,
-      "weight": 0.39,
-      "amount": 36915500.0,
-      "price": 73.1,
+      "weight": 0.38,
+      "amount": 36814500.0,
+      "price": 72.9,
       "avg_price": 74.0
     },
     "5871": {
       "name": "中租-KY",
       "share": 1908840.0,
-      "weight": 2.24,
-      "amount": 212835660.0,
-      "price": 111.5,
+      "weight": 2.23,
+      "amount": 214744500.0,
+      "price": 112.5,
       "avg_price": 111.5
     },
     "5876": {
       "name": "上海商銀",
       "share": 4977000.0,
-      "weight": 2.61,
-      "amount": 247854600.0,
-      "price": 49.8,
+      "weight": 2.58,
+      "amount": 247605750.0,
+      "price": 49.75,
       "avg_price": 48.65
     },
     "5904": {
       "name": "寶雅*",
       "share": 902000.0,
       "weight": 0.69,
-      "amount": 65846000.0,
-      "price": 73.0,
+      "amount": 66387199.99999999,
+      "price": 73.6,
       "avg_price": 72.3
-    },
-    "6005": {
-      "name": "群益證",
-      "share": 444876.0,
-      "weight": 0.15,
-      "amount": 13835643.600000001,
-      "price": 31.1,
-      "avg_price": 31.5
     },
     "6139": {
       "name": "亞翔",
       "share": 290000.0,
-      "weight": 2.18,
-      "amount": 206770000.0,
-      "price": 713.0,
+      "weight": 2.13,
+      "amount": 205030000.0,
+      "price": 707.0,
       "avg_price": 709.0
     },
     "6173": {
       "name": "信昌電",
-      "share": 329000.0,
-      "weight": 1.02,
-      "amount": 96890500.0,
-      "price": 294.5,
-      "avg_price": 291.79787234042556
+      "share": 359000.0,
+      "weight": 1.18,
+      "amount": 113085000.0,
+      "price": 315.0,
+      "avg_price": 293.7367688022284
     },
     "6177": {
       "name": "達麗",
       "share": 748000.0,
-      "weight": 0.37,
-      "amount": 35043800.0,
-      "price": 46.85,
+      "weight": 0.36,
+      "amount": 34931600.0,
+      "price": 46.7,
       "avg_price": 47.5
     },
     "6187": {
       "name": "萬潤",
       "share": 165000.0,
-      "weight": 2.11,
-      "amount": 200475000.0,
-      "price": 1215.0,
+      "weight": 2.09,
+      "amount": 201300000.0,
+      "price": 1220.0,
       "avg_price": 1250.0
     },
     "6213": {
       "name": "聯茂",
       "share": 248000.0,
-      "weight": 1.36,
-      "amount": 128712000.0,
-      "price": 519.0,
+      "weight": 1.42,
+      "amount": 136400000.0,
+      "price": 550.0,
       "avg_price": 509.0
     },
     "6214": {
       "name": "精誠",
       "share": 349000.0,
-      "weight": 0.7,
-      "amount": 66310000.0,
-      "price": 190.0,
+      "weight": 0.69,
+      "amount": 66659000.0,
+      "price": 191.0,
       "avg_price": 188.5
     },
     "6223": {
       "name": "旺矽",
       "share": 1000.0,
       "weight": 0.06,
-      "amount": 5440000.0,
-      "price": 5440.0,
+      "amount": 5600000.0,
+      "price": 5600.0,
       "avg_price": 5620.0
     },
     "6274": {
       "name": "台燿",
       "share": 2000.0,
       "weight": 0.03,
-      "amount": 2740000.0,
-      "price": 1370.0,
+      "amount": 2830000.0,
+      "price": 1415.0,
       "avg_price": 1365.0
     },
     "6426": {
       "name": "統新",
       "share": 118000.0,
-      "weight": 0.37,
-      "amount": 35400000.0,
-      "price": 300.0,
+      "weight": 0.41,
+      "amount": 38940000.0,
+      "price": 330.0,
       "avg_price": 302.0
     },
     "6446": {
       "name": "藥華藥",
       "share": 180424.0,
-      "weight": 2.29,
+      "weight": 2.26,
       "amount": 217410920.0,
       "price": 1205.0,
       "avg_price": 1280.0
@@ -1462,116 +1446,116 @@
     "6548": {
       "name": "長科*",
       "share": 1855000.0,
-      "weight": 1.4,
-      "amount": 133003500.0,
-      "price": 71.7,
+      "weight": 1.38,
+      "amount": 132817999.99999999,
+      "price": 71.6,
       "avg_price": 70.0
     },
     "6584": {
       "name": "南俊國際",
       "share": 62000.0,
-      "weight": 0.35,
-      "amount": 33294000.0,
-      "price": 537.0,
+      "weight": 0.36,
+      "amount": 34410000.0,
+      "price": 555.0,
       "avg_price": 567.0
     },
     "6592": {
       "name": "和潤企業",
       "share": 357000.0,
       "weight": 0.22,
-      "amount": 21312900.0,
-      "price": 59.7,
+      "amount": 21277200.0,
+      "price": 59.6,
       "avg_price": 59.8
     },
     "6669": {
       "name": "緯穎",
       "share": 70741.0,
-      "weight": 1.73,
-      "amount": 163765415.0,
-      "price": 2315.0,
+      "weight": 1.59,
+      "amount": 153154265.0,
+      "price": 2165.0,
       "avg_price": 2310.0
     },
     "6670": {
       "name": "復盛應用",
       "share": 129000.0,
-      "weight": 0.37,
-      "amount": 34894500.0,
-      "price": 270.5,
+      "weight": 0.36,
+      "amount": 34830000.0,
+      "price": 270.0,
       "avg_price": 275.0
     },
     "7750": {
       "name": "新代",
-      "share": 30000.0,
-      "weight": 0.6,
-      "amount": 56700000.0,
-      "price": 1890.0,
-      "avg_price": 1993.8333333333333
+      "share": 31000.0,
+      "weight": 0.61,
+      "amount": 58745000.0,
+      "price": 1895.0,
+      "avg_price": 1990.6451612903227
     },
     "7780": {
       "name": "大研生醫*",
       "share": 645000.0,
       "weight": 0.11,
-      "amount": 10352250.0,
-      "price": 16.05,
+      "amount": 10416750.0,
+      "price": 16.15,
       "avg_price": 16.4
     },
     "8021": {
       "name": "尖點",
       "share": 155000.0,
-      "weight": 0.7,
-      "amount": 66882500.0,
-      "price": 431.5,
+      "weight": 0.71,
+      "amount": 68200000.0,
+      "price": 440.0,
       "avg_price": 418.5
     },
     "8039": {
       "name": "台虹",
       "share": 211000.0,
       "weight": 0.6,
-      "amount": 56970000.0,
-      "price": 270.0,
+      "amount": 58130500.0,
+      "price": 275.5,
       "avg_price": 272.0
     },
     "8046": {
       "name": "南電",
       "share": 60000.0,
       "weight": 0.69,
-      "amount": 65100000.0,
-      "price": 1085.0,
+      "amount": 66300000.0,
+      "price": 1105.0,
       "avg_price": 1080.0
     },
     "8415": {
       "name": "大國鋼",
-      "share": 425000.0,
-      "weight": 0.15,
-      "amount": 14683749.999999998,
-      "price": 34.55,
+      "share": 125000.0,
+      "weight": 0.05,
+      "amount": 4331250.0,
+      "price": 34.65,
       "avg_price": 35.55
     },
     "9802": {
       "name": "鈺齊-KY",
       "share": 410000.0,
-      "weight": 0.28,
-      "amount": 26158000.0,
-      "price": 63.8,
+      "weight": 0.27,
+      "amount": 26117000.0,
+      "price": 63.7,
       "avg_price": 64.7
     },
     "9933": {
       "name": "中鼎",
       "share": 853619.0,
       "weight": 0.38,
-      "amount": 35766636.1,
-      "price": 41.9,
+      "amount": 36492212.25,
+      "price": 42.75,
       "avg_price": 41.7
     },
     "9941": {
       "name": "裕融",
-      "share": 438000.0,
-      "weight": 0.37,
-      "amount": 35478000.0,
-      "price": 81.0,
-      "avg_price": 81.6
+      "share": 1105000.0,
+      "weight": 0.93,
+      "amount": 89284000.0,
+      "price": 80.8,
+      "avg_price": 81.11710407239819
     }
   },
   "current_nav": 15.25,
-  "previous_nav": 15.05
+  "previous_nav": 15.25
 }
