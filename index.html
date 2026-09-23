@@ -43,8 +43,29 @@
             </div>
             <!-- TradingView Widget END -->
 
+            <!-- 新增：市場主力動向 -->
             <div class="section-header" style="margin-bottom: 1rem;">
-                <h2 style="font-size: 1.5rem; color: #fff;">國內主動式 ETF</h2>
+                <h2 style="font-size: 1.5rem; color: #fff;">🔥 今日市場主力動向 (跨 ETF 彙整)</h2>
+            </div>
+            
+            <div class="table-responsive" style="margin-bottom: 2rem;">
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>股票名稱</th>
+                            <th>總淨買賣估值</th>
+                            <th>買進的 ETF</th>
+                            <th>賣出的 ETF</th>
+                        </tr>
+                    </thead>
+                    <tbody id="market-activity-tbody">
+                        <tr><td colspan="4" style="text-align:center; color: var(--text-secondary);">資料彙整中...</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="section-header" style="margin-bottom: 1rem;">
+                <h2 style="font-size: 1.5rem; color: #fff;">主動式 ETF 列表</h2>
             </div>
 
             <div class="cards-container" id="etf-cards">

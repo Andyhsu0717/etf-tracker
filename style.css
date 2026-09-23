@@ -331,3 +331,26 @@ header p {
     header h1 { font-size: 2rem; }
     .cards-container { grid-template-columns: 1fr; }
 }
+
+/* ETF Tags */
+.etf-tag {
+    display: inline-block;
+    padding: 0.15rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    margin: 0.1rem;
+    white-space: nowrap;
+    border: 1px solid transparent;
+}
+
+.etf-tag-buy {
+    background: rgba(239, 68, 68, 0.15); /* bg-red-soft */
+    color: var(--red);
+    border-color: rgba(239, 68, 68, 0.3);
+}
+
+.etf-tag-sell {
+    background: rgba(16, 185, 129, 0.15); /* bg-green-soft */
+    color: var(--green);
+    border-color: rgba(16, 185, 129, 0.3);
+}

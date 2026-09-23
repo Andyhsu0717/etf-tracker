@@ -3,6 +3,7 @@ let etfData = {};
 
 document.addEventListener('DOMContentLoaded', async () => {
     await loadConfigAndData();
+    aggregateMarketActivity();
     renderHome();
     setupEvents();
 });
@@ -244,4 +245,92 @@ function formatMoney(num) {
         return `${formatNumber(Math.round(num / 10000))} 萬`;
     }
     return formatNumber(Math.round(num));
+}
+
+// Market Activity Aggregation
+function aggregateMarketActivity() {
+    const stockActivity = {};
+
+    etfs.forEach(etf => {
+        const data = etfData[etf.id];
+        if (!data) return;
+        
+        const changes = compareData(data.previous || {}, data.current || {});
+        
+        // Helper to add activity
+        const addActivity = (stockCode, stockName, tradeVal, isBuy, etfName) => {
+            if (!stockActivity[stockCode]) {
+                stockActivity[stockCode] = {
+                    name: stockName,
+                    netTradeVal: 0,
+                    buyEtfs: [],
+                    sellEtfs: []
+                };
+            }
+            stockActivity[stockCode].netTradeVal += tradeVal;
+            if (isBuy) {
+                stockActivity[stockCode].buyEtfs.push(etfName);
+            } else {
+                stockActivity[stockCode].sellEtfs.push(etfName);
+            }
+        };
+
+        // Added stocks (Buy)
+        changes.added.forEach(st => {
+            const price = st.price || 0;
+            const tradeVal = st.share * price;
+            if (tradeVal > 0) addActivity(st.code, st.name, tradeVal, true, etf.id);
+        });
+
+        // Removed stocks (Sell)
+        changes.removed.forEach(st => {
+            const price = st.price || 0;
+            const tradeVal = st.share * price;
+            if (tradeVal > 0) addActivity(st.code, st.name, -tradeVal, false, etf.id);
+        });
+
+        // Changed stocks
+        changes.changed.forEach(st => {
+            if (st.tradeVal > 0) {
+                addActivity(st.code, st.name, st.tradeVal, true, etf.id);
+            } else if (st.tradeVal < 0) {
+                addActivity(st.code, st.name, st.tradeVal, false, etf.id);
+            }
+        });
+    });
+
+    renderMarketActivity(stockActivity);
+}
+
+function renderMarketActivity(stockActivity) {
+    const tbody = document.getElementById('market-activity-tbody');
+    const activities = Object.values(stockActivity);
+    
+    // Sort by absolute net trade value (most activity first)
+    activities.sort((a, b) => Math.abs(b.netTradeVal) - Math.abs(a.netTradeVal));
+    
+    // Take top 10
+    const topActivities = activities.slice(0, 10);
+
+    if (topActivities.length === 0) {
+        tbody.innerHTML = `<tr><td colspan="4" style="text-align:center; color: var(--text-secondary);">今日無任何跨 ETF 個股買賣異動。</td></tr>`;
+        return;
+    }
+
+    tbody.innerHTML = topActivities.map(act => {
+        const valColor = act.netTradeVal > 0 ? 'text-red' : (act.netTradeVal < 0 ? 'text-green' : '');
+        const valSign = act.netTradeVal > 0 ? '+' : '';
+        
+        const buyTags = act.buyEtfs.map(etf => `<span class="etf-tag etf-tag-buy">${etf}</span>`).join(' ');
+        const sellTags = act.sellEtfs.map(etf => `<span class="etf-tag etf-tag-sell">${etf}</span>`).join(' ');
+
+        return `
+            <tr>
+                <td><strong>${act.name}</strong></td>
+                <td class="${valColor}">${valSign}${formatMoney(act.netTradeVal)}</td>
+                <td>${buyTags || '-'}</td>
+                <td>${sellTags || '-'}</td>
+            </tr>
+        `;
+    }).join('');
 }
