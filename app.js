@@ -306,20 +306,20 @@ function renderMarketActivity(stockActivity) {
     const tbody = document.getElementById('market-activity-tbody');
     const activities = Object.values(stockActivity);
     
-    // Sort by absolute net trade value (most activity first)
-    activities.sort((a, b) => Math.abs(b.netTradeVal) - Math.abs(a.netTradeVal));
+    // 依照買進金額由大到小排序 (只取淨買入)
+    activities.sort((a, b) => b.netTradeVal - a.netTradeVal);
     
-    // Take top 10
-    const topActivities = activities.slice(0, 10);
+    // 只保留買進金額大於 0 的個股，並取前 10 名
+    const topBuys = activities.filter(act => act.netTradeVal > 0).slice(0, 10);
 
-    if (topActivities.length === 0) {
-        tbody.innerHTML = `<tr><td colspan="4" style="text-align:center; color: var(--text-secondary);">今日無任何跨 ETF 個股買賣異動。</td></tr>`;
+    if (topBuys.length === 0) {
+        tbody.innerHTML = `<tr><td colspan="4" style="text-align:center; color: var(--text-secondary);">今日無任何跨 ETF 個股買進異動。</td></tr>`;
         return;
     }
 
-    tbody.innerHTML = topActivities.map(act => {
-        const valColor = act.netTradeVal > 0 ? 'text-red' : (act.netTradeVal < 0 ? 'text-green' : '');
-        const valSign = act.netTradeVal > 0 ? '+' : '';
+    tbody.innerHTML = topBuys.map(act => {
+        const valColor = 'text-red'; // 買進顯示紅色
+        const valSign = '+';
         
         const buyTags = act.buyEtfs.map(etf => `<span class="etf-tag etf-tag-buy">${etf}</span>`).join(' ');
         const sellTags = act.sellEtfs.map(etf => `<span class="etf-tag etf-tag-sell">${etf}</span>`).join(' ');
