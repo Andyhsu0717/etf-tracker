@@ -54,12 +54,18 @@ def fetch_holdings(config, fetch_yahoo_price_func):
             weight_str = tds[1].text.strip()
             share_str = tds[2].text.strip()
             
-            # Extract code using regex
-            m = re.search(r'\((\d+)\.TW\)', name_code_str)
+            m = re.search(r'\((.+?)\)', name_code_str)
             if not m:
                 continue
                 
             code = m.group(1)
+            if code.endswith('.TW'):
+                code = code[:-3]
+            elif code.endswith('.TWO'):
+                code = code[:-4]
+            elif code.endswith('.US'):
+                code = code[:-3]
+                
             name = name_code_str.split('(')[0].strip()
             
             try:

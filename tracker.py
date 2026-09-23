@@ -46,7 +46,12 @@ def init_db():
 
 def fetch_yahoo_price(stock_id):
     import time
-    for suffix in ['.TW', '.TWO']:
+    if stock_id.isdigit():
+        suffixes = ['.TW', '.TWO']
+    else:
+        suffixes = ['']
+        
+    for suffix in suffixes:
         url = f"https://query1.finance.yahoo.com/v8/finance/chart/{stock_id}{suffix}"
         try:
             res = requests.get(url, headers=HEADERS, timeout=10)

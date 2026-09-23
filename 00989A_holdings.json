@@ -1,0 +1,1097 @@
+{
+  "date": "2026-09-23",
+  "current": {
+    "NVDA": {
+      "name": "NVIDIA",
+      "share": 7451.0,
+      "weight": 4.59,
+      "price": 225.47,
+      "amount": 1679976.97,
+      "avg_price": 225.47
+    },
+    "AVGO": {
+      "name": "Broadcom",
+      "share": 3703.0,
+      "weight": 3.63,
+      "price": 356.39,
+      "amount": 1319712.17,
+      "avg_price": 356.39
+    },
+    "META": {
+      "name": "Meta",
+      "share": 1778.0,
+      "weight": 3.53,
+      "price": 750.83,
+      "amount": 1334975.74,
+      "avg_price": 750.83
+    },
+    "CRWD": {
+      "name": "CrowdStrike Holdings",
+      "share": 5060.0,
+      "weight": 3.41,
+      "price": 258.165,
+      "amount": 1306314.9000000001,
+      "avg_price": 258.165
+    },
+    "INTC": {
+      "name": "Intel",
+      "share": 10086.0,
+      "weight": 3.36,
+      "price": 120.905,
+      "amount": 1219447.83,
+      "avg_price": 120.905
+    },
+    "PANW": {
+      "name": "Palo Alto",
+      "share": 3316.0,
+      "weight": 3.34,
+      "price": 386.16,
+      "amount": 1280506.56,
+      "avg_price": 386.16
+    },
+    "AMD": {
+      "name": "AMD",
+      "share": 1885.0,
+      "weight": 3.17,
+      "price": 614.94,
+      "amount": 1159161.9000000001,
+      "avg_price": 614.94
+    },
+    "CRM": {
+      "name": "Salesforce",
+      "share": 4856.0,
+      "weight": 3.05,
+      "price": 237.695,
+      "amount": 1154246.92,
+      "avg_price": 237.695
+    },
+    "SNOW": {
+      "name": "Snowflake",
+      "share": 3185.0,
+      "weight": 2.89,
+      "price": 340.14,
+      "amount": 1083345.9,
+      "avg_price": 340.14
+    },
+    "TSLA": {
+      "name": "Tesla",
+      "share": 2831.0,
+      "weight": 2.89,
+      "price": 379.91,
+      "amount": 1075525.21,
+      "avg_price": 379.91
+    },
+    "NET": {
+      "name": "Cloudflare",
+      "share": 2996.0,
+      "weight": 2.85,
+      "price": 356.32,
+      "amount": 1067534.72,
+      "avg_price": 356.32
+    },
+    "TTWO": {
+      "name": "Take-Two",
+      "share": 5087.0,
+      "weight": 2.82,
+      "price": 207.64,
+      "amount": 1056264.68,
+      "avg_price": 207.64
+    },
+    "MSFT": {
+      "name": "Microsoft",
+      "share": 1979.0,
+      "weight": 2.65,
+      "price": 497.288,
+      "amount": 984132.952,
+      "avg_price": 497.288
+    },
+    "LRCX": {
+      "name": "Lam Research",
+      "share": 2878.0,
+      "weight": 2.41,
+      "price": 305.84,
+      "amount": 880207.5199999999,
+      "avg_price": 305.84
+    },
+    "TWLO": {
+      "name": "Twilio",
+      "share": 3142.0,
+      "weight": 2.41,
+      "price": 294.635,
+      "amount": 925743.1699999999,
+      "avg_price": 294.635
+    },
+    "SHOP": {
+      "name": "Shopify",
+      "share": 6061.0,
+      "weight": 2.41,
+      "price": 140.41,
+      "amount": 851025.01,
+      "avg_price": 140.41
+    },
+    "GOOG": {
+      "name": "Alphabet - Class C Capital Stock",
+      "share": 2494.0,
+      "weight": 2.33,
+      "price": 338.085,
+      "amount": 843183.99,
+      "avg_price": 338.085
+    },
+    "ASML": {
+      "name": "ASML Holding",
+      "share": 450.0,
+      "weight": 2.12,
+      "price": 1728.83,
+      "amount": 777973.5,
+      "avg_price": 1728.83
+    },
+    "HOOD": {
+      "name": "Robinhood Markets",
+      "share": 6266.0,
+      "weight": 2.1,
+      "price": 125.49,
+      "amount": 786320.34,
+      "avg_price": 125.49
+    },
+    "NOW": {
+      "name": "ServiceNow",
+      "share": 4941.0,
+      "weight": 1.82,
+      "price": 138.9,
+      "amount": 686304.9,
+      "avg_price": 138.9
+    },
+    "HUBS": {
+      "name": "HubSpot",
+      "share": 2873.0,
+      "weight": 1.69,
+      "price": 224.535,
+      "amount": 645089.0549999999,
+      "avg_price": 224.535
+    },
+    "LITE": {
+      "name": "Lumentum",
+      "share": 665.0,
+      "weight": 1.69,
+      "price": 954.0,
+      "amount": 634410.0,
+      "avg_price": 954.0
+    },
+    "DOCN": {
+      "name": "DigitalOcean",
+      "share": 4175.0,
+      "weight": 1.64,
+      "price": 140.33,
+      "amount": 585877.75,
+      "avg_price": 140.33
+    },
+    "ZM": {
+      "name": "Zoom",
+      "share": 6268.0,
+      "weight": 1.54,
+      "price": 92.53,
+      "amount": 579978.04,
+      "avg_price": 92.53
+    },
+    "ADBE": {
+      "name": "Adobe",
+      "share": 2273.0,
+      "weight": 1.46,
+      "price": 240.175,
+      "amount": 545917.775,
+      "avg_price": 240.175
+    },
+    "TXN": {
+      "name": "Texas Instruments",
+      "share": 1914.0,
+      "weight": 1.4,
+      "price": 271.27,
+      "amount": 519210.77999999997,
+      "avg_price": 271.27
+    },
+    "RIVN": {
+      "name": "Rivian",
+      "share": 31258.0,
+      "weight": 1.27,
+      "price": 14.96,
+      "amount": 467619.68000000005,
+      "avg_price": 14.96
+    },
+    "BE": {
+      "name": "Bloom Energy",
+      "share": 1696.0,
+      "weight": 1.26,
+      "price": 277.85,
+      "amount": 471233.60000000003,
+      "avg_price": 277.85
+    },
+    "TEAM": {
+      "name": "Atlassian",
+      "share": 2412.0,
+      "weight": 1.23,
+      "price": 194.725,
+      "amount": 469676.7,
+      "avg_price": 194.725
+    },
+    "TEM": {
+      "name": "Tempus",
+      "share": 5821.0,
+      "weight": 1.21,
+      "price": 76.63,
+      "amount": 446063.23,
+      "avg_price": 76.63
+    },
+    "MU": {
+      "name": "Micron",
+      "share": 403.0,
+      "weight": 1.19,
+      "price": 1079.57,
+      "amount": 435066.70999999996,
+      "avg_price": 1079.57
+    },
+    "GLW": {
+      "name": "Corning",
+      "share": 2486.0,
+      "weight": 1.07,
+      "price": 155.29,
+      "amount": 386050.94,
+      "avg_price": 155.29
+    },
+    "ADI": {
+      "name": "Analog Devices",
+      "share": 1006.0,
+      "weight": 1.06,
+      "price": 384.09,
+      "amount": 386394.54,
+      "avg_price": 384.09
+    },
+    "CIEN": {
+      "name": "Ciena",
+      "share": 1052.0,
+      "weight": 1.04,
+      "price": 362.13,
+      "amount": 380960.76,
+      "avg_price": 362.13
+    },
+    "ADR": {
+      "name": "TSMC",
+      "share": 858.0,
+      "weight": 1.04,
+      "price": 0.0,
+      "amount": 0.0,
+      "avg_price": 0.0
+    },
+    "PLTR": {
+      "name": "Palantir Technologies",
+      "share": 2073.0,
+      "weight": 1.03,
+      "price": 190.805,
+      "amount": 395538.765,
+      "avg_price": 190.805
+    },
+    "SNDK": {
+      "name": "Sandisk",
+      "share": 194.0,
+      "weight": 0.99,
+      "price": 1840.725,
+      "amount": 357100.64999999997,
+      "avg_price": 1840.725
+    },
+    "AMZN": {
+      "name": "Amazon",
+      "share": 1437.0,
+      "weight": 0.99,
+      "price": 250.3,
+      "amount": 359681.10000000003,
+      "avg_price": 250.3
+    },
+    "MPWR": {
+      "name": "Monolithic Power Systems",
+      "share": 261.0,
+      "weight": 0.97,
+      "price": 1324.155,
+      "amount": 345604.455,
+      "avg_price": 1324.155
+    },
+    "FIGR": {
+      "name": "Figure",
+      "share": 8670.0,
+      "weight": 0.87,
+      "price": 35.342,
+      "amount": 306415.14,
+      "avg_price": 35.342
+    },
+    "U": {
+      "name": "Unity Software",
+      "share": 7435.0,
+      "weight": 0.86,
+      "price": 42.555,
+      "amount": 316396.425,
+      "avg_price": 42.555
+    },
+    "CRDO": {
+      "name": "Credo",
+      "share": 1627.0,
+      "weight": 0.84,
+      "price": 194.29,
+      "amount": 316109.82999999996,
+      "avg_price": 194.29
+    },
+    "CDNS": {
+      "name": "Cadence Design Systems",
+      "share": 1018.0,
+      "weight": 0.83,
+      "price": 308.995,
+      "amount": 314556.91000000003,
+      "avg_price": 308.995
+    },
+    "SPCX": {
+      "name": "SpaceX",
+      "share": 1951.0,
+      "weight": 0.81,
+      "price": 152.265,
+      "amount": 297069.01499999996,
+      "avg_price": 152.265
+    },
+    "ROK": {
+      "name": "Rockwell Automation",
+      "share": 703.0,
+      "weight": 0.81,
+      "price": 434.615,
+      "amount": 305534.34500000003,
+      "avg_price": 434.615
+    },
+    "MTSI": {
+      "name": "MACOM Technology Solutions",
+      "share": 1023.0,
+      "weight": 0.77,
+      "price": 277.3,
+      "amount": 283677.9,
+      "avg_price": 277.3
+    },
+    "MDB": {
+      "name": "MongoDB",
+      "share": 657.0,
+      "weight": 0.76,
+      "price": 433.43,
+      "amount": 284763.51,
+      "avg_price": 433.43
+    },
+    "LMND": {
+      "name": "Lemonade",
+      "share": 5601.0,
+      "weight": 0.72,
+      "price": 45.44,
+      "amount": 254509.43999999997,
+      "avg_price": 45.44
+    },
+    "CRWV": {
+      "name": "CoreWeave",
+      "share": 3070.0,
+      "weight": 0.72,
+      "price": 89.34,
+      "amount": 274273.8,
+      "avg_price": 89.34
+    },
+    "XYZ": {
+      "name": "Block",
+      "share": 3435.0,
+      "weight": 0.72,
+      "price": 75.317,
+      "amount": 258713.895,
+      "avg_price": 75.317
+    },
+    "ESTC": {
+      "name": "Elastic",
+      "share": 2871.0,
+      "weight": 0.69,
+      "price": 90.23,
+      "amount": 259050.33000000002,
+      "avg_price": 90.23
+    },
+    "ENTG": {
+      "name": "Entegris",
+      "share": 1612.0,
+      "weight": 0.66,
+      "price": 151.55,
+      "amount": 244298.6,
+      "avg_price": 151.55
+    },
+    "VEEV": {
+      "name": "Veeva Systems",
+      "share": 912.0,
+      "weight": 0.64,
+      "price": 269.38,
+      "amount": 245674.56,
+      "avg_price": 269.38
+    },
+    "ALAB": {
+      "name": "Astera Labs",
+      "share": 578.0,
+      "weight": 0.57,
+      "price": 357.24,
+      "amount": 206484.72,
+      "avg_price": 357.24
+    },
+    "WRBY": {
+      "name": "Warby Parker",
+      "share": 9116.0,
+      "weight": 0.56,
+      "price": 23.27,
+      "amount": 212129.32,
+      "avg_price": 23.27
+    },
+    "NU": {
+      "name": "Nu",
+      "share": 14586.0,
+      "weight": 0.56,
+      "price": 13.98,
+      "amount": 203912.28,
+      "avg_price": 13.98
+    },
+    "OKTA": {
+      "name": "Okta",
+      "share": 1041.0,
+      "weight": 0.55,
+      "price": 203.045,
+      "amount": 211369.845,
+      "avg_price": 203.045
+    },
+    "SYM": {
+      "name": "Symbotic",
+      "share": 4252.0,
+      "weight": 0.52,
+      "price": 44.165,
+      "amount": 187789.58,
+      "avg_price": 44.165
+    },
+    "ALGM": {
+      "name": "Allegro MicroSystems",
+      "share": 5445.0,
+      "weight": 0.52,
+      "price": 35.42,
+      "amount": 192861.90000000002,
+      "avg_price": 35.42
+    },
+    "VICR": {
+      "name": "Vicor Corporation",
+      "share": 709.0,
+      "weight": 0.51,
+      "price": 274.75,
+      "amount": 194797.75,
+      "avg_price": 274.75
+    },
+    "TTMI": {
+      "name": "TTM Technologies",
+      "share": 1484.0,
+      "weight": 0.51,
+      "price": 126.5,
+      "amount": 187726.0,
+      "avg_price": 126.5
+    },
+    "TXG": {
+      "name": "10x Genomics",
+      "share": 2211.0,
+      "weight": 0.48,
+      "price": 77.775,
+      "amount": 171960.52500000002,
+      "avg_price": 77.775
+    },
+    "SMCI": {
+      "name": "Super Micro Computer",
+      "share": 4049.0,
+      "weight": 0.45,
+      "price": 41.465,
+      "amount": 167891.785,
+      "avg_price": 41.465
+    },
+    "ADSK": {
+      "name": "Autodesk",
+      "share": 768.0,
+      "weight": 0.45,
+      "price": 219.355,
+      "amount": 168464.63999999998,
+      "avg_price": 219.355
+    },
+    "ILMN": {
+      "name": "Illumina",
+      "share": 648.0,
+      "weight": 0.43,
+      "price": 251.215,
+      "amount": 162787.32,
+      "avg_price": 251.215
+    },
+    "TWST": {
+      "name": "Twist Bioscience",
+      "share": 515.0,
+      "weight": 0.23,
+      "price": 158.145,
+      "amount": 81444.675,
+      "avg_price": 158.145
+    },
+    "CBRS": {
+      "name": "Cerebras",
+      "share": 296.0,
+      "weight": 0.17,
+      "price": 207.5,
+      "amount": 61420.0,
+      "avg_price": 207.5
+    },
+    "GENB": {
+      "name": "Generate Biomedicines",
+      "share": 2245.0,
+      "weight": 0.11,
+      "price": 16.66,
+      "amount": 37401.7,
+      "avg_price": 16.66
+    }
+  },
+  "previous": {
+    "NVDA": {
+      "name": "NVIDIA",
+      "share": 7451.0,
+      "weight": 4.59,
+      "price": 225.47,
+      "amount": 1679976.97,
+      "avg_price": 225.47
+    },
+    "AVGO": {
+      "name": "Broadcom",
+      "share": 3703.0,
+      "weight": 3.63,
+      "price": 356.39,
+      "amount": 1319712.17,
+      "avg_price": 356.39
+    },
+    "META": {
+      "name": "Meta",
+      "share": 1778.0,
+      "weight": 3.53,
+      "price": 750.83,
+      "amount": 1334975.74,
+      "avg_price": 750.83
+    },
+    "CRWD": {
+      "name": "CrowdStrike Holdings",
+      "share": 5060.0,
+      "weight": 3.41,
+      "price": 258.165,
+      "amount": 1306314.9000000001,
+      "avg_price": 258.165
+    },
+    "INTC": {
+      "name": "Intel",
+      "share": 10086.0,
+      "weight": 3.36,
+      "price": 120.905,
+      "amount": 1219447.83,
+      "avg_price": 120.905
+    },
+    "PANW": {
+      "name": "Palo Alto",
+      "share": 3316.0,
+      "weight": 3.34,
+      "price": 386.16,
+      "amount": 1280506.56,
+      "avg_price": 386.16
+    },
+    "AMD": {
+      "name": "AMD",
+      "share": 1885.0,
+      "weight": 3.17,
+      "price": 614.94,
+      "amount": 1159161.9000000001,
+      "avg_price": 614.94
+    },
+    "CRM": {
+      "name": "Salesforce",
+      "share": 4856.0,
+      "weight": 3.05,
+      "price": 237.695,
+      "amount": 1154246.92,
+      "avg_price": 237.695
+    },
+    "SNOW": {
+      "name": "Snowflake",
+      "share": 3185.0,
+      "weight": 2.89,
+      "price": 340.14,
+      "amount": 1083345.9,
+      "avg_price": 340.14
+    },
+    "TSLA": {
+      "name": "Tesla",
+      "share": 2831.0,
+      "weight": 2.89,
+      "price": 379.91,
+      "amount": 1075525.21,
+      "avg_price": 379.91
+    },
+    "NET": {
+      "name": "Cloudflare",
+      "share": 2996.0,
+      "weight": 2.85,
+      "price": 356.32,
+      "amount": 1067534.72,
+      "avg_price": 356.32
+    },
+    "TTWO": {
+      "name": "Take-Two",
+      "share": 5087.0,
+      "weight": 2.82,
+      "price": 207.64,
+      "amount": 1056264.68,
+      "avg_price": 207.64
+    },
+    "MSFT": {
+      "name": "Microsoft",
+      "share": 1979.0,
+      "weight": 2.65,
+      "price": 497.288,
+      "amount": 984132.952,
+      "avg_price": 497.288
+    },
+    "LRCX": {
+      "name": "Lam Research",
+      "share": 2878.0,
+      "weight": 2.41,
+      "price": 305.84,
+      "amount": 880207.5199999999,
+      "avg_price": 305.84
+    },
+    "TWLO": {
+      "name": "Twilio",
+      "share": 3142.0,
+      "weight": 2.41,
+      "price": 294.635,
+      "amount": 925743.1699999999,
+      "avg_price": 294.635
+    },
+    "SHOP": {
+      "name": "Shopify",
+      "share": 6061.0,
+      "weight": 2.41,
+      "price": 140.41,
+      "amount": 851025.01,
+      "avg_price": 140.41
+    },
+    "GOOG": {
+      "name": "Alphabet - Class C Capital Stock",
+      "share": 2494.0,
+      "weight": 2.33,
+      "price": 338.085,
+      "amount": 843183.99,
+      "avg_price": 338.085
+    },
+    "ASML": {
+      "name": "ASML Holding",
+      "share": 450.0,
+      "weight": 2.12,
+      "price": 1728.83,
+      "amount": 777973.5,
+      "avg_price": 1728.83
+    },
+    "HOOD": {
+      "name": "Robinhood Markets",
+      "share": 6266.0,
+      "weight": 2.1,
+      "price": 125.49,
+      "amount": 786320.34,
+      "avg_price": 125.49
+    },
+    "NOW": {
+      "name": "ServiceNow",
+      "share": 4941.0,
+      "weight": 1.82,
+      "price": 138.9,
+      "amount": 686304.9,
+      "avg_price": 138.9
+    },
+    "HUBS": {
+      "name": "HubSpot",
+      "share": 2873.0,
+      "weight": 1.69,
+      "price": 224.535,
+      "amount": 645089.0549999999,
+      "avg_price": 224.535
+    },
+    "LITE": {
+      "name": "Lumentum",
+      "share": 665.0,
+      "weight": 1.69,
+      "price": 954.0,
+      "amount": 634410.0,
+      "avg_price": 954.0
+    },
+    "DOCN": {
+      "name": "DigitalOcean",
+      "share": 4175.0,
+      "weight": 1.64,
+      "price": 140.33,
+      "amount": 585877.75,
+      "avg_price": 140.33
+    },
+    "ZM": {
+      "name": "Zoom",
+      "share": 6268.0,
+      "weight": 1.54,
+      "price": 92.53,
+      "amount": 579978.04,
+      "avg_price": 92.53
+    },
+    "ADBE": {
+      "name": "Adobe",
+      "share": 2273.0,
+      "weight": 1.46,
+      "price": 240.175,
+      "amount": 545917.775,
+      "avg_price": 240.175
+    },
+    "TXN": {
+      "name": "Texas Instruments",
+      "share": 1914.0,
+      "weight": 1.4,
+      "price": 271.27,
+      "amount": 519210.77999999997,
+      "avg_price": 271.27
+    },
+    "RIVN": {
+      "name": "Rivian",
+      "share": 31258.0,
+      "weight": 1.27,
+      "price": 14.96,
+      "amount": 467619.68000000005,
+      "avg_price": 14.96
+    },
+    "BE": {
+      "name": "Bloom Energy",
+      "share": 1696.0,
+      "weight": 1.26,
+      "price": 277.85,
+      "amount": 471233.60000000003,
+      "avg_price": 277.85
+    },
+    "TEAM": {
+      "name": "Atlassian",
+      "share": 2412.0,
+      "weight": 1.23,
+      "price": 194.725,
+      "amount": 469676.7,
+      "avg_price": 194.725
+    },
+    "TEM": {
+      "name": "Tempus",
+      "share": 5821.0,
+      "weight": 1.21,
+      "price": 76.63,
+      "amount": 446063.23,
+      "avg_price": 76.63
+    },
+    "MU": {
+      "name": "Micron",
+      "share": 403.0,
+      "weight": 1.19,
+      "price": 1079.57,
+      "amount": 435066.70999999996,
+      "avg_price": 1079.57
+    },
+    "GLW": {
+      "name": "Corning",
+      "share": 2486.0,
+      "weight": 1.07,
+      "price": 155.29,
+      "amount": 386050.94,
+      "avg_price": 155.29
+    },
+    "ADI": {
+      "name": "Analog Devices",
+      "share": 1006.0,
+      "weight": 1.06,
+      "price": 384.09,
+      "amount": 386394.54,
+      "avg_price": 384.09
+    },
+    "CIEN": {
+      "name": "Ciena",
+      "share": 1052.0,
+      "weight": 1.04,
+      "price": 362.13,
+      "amount": 380960.76,
+      "avg_price": 362.13
+    },
+    "ADR": {
+      "name": "TSMC",
+      "share": 858.0,
+      "weight": 1.04,
+      "price": 0.0,
+      "amount": 0.0,
+      "avg_price": 0.0
+    },
+    "PLTR": {
+      "name": "Palantir Technologies",
+      "share": 2073.0,
+      "weight": 1.03,
+      "price": 190.805,
+      "amount": 395538.765,
+      "avg_price": 190.805
+    },
+    "SNDK": {
+      "name": "Sandisk",
+      "share": 194.0,
+      "weight": 0.99,
+      "price": 1840.725,
+      "amount": 357100.64999999997,
+      "avg_price": 1840.725
+    },
+    "AMZN": {
+      "name": "Amazon",
+      "share": 1437.0,
+      "weight": 0.99,
+      "price": 250.3,
+      "amount": 359681.10000000003,
+      "avg_price": 250.3
+    },
+    "MPWR": {
+      "name": "Monolithic Power Systems",
+      "share": 261.0,
+      "weight": 0.97,
+      "price": 1324.155,
+      "amount": 345604.455,
+      "avg_price": 1324.155
+    },
+    "FIGR": {
+      "name": "Figure",
+      "share": 8670.0,
+      "weight": 0.87,
+      "price": 35.342,
+      "amount": 306415.14,
+      "avg_price": 35.342
+    },
+    "U": {
+      "name": "Unity Software",
+      "share": 7435.0,
+      "weight": 0.86,
+      "price": 42.555,
+      "amount": 316396.425,
+      "avg_price": 42.555
+    },
+    "CRDO": {
+      "name": "Credo",
+      "share": 1627.0,
+      "weight": 0.84,
+      "price": 194.29,
+      "amount": 316109.82999999996,
+      "avg_price": 194.29
+    },
+    "CDNS": {
+      "name": "Cadence Design Systems",
+      "share": 1018.0,
+      "weight": 0.83,
+      "price": 308.995,
+      "amount": 314556.91000000003,
+      "avg_price": 308.995
+    },
+    "SPCX": {
+      "name": "SpaceX",
+      "share": 1951.0,
+      "weight": 0.81,
+      "price": 152.265,
+      "amount": 297069.01499999996,
+      "avg_price": 152.265
+    },
+    "ROK": {
+      "name": "Rockwell Automation",
+      "share": 703.0,
+      "weight": 0.81,
+      "price": 434.615,
+      "amount": 305534.34500000003,
+      "avg_price": 434.615
+    },
+    "MTSI": {
+      "name": "MACOM Technology Solutions",
+      "share": 1023.0,
+      "weight": 0.77,
+      "price": 277.3,
+      "amount": 283677.9,
+      "avg_price": 277.3
+    },
+    "MDB": {
+      "name": "MongoDB",
+      "share": 657.0,
+      "weight": 0.76,
+      "price": 433.43,
+      "amount": 284763.51,
+      "avg_price": 433.43
+    },
+    "LMND": {
+      "name": "Lemonade",
+      "share": 5601.0,
+      "weight": 0.72,
+      "price": 45.44,
+      "amount": 254509.43999999997,
+      "avg_price": 45.44
+    },
+    "CRWV": {
+      "name": "CoreWeave",
+      "share": 3070.0,
+      "weight": 0.72,
+      "price": 89.34,
+      "amount": 274273.8,
+      "avg_price": 89.34
+    },
+    "XYZ": {
+      "name": "Block",
+      "share": 3435.0,
+      "weight": 0.72,
+      "price": 75.317,
+      "amount": 258713.895,
+      "avg_price": 75.317
+    },
+    "ESTC": {
+      "name": "Elastic",
+      "share": 2871.0,
+      "weight": 0.69,
+      "price": 90.23,
+      "amount": 259050.33000000002,
+      "avg_price": 90.23
+    },
+    "ENTG": {
+      "name": "Entegris",
+      "share": 1612.0,
+      "weight": 0.66,
+      "price": 151.55,
+      "amount": 244298.6,
+      "avg_price": 151.55
+    },
+    "VEEV": {
+      "name": "Veeva Systems",
+      "share": 912.0,
+      "weight": 0.64,
+      "price": 269.38,
+      "amount": 245674.56,
+      "avg_price": 269.38
+    },
+    "ALAB": {
+      "name": "Astera Labs",
+      "share": 578.0,
+      "weight": 0.57,
+      "price": 357.24,
+      "amount": 206484.72,
+      "avg_price": 357.24
+    },
+    "WRBY": {
+      "name": "Warby Parker",
+      "share": 9116.0,
+      "weight": 0.56,
+      "price": 23.27,
+      "amount": 212129.32,
+      "avg_price": 23.27
+    },
+    "NU": {
+      "name": "Nu",
+      "share": 14586.0,
+      "weight": 0.56,
+      "price": 13.98,
+      "amount": 203912.28,
+      "avg_price": 13.98
+    },
+    "OKTA": {
+      "name": "Okta",
+      "share": 1041.0,
+      "weight": 0.55,
+      "price": 203.045,
+      "amount": 211369.845,
+      "avg_price": 203.045
+    },
+    "SYM": {
+      "name": "Symbotic",
+      "share": 4252.0,
+      "weight": 0.52,
+      "price": 44.165,
+      "amount": 187789.58,
+      "avg_price": 44.165
+    },
+    "ALGM": {
+      "name": "Allegro MicroSystems",
+      "share": 5445.0,
+      "weight": 0.52,
+      "price": 35.42,
+      "amount": 192861.90000000002,
+      "avg_price": 35.42
+    },
+    "VICR": {
+      "name": "Vicor Corporation",
+      "share": 709.0,
+      "weight": 0.51,
+      "price": 274.75,
+      "amount": 194797.75,
+      "avg_price": 274.75
+    },
+    "TTMI": {
+      "name": "TTM Technologies",
+      "share": 1484.0,
+      "weight": 0.51,
+      "price": 126.5,
+      "amount": 187726.0,
+      "avg_price": 126.5
+    },
+    "TXG": {
+      "name": "10x Genomics",
+      "share": 2211.0,
+      "weight": 0.48,
+      "price": 77.775,
+      "amount": 171960.52500000002,
+      "avg_price": 77.775
+    },
+    "SMCI": {
+      "name": "Super Micro Computer",
+      "share": 4049.0,
+      "weight": 0.45,
+      "price": 41.465,
+      "amount": 167891.785,
+      "avg_price": 41.465
+    },
+    "ADSK": {
+      "name": "Autodesk",
+      "share": 768.0,
+      "weight": 0.45,
+      "price": 219.355,
+      "amount": 168464.63999999998,
+      "avg_price": 219.355
+    },
+    "ILMN": {
+      "name": "Illumina",
+      "share": 648.0,
+      "weight": 0.43,
+      "price": 251.215,
+      "amount": 162787.32,
+      "avg_price": 251.215
+    },
+    "TWST": {
+      "name": "Twist Bioscience",
+      "share": 515.0,
+      "weight": 0.23,
+      "price": 158.145,
+      "amount": 81444.675,
+      "avg_price": 158.145
+    },
+    "CBRS": {
+      "name": "Cerebras",
+      "share": 296.0,
+      "weight": 0.17,
+      "price": 207.5,
+      "amount": 61420.0,
+      "avg_price": 207.5
+    },
+    "GENB": {
+      "name": "Generate Biomedicines",
+      "share": 2245.0,
+      "weight": 0.11,
+      "price": 16.66,
+      "amount": 37401.7,
+      "avg_price": 16.66
+    }
+  },
+  "current_nav": 17.8,
+  "previous_nav": 17.8
+}

@@ -115,5 +115,158 @@
         "frequency": "不明",
         "scraper": "moneydj",
         "fund_code": ""
+    },
+    {
+        "code": "00401A",
+        "name": "主動摩根台灣鑫收",
+        "company": "摩根投信",
+        "type": "國內股票",
+        "frequency": "不明",
+        "scraper": "moneydj",
+        "fund_code": ""
+    },
+    {
+        "code": "00402A",
+        "name": "主動安聯美國科技",
+        "company": "安聯投信",
+        "type": "海外股票",
+        "frequency": "不明",
+        "scraper": "moneydj",
+        "fund_code": ""
+    },
+    {
+        "code": "00404A",
+        "name": "主動聯博動能50",
+        "company": "聯博投信",
+        "type": "國內股票",
+        "frequency": "不明",
+        "scraper": "moneydj",
+        "fund_code": ""
+    },
+    {
+        "code": "00405A",
+        "name": "主動富邦台灣龍耀",
+        "company": "富邦投信",
+        "type": "國內股票",
+        "frequency": "不明",
+        "scraper": "moneydj",
+        "fund_code": ""
+    },
+    {
+        "code": "00406A",
+        "name": "主動中信台灣收益",
+        "company": "中信投信",
+        "type": "國內股票",
+        "frequency": "不明",
+        "scraper": "moneydj",
+        "fund_code": ""
+    },
+    {
+        "code": "00407A",
+        "name": "主動凱基台灣",
+        "company": "凱基投信",
+        "type": "國內股票",
+        "frequency": "不明",
+        "scraper": "moneydj",
+        "fund_code": ""
+    },
+    {
+        "code": "00408A",
+        "name": "主動第一金優股息",
+        "company": "第一金投信",
+        "type": "國內股票",
+        "frequency": "不明",
+        "scraper": "moneydj",
+        "fund_code": ""
+    },
+    {
+        "code": "00409A",
+        "name": "主動復華全球50",
+        "company": "復華投信",
+        "type": "海外股票",
+        "frequency": "不明",
+        "scraper": "moneydj",
+        "fund_code": ""
+    },
+    {
+        "code": "00983A",
+        "name": "主動中信ARK創新",
+        "company": "中信投信",
+        "type": "海外股票",
+        "frequency": "不明",
+        "scraper": "moneydj",
+        "fund_code": ""
+    },
+    {
+        "code": "00986A",
+        "name": "主動台新龍頭成長",
+        "company": "台新投信",
+        "type": "國內股票",
+        "frequency": "不明",
+        "scraper": "moneydj",
+        "fund_code": ""
+    },
+    {
+        "code": "00988A",
+        "name": "主動統一全球創新",
+        "company": "統一投信",
+        "type": "海外股票",
+        "frequency": "不明",
+        "scraper": "moneydj",
+        "fund_code": ""
+    },
+    {
+        "code": "00989A",
+        "name": "主動摩根美國科技",
+        "company": "摩根投信",
+        "type": "海外股票",
+        "frequency": "不明",
+        "scraper": "moneydj",
+        "fund_code": ""
+    },
+    {
+        "code": "00990A",
+        "name": "主動元大AI新經濟",
+        "company": "元大投信",
+        "type": "海外股票",
+        "frequency": "不明",
+        "scraper": "moneydj",
+        "fund_code": ""
+    },
+    {
+        "code": "00996A",
+        "name": "主動兆豐台灣豐收",
+        "company": "兆豐投信",
+        "type": "國內股票",
+        "frequency": "不明",
+        "scraper": "moneydj",
+        "fund_code": ""
+    },
+    {
+        "code": "00997A",
+        "name": "主動群益美國增長",
+        "company": "群益投信",
+        "type": "海外股票",
+        "frequency": "不明",
+        "scraper": "moneydj",
+        "fund_code": ""
+    },
+    {
+        "code": "00998A",
+        "name": "主動復華金融股息",
+        "company": "復華投信",
+        "type": "國內股票",
+        "frequency": "不明",
+        "scraper": "moneydj",
+        "fund_code": ""
+    },
+    {
+        "code": "00999A",
+        "name": "主動野村臺灣高息",
+        "company": "野村投信",
+        "type": "國內股票",
+        "frequency": "不明",
+        "scraper": "moneydj",
+        "fund_code": ""
     }
 ]
