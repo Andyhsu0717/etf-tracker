@@ -1,58 +1,74 @@
 {
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "current": {
     "V": {
       "name": "Visa",
       "share": 17000.0,
-      "weight": 3.05,
-      "price": 392.095,
-      "amount": 6665615.0,
+      "weight": 3.02,
+      "price": 395.975,
+      "amount": 6731575.0,
       "avg_price": 372.5855882352941
+    },
+    "JPM": {
+      "name": "JPMorgan Chase",
+      "share": 15000.0,
+      "weight": 2.28,
+      "price": 334.98,
+      "amount": 5024700.0,
+      "avg_price": 336.28
     },
     "EQH": {
       "name": "Equitable Holdings",
       "share": 95000.0,
-      "weight": 2.29,
-      "price": 52.94,
-      "amount": 5029300.0,
+      "weight": 2.28,
+      "price": 51.82,
+      "amount": 4922900.0,
       "avg_price": 52.88815789473684
     },
     "8411.JP": {
       "name": "Mizuho Financial",
       "share": 95000.0,
-      "weight": 2.28,
+      "weight": 2.22,
       "price": 0.0,
       "amount": 0.0,
       "avg_price": 0.0
     },
-    "JPM": {
-      "name": "JPMorgan Chase",
-      "share": 15000.0,
-      "weight": 2.25,
-      "price": 331.88,
-      "amount": 4978200.0,
-      "avg_price": 336.28
-    },
     "MRX": {
       "name": "Marex",
       "share": 60000.0,
-      "weight": 1.96,
-      "price": 71.31,
-      "amount": 4278600.0,
+      "weight": 1.89,
+      "price": 70.445,
+      "amount": 4226700.0,
       "avg_price": 72.98183333333333
     },
     "C": {
       "name": "Citigroup",
       "share": 34000.0,
-      "weight": 1.92,
-      "price": 122.9,
-      "amount": 4178600.0,
+      "weight": 1.89,
+      "price": 121.5,
+      "amount": 4131000.0,
       "avg_price": 130.005
+    },
+    "2882": {
+      "name": "國泰金",
+      "share": 1100000.0,
+      "weight": 1.77,
+      "price": 113.5,
+      "amount": 124850000.0,
+      "avg_price": 113.5
+    },
+    "2885": {
+      "name": "元大金",
+      "share": 1700000.0,
+      "weight": 1.73,
+      "price": 72.7,
+      "amount": 123590000.0,
+      "avg_price": 70.81470588235292
     },
     "7167.JP": {
       "name": "Mebuki Financial Group",
       "share": 330000.0,
-      "weight": 1.57,
+      "weight": 1.51,
       "price": 0.0,
       "amount": 0.0,
       "avg_price": 0.0
@@ -60,31 +76,23 @@
     "8308.JP": {
       "name": "Resona",
       "share": 220000.0,
-      "weight": 1.54,
+      "weight": 1.48,
       "price": 0.0,
       "amount": 0.0,
       "avg_price": 0.0
     },
-    "2882": {
-      "name": "國泰金",
-      "share": 900000.0,
-      "weight": 1.45,
-      "price": 114.0,
-      "amount": 102600000.0,
-      "avg_price": 113.5
-    },
     "BLK": {
       "name": "BlackRock",
       "share": 3000.0,
-      "weight": 1.45,
-      "price": 1075.295,
-      "amount": 3225885.0,
+      "weight": 1.46,
+      "price": 1087.965,
+      "amount": 3263894.9999999995,
       "avg_price": 1065.64
     },
     "8331.JP": {
       "name": "Chiba Bank",
       "share": 175000.0,
-      "weight": 1.36,
+      "weight": 1.32,
       "price": 0.0,
       "amount": 0.0,
       "avg_price": 0.0
@@ -92,79 +100,71 @@
     "055550.KS": {
       "name": "SHINHAN FINANCIAL GROUP",
       "share": 40000.0,
-      "weight": 1.35,
-      "price": 95000.0,
-      "amount": 3800000000.0,
-      "avg_price": 109300.0
-    },
-    "2885": {
-      "name": "元大金",
-      "share": 1300000.0,
       "weight": 1.29,
-      "price": 72.2,
-      "amount": 93860000.0,
-      "avg_price": 70.23461538461537
+      "price": 94200.0,
+      "amount": 3768000000.0,
+      "avg_price": 109300.0
     },
     "MS": {
       "name": "Morgan Stanley",
       "share": 15000.0,
-      "weight": 1.27,
-      "price": 180.665,
-      "amount": 2709975.0,
+      "weight": 1.24,
+      "price": 178.73,
+      "amount": 2680950.0,
       "avg_price": 187.69
     },
     "VCTR": {
       "name": "Victory Capital Holdings",
       "share": 25000.0,
-      "weight": 1.24,
-      "price": 106.305,
-      "amount": 2657625.0,
+      "weight": 1.21,
+      "price": 106.365,
+      "amount": 2659125.0,
       "avg_price": 108.735
     },
     "CHYM": {
       "name": "Chime",
       "share": 90000.0,
-      "weight": 1.22,
-      "price": 28.88,
-      "amount": 2599200.0,
+      "weight": 1.19,
+      "price": 28.93,
+      "amount": 2603700.0,
       "avg_price": 27.1
-    },
-    "HOOD": {
-      "name": "Robinhood Markets",
-      "share": 24000.0,
-      "weight": 1.2,
-      "price": 103.514,
-      "amount": 2484336.0,
-      "avg_price": 121.29275
     },
     "8725.JP": {
       "name": "MS&AD Insurance Group Holdings",
       "share": 80000.0,
-      "weight": 1.15,
+      "weight": 1.14,
       "price": 0.0,
       "amount": 0.0,
       "avg_price": 0.0
     },
+    "HOOD": {
+      "name": "Robinhood Markets",
+      "share": 24000.0,
+      "weight": 1.1,
+      "price": 99.195,
+      "amount": 2380680.0,
+      "avg_price": 121.29275
+    },
     "IBKR": {
       "name": "Interactive Brokers",
       "share": 28000.0,
-      "weight": 1.11,
-      "price": 85.175,
-      "amount": 2384900.0,
+      "weight": 1.07,
+      "price": 83.21,
+      "amount": 2329880.0,
       "avg_price": 90.91875
     },
     "2881": {
       "name": "富邦金",
       "share": 470000.0,
-      "weight": 1.06,
-      "price": 160.5,
-      "amount": 75435000.0,
+      "weight": 1.07,
+      "price": 159.5,
+      "amount": 74965000.0,
       "avg_price": 160.0
     },
     "8309.JP": {
       "name": "Sumitomo Mitsui Trust Group",
       "share": 200000.0,
-      "weight": 0.99,
+      "weight": 0.96,
       "price": 0.0,
       "amount": 0.0,
       "avg_price": 0.0
@@ -172,57 +172,57 @@
     "105560.KS": {
       "name": "KB Financial Group",
       "share": 14000.0,
-      "weight": 0.77,
-      "price": 159200.0,
-      "amount": 2228800000.0,
-      "avg_price": 166000.0
-    },
-    "000810.KS": {
-      "name": "Samsung Fire & Marine Insurance",
-      "share": 3700.0,
       "weight": 0.76,
-      "price": 582000.0,
-      "amount": 2153400000.0,
-      "avg_price": 626000.0
+      "price": 156700.0,
+      "amount": 2193800000.0,
+      "avg_price": 166000.0
     },
     "UBS": {
       "name": "UBS Group",
       "share": 35000.0,
-      "weight": 0.76,
-      "price": 47.01,
-      "amount": 1645350.0,
+      "weight": 0.75,
+      "price": 47.38,
+      "amount": 1658300.0,
       "avg_price": 48.225
     },
     "GPN": {
       "name": "Global Payments",
       "share": 20000.0,
       "weight": 0.74,
-      "price": 80.105,
-      "amount": 1602100.0,
+      "price": 82.66,
+      "amount": 1653200.0,
       "avg_price": 84.585
     },
-    "8377.JP": {
-      "name": "Hokuhoku FG",
-      "share": 250000.0,
-      "weight": 0.59,
-      "price": 0.0,
-      "amount": 0.0,
-      "avg_price": 0.0
+    "000810.KS": {
+      "name": "Samsung Fire & Marine Insurance",
+      "share": 3700.0,
+      "weight": 0.73,
+      "price": 580000.0,
+      "amount": 2146000000.0,
+      "avg_price": 626000.0
     },
     "BNY": {
       "name": "Bank of New York Mellon",
       "share": 9000.0,
-      "weight": 0.58,
-      "price": 136.28,
-      "amount": 1226520.0,
+      "weight": 0.56,
+      "price": 136.89,
+      "amount": 1232009.9999999998,
       "avg_price": 150.9
+    },
+    "8377.JP": {
+      "name": "Hokuhoku FG",
+      "share": 250000.0,
+      "weight": 0.56,
+      "price": 0.0,
+      "amount": 0.0,
+      "avg_price": 0.0
     },
     "WFC": {
       "name": "Wells Fargo",
       "share": 15000.0,
       "weight": 0.55,
-      "price": 79.062,
-      "amount": 1185930.0,
+      "price": 82.055,
+      "amount": 1230825.0,
       "avg_price": 82.805
     }
   },
@@ -230,55 +230,55 @@
     "000810.KS": {
       "name": "Samsung Fire & Marine Insurance",
       "share": 3700.0,
-      "weight": 0.78,
-      "amount": 2264400000.0,
-      "price": 612000.0,
+      "weight": 0.76,
+      "amount": 2153400000.0,
+      "price": 582000.0,
       "avg_price": 626000.0
     },
     "055550.KS": {
       "name": "SHINHAN FINANCIAL GROUP",
       "share": 40000.0,
-      "weight": 1.37,
-      "amount": 3988000000.0,
-      "price": 99700.0,
+      "weight": 1.35,
+      "amount": 3800000000.0,
+      "price": 95000.0,
       "avg_price": 109300.0
     },
     "105560.KS": {
       "name": "KB Financial Group",
       "share": 14000.0,
-      "weight": 0.78,
-      "amount": 2273600000.0,
-      "price": 162400.0,
+      "weight": 0.77,
+      "amount": 2228800000.0,
+      "price": 159200.0,
       "avg_price": 166000.0
     },
     "2881": {
       "name": "富邦金",
       "share": 470000.0,
       "weight": 1.06,
-      "amount": 75200000.0,
-      "price": 160.0,
+      "amount": 75435000.0,
+      "price": 160.5,
       "avg_price": 160.0
     },
     "2882": {
       "name": "國泰金",
       "share": 900000.0,
       "weight": 1.45,
-      "amount": 103050000.0,
-      "price": 114.5,
+      "amount": 102600000.0,
+      "price": 114.0,
       "avg_price": 113.5
     },
     "2885": {
       "name": "元大金",
       "share": 1300000.0,
-      "weight": 1.3,
-      "amount": 91780000.0,
-      "price": 70.6,
+      "weight": 1.29,
+      "amount": 93860000.0,
+      "price": 72.2,
       "avg_price": 70.23461538461537
     },
     "7167.JP": {
       "name": "Mebuki Financial Group",
       "share": 330000.0,
-      "weight": 1.54,
+      "weight": 1.57,
       "amount": 0.0,
       "price": 0.0,
       "avg_price": 0.0
@@ -286,7 +286,7 @@
     "8308.JP": {
       "name": "Resona",
       "share": 220000.0,
-      "weight": 1.51,
+      "weight": 1.54,
       "amount": 0.0,
       "price": 0.0,
       "avg_price": 0.0
@@ -294,7 +294,7 @@
     "8309.JP": {
       "name": "Sumitomo Mitsui Trust Group",
       "share": 200000.0,
-      "weight": 0.97,
+      "weight": 0.99,
       "amount": 0.0,
       "price": 0.0,
       "avg_price": 0.0
@@ -302,7 +302,7 @@
     "8331.JP": {
       "name": "Chiba Bank",
       "share": 175000.0,
-      "weight": 1.34,
+      "weight": 1.36,
       "amount": 0.0,
       "price": 0.0,
       "avg_price": 0.0
@@ -318,15 +318,15 @@
     "8411.JP": {
       "name": "Mizuho Financial",
       "share": 95000.0,
-      "weight": 2.24,
+      "weight": 2.28,
       "amount": 0.0,
       "price": 0.0,
       "avg_price": 0.0
     },
     "8725.JP": {
       "name": "MS&AD Insurance Group Holdings",
-      "share": 28000.0,
-      "weight": 0.39,
+      "share": 80000.0,
+      "weight": 1.15,
       "amount": 0.0,
       "price": 0.0,
       "avg_price": 0.0
@@ -334,124 +334,124 @@
     "BLK": {
       "name": "BlackRock",
       "share": 3000.0,
-      "weight": 1.48,
-      "amount": 3221340.0,
-      "price": 1073.78,
+      "weight": 1.45,
+      "amount": 3225885.0,
+      "price": 1075.295,
       "avg_price": 1065.64
     },
     "BNY": {
       "name": "Bank of New York Mellon",
       "share": 9000.0,
       "weight": 0.58,
-      "amount": 1268775.0,
-      "price": 140.975,
+      "amount": 1226520.0,
+      "price": 136.28,
       "avg_price": 150.9
     },
     "C": {
       "name": "Citigroup",
       "share": 34000.0,
-      "weight": 2.04,
-      "amount": 4327010.0,
-      "price": 127.265,
+      "weight": 1.92,
+      "amount": 4178600.0,
+      "price": 122.9,
       "avg_price": 130.005
     },
     "CHYM": {
       "name": "Chime",
       "share": 90000.0,
-      "weight": 1.24,
-      "amount": 2666250.0,
-      "price": 29.625,
+      "weight": 1.22,
+      "amount": 2599200.0,
+      "price": 28.88,
       "avg_price": 27.1
     },
     "EQH": {
       "name": "Equitable Holdings",
       "share": 95000.0,
-      "weight": 2.31,
-      "amount": 5141875.0,
-      "price": 54.125,
+      "weight": 2.29,
+      "amount": 5029300.0,
+      "price": 52.94,
       "avg_price": 52.88815789473684
     },
     "GPN": {
       "name": "Global Payments",
       "share": 20000.0,
-      "weight": 0.75,
-      "amount": 1627500.0,
-      "price": 81.375,
+      "weight": 0.74,
+      "amount": 1602100.0,
+      "price": 80.105,
       "avg_price": 84.585
     },
     "HOOD": {
       "name": "Robinhood Markets",
       "share": 24000.0,
-      "weight": 1.19,
-      "amount": 2670480.0,
-      "price": 111.27,
+      "weight": 1.2,
+      "amount": 2484336.0,
+      "price": 103.514,
       "avg_price": 121.29275
     },
     "IBKR": {
       "name": "Interactive Brokers",
       "share": 28000.0,
-      "weight": 1.12,
-      "amount": 2415840.0,
-      "price": 86.28,
+      "weight": 1.11,
+      "amount": 2384900.0,
+      "price": 85.175,
       "avg_price": 90.91875
     },
     "JPM": {
       "name": "JPMorgan Chase",
       "share": 15000.0,
-      "weight": 2.28,
-      "amount": 5024625.0,
-      "price": 334.975,
+      "weight": 2.25,
+      "amount": 4978200.0,
+      "price": 331.88,
       "avg_price": 336.28
     },
     "MRX": {
       "name": "Marex",
       "share": 60000.0,
-      "weight": 1.97,
-      "amount": 4326000.0,
-      "price": 72.1,
+      "weight": 1.96,
+      "amount": 4278600.0,
+      "price": 71.31,
       "avg_price": 72.98183333333333
     },
     "MS": {
       "name": "Morgan Stanley",
       "share": 15000.0,
-      "weight": 1.29,
-      "amount": 2815350.0,
-      "price": 187.69,
+      "weight": 1.27,
+      "amount": 2709975.0,
+      "price": 180.665,
       "avg_price": 187.69
     },
     "UBS": {
       "name": "UBS Group",
       "share": 35000.0,
       "weight": 0.76,
-      "amount": 1678775.0000000002,
-      "price": 47.965,
+      "amount": 1645350.0,
+      "price": 47.01,
       "avg_price": 48.225
     },
     "V": {
       "name": "Visa",
       "share": 17000.0,
-      "weight": 3.0,
-      "amount": 6684230.0,
-      "price": 393.19,
+      "weight": 3.05,
+      "amount": 6665615.0,
+      "price": 392.095,
       "avg_price": 372.5855882352941
     },
     "VCTR": {
       "name": "Victory Capital Holdings",
       "share": 25000.0,
-      "weight": 1.26,
-      "amount": 2718375.0,
-      "price": 108.735,
+      "weight": 1.24,
+      "amount": 2657625.0,
+      "price": 106.305,
       "avg_price": 108.735
     },
     "WFC": {
       "name": "Wells Fargo",
       "share": 15000.0,
-      "weight": 0.57,
-      "amount": 1229250.0,
-      "price": 81.95,
+      "weight": 0.55,
+      "amount": 1185930.0,
+      "price": 79.062,
       "avg_price": 82.805
     }
   },
-  "current_nav": 16.14,
-  "previous_nav": 16.0
+  "current_nav": 16.0,
+  "previous_nav": 16.14
 }
