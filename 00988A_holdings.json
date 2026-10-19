@@ -1,210 +1,202 @@
 {
-  "date": "2026-10-16",
+  "date": "2026-10-19",
   "current": {
     "BE": {
       "name": "Bloom Energy",
       "share": 420000.0,
-      "weight": 6.82,
-      "price": 232.665,
-      "amount": 97719300.0,
+      "weight": 6.58,
+      "price": 228.52,
+      "amount": 95978400.0,
       "avg_price": 277.50380952380954
     },
     "3037": {
       "name": "欣興",
       "share": 2600000.0,
-      "weight": 5.92,
-      "price": 1090.0,
-      "amount": 2834000000.0,
+      "weight": 6.19,
+      "price": 1120.0,
+      "amount": 2912000000.0,
       "avg_price": 1160.0
     },
     "SPCX": {
       "name": "SpaceX",
       "share": 550000.0,
-      "weight": 5.62,
-      "price": 146.815,
-      "amount": 80748250.0,
+      "weight": 5.68,
+      "price": 148.88,
+      "amount": 81884000.0,
       "avg_price": 152.26
     },
     "LITE": {
       "name": "Lumentum",
       "share": 92000.0,
-      "weight": 5.5,
-      "price": 847.38,
-      "amount": 77958960.0,
+      "weight": 5.37,
+      "price": 856.97,
+      "amount": 78841240.0,
       "avg_price": 954.0
     },
     "NVDA": {
       "name": "NVIDIA",
       "share": 290000.0,
-      "weight": 4.33,
-      "price": 218.09,
-      "amount": 63246100.0,
+      "weight": 4.39,
+      "price": 218.035,
+      "amount": 63230150.0,
       "avg_price": 229.43925862068966
+    },
+    "3017": {
+      "name": "奇鋐",
+      "share": 600000.0,
+      "weight": 4.35,
+      "price": 3320.0,
+      "amount": 1992000000.0,
+      "avg_price": 3457.0
+    },
+    "PLTR": {
+      "name": "Palantir Technologies",
+      "share": 310000.0,
+      "weight": 4.08,
+      "price": 195.31,
+      "amount": 60546100.0,
+      "avg_price": 191.42451612903227
     },
     "PANW": {
       "name": "Palo Alto",
       "share": 165000.0,
-      "weight": 4.2,
-      "price": 353.315,
-      "amount": 58296975.0,
+      "weight": 3.99,
+      "price": 348.6,
+      "amount": 57519000.00000001,
       "avg_price": 387.5686363636364
     },
-    "PLTR": {
-      "name": "Palantir Technologies",
-      "share": 275000.0,
-      "weight": 3.79,
-      "price": 195.06,
-      "amount": 53641500.0,
-      "avg_price": 190.93
-    },
-    "3017": {
-      "name": "奇鋐",
-      "share": 560000.0,
-      "weight": 3.66,
-      "price": 3315.0,
-      "amount": 1856400000.0,
-      "avg_price": 3466.785714285714
+    "CRWD": {
+      "name": "CrowdStrike Holdings",
+      "share": 185754.0,
+      "weight": 2.99,
+      "price": 229.36,
+      "amount": 42604537.440000005,
+      "avg_price": 253.23549646306407
     },
     "009150.KS": {
       "name": "Samsung Elec Mech",
-      "share": 53000.0,
-      "weight": 3.16,
-      "price": 1188000.0,
-      "amount": 62964000000.0,
+      "share": 46000.0,
+      "weight": 2.9,
+      "price": 1170000.0,
+      "amount": 53820000000.0,
       "avg_price": 1507000.0
     },
-    "OKTA": {
-      "name": "Okta",
-      "share": 200000.0,
-      "weight": 2.87,
-      "price": 192.425,
-      "amount": 38485000.0,
-      "avg_price": 207.5808
-    },
-    "HOOD": {
-      "name": "Robinhood Markets",
-      "share": 400120.0,
-      "weight": 2.86,
-      "price": 104.041,
-      "amount": 41628884.92,
-      "avg_price": 125.455
+    "AMD": {
+      "name": "AMD",
+      "share": 76000.0,
+      "weight": 2.84,
+      "price": 545.758,
+      "amount": 41477608.0,
+      "avg_price": 609.3534736842105
     },
     "2383": {
       "name": "台光電",
       "share": 250000.0,
-      "weight": 2.71,
-      "price": 5165.0,
-      "amount": 1291250000.0,
+      "weight": 2.82,
+      "price": 5125.0,
+      "amount": 1281250000.0,
       "avg_price": 5020.0
     },
-    "AMD": {
-      "name": "AMD",
-      "share": 68000.0,
-      "weight": 2.63,
-      "price": 550.027,
-      "amount": 37401836.0,
-      "avg_price": 616.8352941176471
+    "HOOD": {
+      "name": "Robinhood Markets",
+      "share": 400120.0,
+      "weight": 2.8,
+      "price": 98.609,
+      "amount": 39455433.08,
+      "avg_price": 125.455
+    },
+    "OKTA": {
+      "name": "Okta",
+      "share": 200000.0,
+      "weight": 2.65,
+      "price": 191.58,
+      "amount": 38316000.0,
+      "avg_price": 207.5808
     },
     "INTC": {
       "name": "Intel",
       "share": 400000.0,
-      "weight": 2.62,
-      "price": 93.26,
-      "amount": 37304000.0,
+      "weight": 2.54,
+      "price": 93.23,
+      "amount": 37292000.0,
       "avg_price": 121.1516196831753
-    },
-    "CRWD": {
-      "name": "CrowdStrike Holdings",
-      "share": 150754.0,
-      "weight": 2.53,
-      "price": 233.87,
-      "amount": 35256837.980000004,
-      "avg_price": 258.778582392507
     },
     "MRVL": {
       "name": "Marvell",
       "share": 150000.0,
-      "weight": 2.49,
-      "price": 236.875,
-      "amount": 35531250.0,
+      "weight": 2.42,
+      "price": 242.152,
+      "amount": 36322800.0,
       "avg_price": 268.0864
     },
     "NOW": {
       "name": "ServiceNow",
       "share": 230000.0,
-      "weight": 2.35,
-      "price": 143.56,
-      "amount": 33018800.0,
+      "weight": 2.31,
+      "price": 144.225,
+      "amount": 33171750.0,
       "avg_price": 138.9
-    },
-    "SNOW": {
-      "name": "Snowflake",
-      "share": 100000.0,
-      "weight": 2.3,
-      "price": 316.98,
-      "amount": 31698000.0,
-      "avg_price": 340.14
-    },
-    "TWLO": {
-      "name": "Twilio",
-      "share": 120000.0,
-      "weight": 2.26,
-      "price": 248.62,
-      "amount": 29834400.0,
-      "avg_price": 294.83666666666664
     },
     "MSFT": {
       "name": "Microsoft",
       "share": 60000.0,
-      "weight": 2.23,
-      "price": 535.045,
-      "amount": 32102699.999999996,
+      "weight": 2.25,
+      "price": 533.67,
+      "amount": 32020199.999999996,
       "avg_price": 535.045
     },
     "AAPL": {
       "name": "Apple",
       "share": 90000.0,
-      "weight": 2.12,
-      "price": 344.415,
-      "amount": 30997350.0,
+      "weight": 2.19,
+      "price": 342.045,
+      "amount": 30784050.0,
       "avg_price": 344.7475
     },
-    "6981.JP": {
-      "name": "Murata Mfg.",
-      "share": 650000.0,
-      "weight": 1.91,
+    "SNOW": {
+      "name": "Snowflake",
+      "share": 100000.0,
+      "weight": 2.17,
+      "price": 317.3,
+      "amount": 31730000.0,
+      "avg_price": 340.14
+    },
+    "6787.JP": {
+      "name": "Meiko Electronics",
+      "share": 220000.0,
+      "weight": 2.13,
       "price": 0.0,
       "amount": 0.0,
       "avg_price": 0.0
     },
+    "TWLO": {
+      "name": "Twilio",
+      "share": 120000.0,
+      "weight": 2.08,
+      "price": 258.575,
+      "amount": 31029000.0,
+      "avg_price": 294.83666666666664
+    },
     "NET": {
       "name": "Cloudflare",
       "share": 82000.0,
-      "weight": 1.78,
-      "price": 300.445,
-      "amount": 24636490.0,
+      "weight": 1.72,
+      "price": 299.985,
+      "amount": 24598770.0,
       "avg_price": 356.34
     },
     "2330": {
       "name": "台積電",
       "share": 320000.0,
-      "weight": 1.65,
+      "weight": 1.69,
       "price": 2420.0,
       "amount": 774400000.0,
       "avg_price": 2470.0
     },
-    "1303": {
-      "name": "南亞",
-      "share": 2250000.0,
-      "weight": 1.5,
-      "price": 307.0,
-      "amount": 690750000.0,
-      "avg_price": 299.9555555555556
-    },
-    "6787.JP": {
-      "name": "Meiko Electronics",
-      "share": 165000.0,
-      "weight": 1.49,
+    "6981.JP": {
+      "name": "Murata Mfg.",
+      "share": 500000.0,
+      "weight": 1.55,
       "price": 0.0,
       "amount": 0.0,
       "avg_price": 0.0
@@ -212,15 +204,39 @@
     "2454": {
       "name": "聯發科",
       "share": 165000.0,
-      "weight": 1.46,
-      "price": 4250.0,
-      "amount": 701250000.0,
+      "weight": 1.53,
+      "price": 4205.0,
+      "amount": 693825000.0,
       "avg_price": 5185.0
+    },
+    "1303": {
+      "name": "南亞",
+      "share": 2250000.0,
+      "weight": 1.51,
+      "price": 303.5,
+      "amount": 682875000.0,
+      "avg_price": 299.9555555555556
+    },
+    "META": {
+      "name": "Meta",
+      "share": 25000.0,
+      "weight": 1.26,
+      "price": 702.47,
+      "amount": 17561750.0,
+      "avg_price": 702.47
+    },
+    "6223": {
+      "name": "旺矽",
+      "share": 110000.0,
+      "weight": 1.25,
+      "price": 5235.0,
+      "amount": 575850000.0,
+      "avg_price": 5548.181818181818
     },
     "5801.JP": {
       "name": "Furukawa Electric",
       "share": 800000.0,
-      "weight": 1.18,
+      "weight": 1.21,
       "price": 0.0,
       "amount": 0.0,
       "avg_price": 0.0
@@ -228,23 +244,15 @@
     "MU": {
       "name": "Micron",
       "share": 16000.0,
-      "weight": 1.02,
-      "price": 904.8,
-      "amount": 14476800.0,
+      "weight": 1.0,
+      "price": 907.825,
+      "amount": 14525200.0,
       "avg_price": 1079.54
-    },
-    "6223": {
-      "name": "旺矽",
-      "share": 80000.0,
-      "weight": 0.9,
-      "price": 5205.0,
-      "amount": 416400000.0,
-      "avg_price": 5665.625
     },
     "6762.JP": {
       "name": "TDK",
       "share": 700000.0,
-      "weight": 0.88,
+      "weight": 0.92,
       "price": 0.0,
       "amount": 0.0,
       "avg_price": 0.0
@@ -252,113 +260,113 @@
     "COIN": {
       "name": "Coinbase",
       "share": 70000.0,
-      "weight": 0.88,
-      "price": 182.98,
-      "amount": 12808600.0,
+      "weight": 0.86,
+      "price": 170.83,
+      "amount": 11958100.0,
       "avg_price": 199.56
     },
     "ZS": {
       "name": "Zscaler",
       "share": 50000.0,
-      "weight": 0.76,
-      "price": 211.22,
-      "amount": 10561000.0,
+      "weight": 0.73,
+      "price": 212.54,
+      "amount": 10627000.0,
       "avg_price": 217.585
     },
     "2308": {
       "name": "台達電",
       "share": 200000.0,
-      "weight": 0.69,
-      "price": 1635.0,
-      "amount": 327000000.0,
+      "weight": 0.71,
+      "price": 1640.0,
+      "amount": 328000000.0,
       "avg_price": 1912.5
     },
     "3443": {
       "name": "創意",
       "share": 30000.0,
       "weight": 0.49,
-      "price": 7480.0,
-      "amount": 224400000.0,
+      "price": 7830.0,
+      "amount": 234900000.0,
       "avg_price": 7480.0
     }
   },
   "previous": {
     "009150.KS": {
       "name": "Samsung Elec Mech",
-      "share": 70000.0,
-      "weight": 4.74,
-      "amount": 81410000000.0,
-      "price": 1163000.0,
+      "share": 53000.0,
+      "weight": 3.16,
+      "amount": 62964000000.0,
+      "price": 1188000.0,
       "avg_price": 1507000.0
     },
     "1303": {
       "name": "南亞",
       "share": 2250000.0,
-      "weight": 1.61,
-      "amount": 707625000.0,
-      "price": 314.5,
+      "weight": 1.5,
+      "amount": 690750000.0,
+      "price": 307.0,
       "avg_price": 299.9555555555556
-    },
-    "2303": {
-      "name": "聯電",
-      "share": 3600000.0,
-      "weight": 1.05,
-      "amount": 480600000.0,
-      "price": 133.5,
-      "avg_price": 160.0
     },
     "2308": {
       "name": "台達電",
       "share": 200000.0,
-      "weight": 0.73,
-      "amount": 326000000.0,
-      "price": 1630.0,
+      "weight": 0.69,
+      "amount": 327000000.0,
+      "price": 1635.0,
       "avg_price": 1912.5
     },
     "2330": {
       "name": "台積電",
-      "share": 200000.0,
-      "weight": 1.02,
-      "amount": 488000000.0,
-      "price": 2440.0,
-      "avg_price": 2500.0
+      "share": 320000.0,
+      "weight": 1.65,
+      "amount": 774400000.0,
+      "price": 2420.0,
+      "avg_price": 2470.0
     },
     "2383": {
       "name": "台光電",
       "share": 250000.0,
-      "weight": 2.83,
-      "amount": 1280000000.0,
-      "price": 5120.0,
+      "weight": 2.71,
+      "amount": 1291250000.0,
+      "price": 5165.0,
       "avg_price": 5020.0
     },
     "2454": {
       "name": "聯發科",
-      "share": 220000.0,
-      "weight": 2.02,
-      "amount": 916300000.0,
-      "price": 4165.0,
+      "share": 165000.0,
+      "weight": 1.46,
+      "amount": 701250000.0,
+      "price": 4250.0,
       "avg_price": 5185.0
     },
     "3017": {
       "name": "奇鋐",
       "share": 560000.0,
-      "weight": 3.8,
-      "amount": 1727600000.0,
-      "price": 3085.0,
+      "weight": 3.66,
+      "amount": 1856400000.0,
+      "price": 3315.0,
       "avg_price": 3466.785714285714
     },
     "3037": {
       "name": "欣興",
       "share": 2600000.0,
-      "weight": 6.31,
-      "amount": 2795000000.0,
-      "price": 1075.0,
+      "weight": 5.92,
+      "amount": 2834000000.0,
+      "price": 1090.0,
       "avg_price": 1160.0
+    },
+    "3443": {
+      "name": "創意",
+      "share": 30000.0,
+      "weight": 0.49,
+      "amount": 224400000.0,
+      "price": 7480.0,
+      "avg_price": 7480.0
     },
     "5801.JP": {
       "name": "Furukawa Electric",
       "share": 800000.0,
-      "weight": 1.29,
+      "weight": 1.18,
       "amount": 0.0,
       "price": 0.0,
       "avg_price": 0.0
@@ -366,15 +374,15 @@
     "6223": {
       "name": "旺矽",
       "share": 80000.0,
-      "weight": 0.96,
-      "amount": 424000000.0,
-      "price": 5300.0,
+      "weight": 0.9,
+      "amount": 416400000.0,
+      "price": 5205.0,
       "avg_price": 5665.625
     },
     "6762.JP": {
       "name": "TDK",
       "share": 700000.0,
-      "weight": 0.92,
+      "weight": 0.88,
       "amount": 0.0,
       "price": 0.0,
       "avg_price": 0.0
@@ -382,188 +390,188 @@
     "6787.JP": {
       "name": "Meiko Electronics",
       "share": 165000.0,
-      "weight": 1.74,
+      "weight": 1.49,
       "amount": 0.0,
       "price": 0.0,
       "avg_price": 0.0
     },
     "6981.JP": {
       "name": "Murata Mfg.",
-      "share": 1000000.0,
-      "weight": 3.12,
+      "share": 650000.0,
+      "weight": 1.91,
       "amount": 0.0,
       "price": 0.0,
       "avg_price": 0.0
     },
     "AAPL": {
       "name": "Apple",
-      "share": 45000.0,
-      "weight": 1.02,
-      "amount": 15508350.0,
-      "price": 344.63,
-      "avg_price": 345.08
+      "share": 90000.0,
+      "weight": 2.12,
+      "amount": 30997350.0,
+      "price": 344.415,
+      "avg_price": 344.7475
     },
     "AMD": {
       "name": "AMD",
       "share": 68000.0,
-      "weight": 2.55,
-      "amount": 37056056.0,
-      "price": 544.942,
+      "weight": 2.63,
+      "amount": 37401836.0,
+      "price": 550.027,
       "avg_price": 616.8352941176471
     },
     "BE": {
       "name": "Bloom Energy",
       "share": 420000.0,
-      "weight": 6.61,
-      "amount": 96104400.0,
-      "price": 228.82,
+      "weight": 6.82,
+      "amount": 97719300.0,
+      "price": 232.665,
       "avg_price": 277.50380952380954
     },
     "COIN": {
       "name": "Coinbase",
       "share": 70000.0,
-      "weight": 0.8,
-      "amount": 12159000.0,
-      "price": 173.7,
+      "weight": 0.88,
+      "amount": 12808600.0,
+      "price": 182.98,
       "avg_price": 199.56
     },
     "CRWD": {
       "name": "CrowdStrike Holdings",
       "share": 150754.0,
-      "weight": 2.47,
-      "amount": 36382970.36,
-      "price": 241.34,
+      "weight": 2.53,
+      "amount": 35256837.980000004,
+      "price": 233.87,
       "avg_price": 258.778582392507
     },
     "HOOD": {
       "name": "Robinhood Markets",
       "share": 400120.0,
-      "weight": 2.66,
-      "amount": 39689903.4,
-      "price": 99.195,
+      "weight": 2.86,
+      "amount": 41628884.92,
+      "price": 104.041,
       "avg_price": 125.455
     },
     "INTC": {
       "name": "Intel",
       "share": 400000.0,
-      "weight": 2.58,
-      "amount": 37286000.0,
-      "price": 93.215,
+      "weight": 2.62,
+      "amount": 37304000.0,
+      "price": 93.26,
       "avg_price": 121.1516196831753
-    },
-    "IREN": {
-      "name": "IREN",
-      "share": 325000.0,
-      "weight": 0.65,
-      "amount": 9049625.0,
-      "price": 27.845,
-      "avg_price": 46.17
     },
     "LITE": {
       "name": "Lumentum",
-      "share": 117000.0,
-      "weight": 6.9,
-      "amount": 99454680.0,
-      "price": 850.04,
+      "share": 92000.0,
+      "weight": 5.5,
+      "amount": 77958960.0,
+      "price": 847.38,
       "avg_price": 954.0
     },
     "MRVL": {
       "name": "Marvell",
       "share": 150000.0,
-      "weight": 2.42,
-      "amount": 35291250.0,
-      "price": 235.275,
+      "weight": 2.49,
+      "amount": 35531250.0,
+      "price": 236.875,
       "avg_price": 268.0864
+    },
+    "MSFT": {
+      "name": "Microsoft",
+      "share": 60000.0,
+      "weight": 2.23,
+      "amount": 32102699.999999996,
+      "price": 535.045,
+      "avg_price": 535.045
     },
     "MU": {
       "name": "Micron",
       "share": 16000.0,
-      "weight": 0.96,
-      "amount": 14450720.0,
-      "price": 903.17,
+      "weight": 1.02,
+      "amount": 14476800.0,
+      "price": 904.8,
       "avg_price": 1079.54
     },
     "NET": {
       "name": "Cloudflare",
       "share": 82000.0,
-      "weight": 1.75,
-      "amount": 25396220.0,
-      "price": 309.71,
+      "weight": 1.78,
+      "amount": 24636490.0,
+      "price": 300.445,
       "avg_price": 356.34
     },
     "NOW": {
       "name": "ServiceNow",
       "share": 230000.0,
-      "weight": 2.12,
-      "amount": 33731800.0,
-      "price": 146.66,
+      "weight": 2.35,
+      "amount": 33018800.0,
+      "price": 143.56,
       "avg_price": 138.9
     },
     "NVDA": {
       "name": "NVIDIA",
       "share": 290000.0,
-      "weight": 4.22,
-      "amount": 62833430.0,
-      "price": 216.667,
+      "weight": 4.33,
+      "amount": 63246100.0,
+      "price": 218.09,
       "avg_price": 229.43925862068966
     },
     "OKTA": {
       "name": "Okta",
       "share": 200000.0,
-      "weight": 2.79,
-      "amount": 41203000.0,
-      "price": 206.015,
+      "weight": 2.87,
+      "amount": 38485000.0,
+      "price": 192.425,
       "avg_price": 207.5808
     },
     "PANW": {
       "name": "Palo Alto",
       "share": 165000.0,
-      "weight": 4.07,
-      "amount": 60460950.0,
-      "price": 366.43,
+      "weight": 4.2,
+      "amount": 58296975.0,
+      "price": 353.315,
       "avg_price": 387.5686363636364
     },
     "PLTR": {
       "name": "Palantir Technologies",
       "share": 275000.0,
-      "weight": 3.64,
-      "amount": 53928875.0,
-      "price": 196.105,
+      "weight": 3.79,
+      "amount": 53641500.0,
+      "price": 195.06,
       "avg_price": 190.93
     },
     "SNOW": {
       "name": "Snowflake",
       "share": 100000.0,
-      "weight": 2.2,
-      "amount": 32354000.000000004,
-      "price": 323.54,
+      "weight": 2.3,
+      "amount": 31698000.0,
+      "price": 316.98,
       "avg_price": 340.14
     },
     "SPCX": {
       "name": "SpaceX",
       "share": 550000.0,
-      "weight": 5.51,
-      "amount": 80641000.0,
-      "price": 146.62,
+      "weight": 5.62,
+      "amount": 80748250.0,
+      "price": 146.815,
       "avg_price": 152.26
     },
     "TWLO": {
       "name": "Twilio",
       "share": 120000.0,
-      "weight": 2.14,
-      "amount": 32035199.999999996,
-      "price": 266.96,
+      "weight": 2.26,
+      "amount": 29834400.0,
+      "price": 248.62,
       "avg_price": 294.83666666666664
     },
     "ZS": {
       "name": "Zscaler",
       "share": 50000.0,
-      "weight": 0.73,
-      "amount": 10879250.0,
-      "price": 217.585,
+      "weight": 0.76,
+      "amount": 10561000.0,
+      "price": 211.22,
       "avg_price": 217.585
     }
   },
-  "current_nav": 15.47,
-  "previous_nav": 16.02
+  "current_nav": 15.01,
+  "previous_nav": 15.47
 }
