@@ -1,146 +1,146 @@
 {
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "current": {
     "TSLA": {
       "name": "Tesla",
-      "share": 6705.0,
-      "weight": 9.14,
-      "price": 375.92,
-      "amount": 2520543.6,
+      "share": 6565.0,
+      "weight": 8.95,
+      "price": 384.87,
+      "amount": 2526671.55,
       "avg_price": 379.985
     },
     "SPCX": {
       "name": "SpaceX",
       "share": 12688.0,
-      "weight": 6.95,
-      "price": 148.54,
-      "amount": 1884675.5199999998,
+      "weight": 6.85,
+      "price": 160.79,
+      "amount": 2040103.5199999998,
       "avg_price": 152.25
-    },
-    "TEM": {
-      "name": "Tempus",
-      "share": 22116.0,
-      "weight": 5.27,
-      "price": 67.04,
-      "amount": 1482656.6400000001,
-      "avg_price": 76.63
     },
     "CRCL": {
       "name": "Circle",
       "share": 17399.0,
-      "weight": 5.24,
-      "price": 86.29,
-      "amount": 1501359.7100000002,
+      "weight": 5.46,
+      "price": 89.795,
+      "amount": 1562343.205,
       "avg_price": 93.21
+    },
+    "TEM": {
+      "name": "Tempus",
+      "share": 22116.0,
+      "weight": 5.4,
+      "price": 67.9,
+      "amount": 1501676.4000000001,
+      "avg_price": 76.63
     },
     "SHOP": {
       "name": "Shopify",
       "share": 8253.0,
       "weight": 5.23,
-      "price": 174.035,
-      "amount": 1436310.855,
+      "price": 177.473,
+      "amount": 1464684.669,
       "avg_price": 140.43
     },
     "COIN": {
       "name": "Coinbase",
       "share": 7397.0,
-      "weight": 4.61,
-      "price": 175.17,
-      "amount": 1295732.49,
+      "weight": 4.62,
+      "price": 177.445,
+      "amount": 1312560.665,
       "avg_price": 199.595
-    },
-    "HOOD": {
-      "name": "Robinhood Markets",
-      "share": 10801.0,
-      "weight": 3.86,
-      "price": 100.904,
-      "amount": 1089864.104,
-      "avg_price": 125.445
     },
     "CRSP": {
       "name": "CRISPR Therapeutics",
       "share": 20609.0,
-      "weight": 3.82,
-      "price": 49.72,
-      "amount": 1024679.48,
+      "weight": 3.76,
+      "price": 50.2,
+      "amount": 1034571.8,
       "avg_price": 56.845
     },
     "TWST": {
       "name": "Twist Bioscience",
       "share": 7089.0,
-      "weight": 3.67,
-      "price": 144.66,
-      "amount": 1025494.74,
+      "weight": 3.7,
+      "price": 149.2,
+      "amount": 1057678.7999999998,
       "avg_price": 158.06
+    },
+    "HOOD": {
+      "name": "Robinhood Markets",
+      "share": 10155.0,
+      "weight": 3.65,
+      "price": 100.905,
+      "amount": 1024690.275,
+      "avg_price": 125.445
+    },
+    "AMZN": {
+      "name": "Amazon",
+      "share": 3614.0,
+      "weight": 3.47,
+      "price": 261.79,
+      "amount": 946109.06,
+      "avg_price": 251.7168345323741
     },
     "NVDA": {
       "name": "NVIDIA",
       "share": 4290.0,
-      "weight": 3.45,
-      "price": 217.954,
-      "amount": 935022.66,
+      "weight": 3.39,
+      "price": 220.015,
+      "amount": 943864.35,
       "avg_price": 225.1978114219114
     },
     "PLTR": {
       "name": "Palantir Technologies",
       "share": 4704.0,
-      "weight": 3.38,
-      "price": 195.5,
-      "amount": 919632.0,
+      "weight": 3.31,
+      "price": 198.275,
+      "amount": 932685.6,
       "avg_price": 190.835
     },
     "AMD": {
       "name": "AMD",
       "share": 1683.0,
-      "weight": 3.35,
-      "price": 547.0,
-      "amount": 920601.0,
+      "weight": 3.29,
+      "price": 545.77,
+      "amount": 918530.9099999999,
       "avg_price": 614.67
     },
     "TXG": {
       "name": "10x Genomics",
       "share": 12592.0,
-      "weight": 3.26,
-      "price": 70.79,
-      "amount": 891387.68,
+      "weight": 3.29,
+      "price": 75.5,
+      "amount": 950696.0,
       "avg_price": 77.51
-    },
-    "AMZN": {
-      "name": "Amazon",
-      "share": 3242.0,
-      "weight": 3.15,
-      "price": 264.0,
-      "amount": 855888.0,
-      "avg_price": 250.56099938309686
     },
     "ADR": {
       "name": "TSMC",
       "share": 1765.0,
-      "weight": 2.75,
+      "weight": 2.74,
       "price": 0.0,
       "amount": 0.0,
       "avg_price": 0.0
     },
     "META": {
       "name": "Meta",
-      "share": 911.0,
+      "share": 938.0,
       "weight": 2.38,
-      "price": 692.895,
-      "amount": 631227.345,
-      "avg_price": 729.2934851811196
+      "price": 711.62,
+      "amount": 667499.56,
+      "avg_price": 728.7847601279318
     },
     "BMNR": {
       "name": "BitMine",
       "share": 27323.0,
-      "weight": 2.18,
-      "price": 23.315,
-      "amount": 637035.745,
+      "weight": 2.28,
+      "price": 23.925,
+      "amount": 653702.775,
       "avg_price": 27.985
     },
     "BLSH": {
       "name": "Bullish",
       "share": 19336.0,
-      "weight": 1.96,
+      "weight": 2.03,
       "price": 29.75,
       "amount": 575246.0,
       "avg_price": 40.525
@@ -148,217 +148,217 @@
     "ILMN": {
       "name": "Illumina",
       "share": 1823.0,
-      "weight": 1.77,
-      "price": 267.45,
-      "amount": 487561.35,
+      "weight": 1.79,
+      "price": 280.55,
+      "amount": 511442.65,
       "avg_price": 251.31
     },
     "NTRA": {
       "name": "Natera",
       "share": 1150.0,
-      "weight": 1.7,
-      "price": 404.688,
-      "amount": 465391.2,
+      "weight": 1.71,
+      "price": 416.58,
+      "amount": 479067.0,
       "avg_price": 391.295
-    },
-    "GOOG": {
-      "name": "Alphabet - Class C Capital Stock",
-      "share": 1323.0,
-      "weight": 1.67,
-      "price": 339.48,
-      "amount": 449132.04000000004,
-      "avg_price": 338.051
     },
     "BEAM": {
       "name": "Beam Therapeutics",
       "share": 18142.0,
-      "weight": 1.62,
-      "price": 24.75,
-      "amount": 449014.5,
+      "weight": 1.65,
+      "price": 24.845,
+      "amount": 450737.99,
       "avg_price": 25.01
+    },
+    "GOOG": {
+      "name": "Alphabet - Class C Capital Stock",
+      "share": 1323.0,
+      "weight": 1.63,
+      "price": 328.12,
+      "amount": 434102.76,
+      "avg_price": 338.051
     },
     "AVGO": {
       "name": "Broadcom",
       "share": 1293.0,
-      "weight": 1.6,
-      "price": 338.43,
-      "amount": 437589.99,
+      "weight": 1.58,
+      "price": 334.72,
+      "amount": 432792.96,
       "avg_price": 357.7218948182521
-    },
-    "NET": {
-      "name": "Cloudflare",
-      "share": 1229.0,
-      "weight": 1.35,
-      "price": 296.72,
-      "amount": 364668.88,
-      "avg_price": 351.3160943856793
     },
     "XYZ": {
       "name": "Block",
       "share": 4669.0,
-      "weight": 1.34,
-      "price": 78.74,
-      "amount": 367637.06,
+      "weight": 1.33,
+      "price": 79.01,
+      "amount": 368897.69,
       "avg_price": 75.32
+    },
+    "NET": {
+      "name": "Cloudflare",
+      "share": 1229.0,
+      "weight": 1.31,
+      "price": 307.54,
+      "amount": 377966.66000000003,
+      "avg_price": 351.3160943856793
     },
     "RKLB": {
       "name": "Rocket Lab",
       "share": 6452.0,
-      "weight": 1.23,
-      "price": 52.67,
-      "amount": 339826.84,
+      "weight": 1.2,
+      "price": 52.925,
+      "amount": 341472.1,
       "avg_price": 71.15334159950405
     },
     "CRWV": {
       "name": "CoreWeave",
       "share": 4169.0,
-      "weight": 0.94,
-      "price": 63.92,
-      "amount": 266482.48,
+      "weight": 0.95,
+      "price": 61.555,
+      "amount": 256622.795,
       "avg_price": 89.38
     },
     "RXRX": {
       "name": "Recursion Pharmaceuticals",
       "share": 65926.0,
       "weight": 0.88,
-      "price": 3.615,
-      "amount": 238322.49000000002,
+      "price": 3.65,
+      "amount": 240629.9,
       "avg_price": 3.8768061159481846
     },
     "LLY": {
       "name": "Eli Lilly",
       "share": 179.0,
-      "weight": 0.82,
-      "price": 1300.91,
-      "amount": 232862.89,
+      "weight": 0.84,
+      "price": 1268.225,
+      "amount": 227012.275,
       "avg_price": 1161.275
     },
     "GOOGL": {
       "name": "Alphabet - Class A Common Stock",
-      "share": 622.0,
-      "weight": 0.79,
-      "price": 343.3,
-      "amount": 213532.6,
-      "avg_price": 342.0190996784566
+      "share": 662.0,
+      "weight": 0.82,
+      "price": 332.164,
+      "amount": 219892.568,
+      "avg_price": 341.42362537764353
     },
     "NTLA": {
       "name": "Intellia Therapeutics",
       "share": 14372.0,
       "weight": 0.62,
-      "price": 11.875,
-      "amount": 170667.5,
+      "price": 11.675,
+      "amount": 167793.1,
       "avg_price": 12.24
     },
     "TER": {
       "name": "Teradyne",
       "share": 491.0,
-      "weight": 0.61,
-      "price": 340.775,
-      "amount": 167320.525,
+      "weight": 0.6,
+      "price": 345.33,
+      "amount": 169557.03,
       "avg_price": 385.98
     },
     "SNOW": {
       "name": "Snowflake",
       "share": 476.0,
       "weight": 0.56,
-      "price": 320.74,
-      "amount": 152672.24,
+      "price": 321.85,
+      "amount": 153200.6,
       "avg_price": 340.168
     },
     "WGS": {
       "name": "GeneDx",
       "share": 2064.0,
-      "weight": 0.51,
-      "price": 68.7,
-      "amount": 141796.80000000002,
+      "weight": 0.52,
+      "price": 69.81,
+      "amount": 144087.84,
       "avg_price": 88.65
     },
     "FTNT": {
       "name": "Fortinet",
       "share": 714.0,
       "weight": 0.45,
-      "price": 171.2,
-      "amount": 122236.79999999999,
+      "price": 172.25,
+      "amount": 122986.5,
       "avg_price": 184.3089285714286
     },
     "DE": {
       "name": "Deere",
       "share": 181.0,
       "weight": 0.42,
-      "price": 638.135,
-      "amount": 115502.435,
+      "price": 628.225,
+      "amount": 113708.725,
       "avg_price": 714.54
     },
     "SOFI": {
       "name": "SoFi Technologies",
-      "share": 3885.0,
-      "weight": 0.21,
-      "price": 14.885,
-      "amount": 57828.225,
+      "share": 2775.0,
+      "weight": 0.15,
+      "price": 14.88,
+      "amount": 41292.0,
       "avg_price": 16.915
     },
     "VCYT": {
       "name": "Veracyte",
       "share": 814.0,
       "weight": 0.13,
-      "price": 44.55,
-      "amount": 36263.7,
+      "price": 44.845,
+      "amount": 36503.83,
       "avg_price": 43.16
     },
     "KTOS": {
       "name": "Kratos Defense & Security",
       "share": 682.0,
       "weight": 0.1,
-      "price": 40.0,
-      "amount": 27280.0,
+      "price": 38.548,
+      "amount": 26289.736,
       "avg_price": 47.321
+    },
+    "PACB": {
+      "name": "Pacific Biosciences of Californi",
+      "share": 7908.0,
+      "weight": 0.06,
+      "price": 2.12,
+      "amount": 16764.96,
+      "avg_price": 2.69
     },
     "ACHR": {
       "name": "Archer",
       "share": 3283.0,
       "weight": 0.05,
-      "price": 4.12,
-      "amount": 13525.960000000001,
+      "price": 3.955,
+      "amount": 12984.265,
       "avg_price": 5.685
     },
     "BWXT": {
       "name": "BWX Technologies",
       "share": 108.0,
       "weight": 0.05,
-      "price": 137.583,
-      "amount": 14858.964,
+      "price": 135.29,
+      "amount": 14611.32,
       "avg_price": 144.72
-    },
-    "PACB": {
-      "name": "Pacific Biosciences of Californi",
-      "share": 7908.0,
-      "weight": 0.05,
-      "price": 1.84,
-      "amount": 14550.720000000001,
-      "avg_price": 2.69
     },
     "CERS": {
       "name": "Cerus",
       "share": 1209.0,
       "weight": 0.01,
-      "price": 2.285,
-      "amount": 2762.565,
+      "price": 2.33,
+      "amount": 2816.9700000000003,
       "avg_price": 2.635
     }
   },
   "previous": {
     "ACHR": {
       "name": "Archer",
-      "share": 6566.0,
-      "weight": 0.1,
-      "amount": 26690.79,
-      "price": 4.065,
+      "share": 3283.0,
+      "weight": 0.05,
+      "amount": 13525.960000000001,
+      "price": 4.12,
       "avg_price": 5.685
     },
     "ADR": {
       "name": "TSMC",
       "share": 1765.0,
-      "weight": 2.74,
+      "weight": 2.75,
       "amount": 0.0,
       "price": 0.0,
       "avg_price": 0.0
@@ -367,331 +367,331 @@
       "name": "AMD",
       "share": 1683.0,
       "weight": 3.35,
-      "amount": 918480.42,
-      "price": 545.74,
+      "amount": 920601.0,
+      "price": 547.0,
       "avg_price": 614.67
     },
     "AMZN": {
       "name": "Amazon",
       "share": 3242.0,
-      "weight": 3.05,
-      "amount": 852127.2799999999,
-      "price": 262.84,
+      "weight": 3.15,
+      "amount": 855888.0,
+      "price": 264.0,
       "avg_price": 250.56099938309686
     },
     "AVGO": {
       "name": "Broadcom",
       "share": 1293.0,
       "weight": 1.6,
-      "amount": 436335.77999999997,
-      "price": 337.46,
+      "amount": 437589.99,
+      "price": 338.43,
       "avg_price": 357.7218948182521
     },
     "BEAM": {
       "name": "Beam Therapeutics",
       "share": 18142.0,
-      "weight": 1.6,
-      "amount": 433775.22000000003,
-      "price": 23.91,
+      "weight": 1.62,
+      "amount": 449014.5,
+      "price": 24.75,
       "avg_price": 25.01
     },
     "BLSH": {
       "name": "Bullish",
       "share": 19336.0,
-      "weight": 2.15,
-      "amount": 555910.0,
-      "price": 28.75,
+      "weight": 1.96,
+      "amount": 575246.0,
+      "price": 29.75,
       "avg_price": 40.525
     },
     "BMNR": {
       "name": "BitMine",
       "share": 27323.0,
-      "weight": 2.23,
-      "amount": 590996.49,
-      "price": 21.63,
+      "weight": 2.18,
+      "amount": 637035.745,
+      "price": 23.315,
       "avg_price": 27.985
     },
     "BWXT": {
       "name": "BWX Technologies",
       "share": 108.0,
-      "weight": 0.06,
-      "amount": 14752.8,
-      "price": 136.6,
+      "weight": 0.05,
+      "amount": 14858.964,
+      "price": 137.583,
       "avg_price": 144.72
     },
     "CERS": {
       "name": "Cerus",
       "share": 1209.0,
       "weight": 0.01,
-      "amount": 2665.8450000000003,
-      "price": 2.205,
+      "amount": 2762.565,
+      "price": 2.285,
       "avg_price": 2.635
     },
     "COIN": {
       "name": "Coinbase",
       "share": 7397.0,
-      "weight": 4.82,
-      "amount": 1263629.51,
-      "price": 170.83,
+      "weight": 4.61,
+      "amount": 1295732.49,
+      "price": 175.17,
       "avg_price": 199.595
     },
     "CRCL": {
       "name": "Circle",
       "share": 17399.0,
-      "weight": 5.38,
-      "amount": 1429501.8399999999,
-      "price": 82.16,
+      "weight": 5.24,
+      "amount": 1501359.7100000002,
+      "price": 86.29,
       "avg_price": 93.21
     },
     "CRSP": {
       "name": "CRISPR Therapeutics",
       "share": 20609.0,
       "weight": 3.82,
-      "amount": 1026843.425,
-      "price": 49.825,
+      "amount": 1024679.48,
+      "price": 49.72,
       "avg_price": 56.845
     },
     "CRWV": {
       "name": "CoreWeave",
-      "share": 4387.0,
-      "weight": 1.01,
-      "amount": 270173.395,
-      "price": 61.585,
+      "share": 4169.0,
+      "weight": 0.94,
+      "amount": 266482.48,
+      "price": 63.92,
       "avg_price": 89.38
     },
     "DE": {
       "name": "Deere",
       "share": 181.0,
-      "weight": 0.44,
-      "amount": 113823.66,
-      "price": 628.86,
+      "weight": 0.42,
+      "amount": 115502.435,
+      "price": 638.135,
       "avg_price": 714.54
     },
     "FTNT": {
       "name": "Fortinet",
-      "share": 618.0,
-      "weight": 0.39,
-      "amount": 106265.09999999999,
-      "price": 171.95,
-      "avg_price": 186.34526699029126
+      "share": 714.0,
+      "weight": 0.45,
+      "amount": 122236.79999999999,
+      "price": 171.2,
+      "avg_price": 184.3089285714286
     },
     "GOOG": {
       "name": "Alphabet - Class C Capital Stock",
       "share": 1323.0,
-      "weight": 1.68,
-      "amount": 450937.93500000006,
-      "price": 340.845,
+      "weight": 1.67,
+      "amount": 449132.04000000004,
+      "price": 339.48,
       "avg_price": 338.051
     },
     "GOOGL": {
       "name": "Alphabet - Class A Common Stock",
-      "share": 538.0,
-      "weight": 0.69,
-      "amount": 185626.13999999998,
-      "price": 345.03,
-      "avg_price": 341.8191078066914
+      "share": 622.0,
+      "weight": 0.79,
+      "amount": 213532.6,
+      "price": 343.3,
+      "avg_price": 342.0190996784566
     },
     "HOOD": {
       "name": "Robinhood Markets",
       "share": 10801.0,
-      "weight": 4.02,
-      "amount": 1065075.809,
-      "price": 98.609,
+      "weight": 3.86,
+      "amount": 1089864.104,
+      "price": 100.904,
       "avg_price": 125.445
     },
     "ILMN": {
       "name": "Illumina",
       "share": 1823.0,
-      "weight": 1.8,
-      "amount": 479011.48,
-      "price": 262.76,
+      "weight": 1.77,
+      "amount": 487561.35,
+      "price": 267.45,
       "avg_price": 251.31
     },
     "KTOS": {
       "name": "Kratos Defense & Security",
       "share": 682.0,
       "weight": 0.1,
-      "amount": 26979.920000000002,
-      "price": 39.56,
+      "amount": 27280.0,
+      "price": 40.0,
       "avg_price": 47.321
     },
     "LLY": {
       "name": "Eli Lilly",
       "share": 179.0,
-      "weight": 0.85,
-      "amount": 223142.295,
-      "price": 1246.605,
+      "weight": 0.82,
+      "amount": 232862.89,
+      "price": 1300.91,
       "avg_price": 1161.275
     },
     "META": {
       "name": "Meta",
-      "share": 839.0,
-      "weight": 2.24,
-      "amount": 589170.97,
-      "price": 702.23,
-      "avg_price": 732.4170738974971
+      "share": 911.0,
+      "weight": 2.38,
+      "amount": 631227.345,
+      "price": 692.895,
+      "avg_price": 729.2934851811196
     },
     "NET": {
       "name": "Cloudflare",
-      "share": 1166.0,
-      "weight": 1.3,
-      "amount": 349782.51,
-      "price": 299.985,
-      "avg_price": 354.2659691252143
+      "share": 1229.0,
+      "weight": 1.35,
+      "amount": 364668.88,
+      "price": 296.72,
+      "avg_price": 351.3160943856793
     },
     "NTLA": {
       "name": "Intellia Therapeutics",
       "share": 14372.0,
       "weight": 0.62,
-      "amount": 165637.30000000002,
-      "price": 11.525,
+      "amount": 170667.5,
+      "price": 11.875,
       "avg_price": 12.24
     },
     "NTRA": {
       "name": "Natera",
       "share": 1150.0,
       "weight": 1.7,
-      "amount": 464490.74999999994,
-      "price": 403.905,
+      "amount": 465391.2,
+      "price": 404.688,
       "avg_price": 391.295
     },
     "NVDA": {
       "name": "NVIDIA",
-      "share": 4053.0,
-      "weight": 3.26,
-      "amount": 883878.2400000001,
-      "price": 218.08,
-      "avg_price": 225.62139476930668
+      "share": 4290.0,
+      "weight": 3.45,
+      "amount": 935022.66,
+      "price": 217.954,
+      "avg_price": 225.1978114219114
     },
     "PACB": {
       "name": "Pacific Biosciences of Californi",
-      "share": 17398.0,
-      "weight": 0.11,
-      "amount": 31055.43,
-      "price": 1.785,
+      "share": 7908.0,
+      "weight": 0.05,
+      "amount": 14550.720000000001,
+      "price": 1.84,
       "avg_price": 2.69
     },
     "PLTR": {
       "name": "Palantir Technologies",
       "share": 4704.0,
-      "weight": 3.29,
-      "amount": 919062.816,
-      "price": 195.379,
+      "weight": 3.38,
+      "amount": 919632.0,
+      "price": 195.5,
       "avg_price": 190.835
     },
     "RKLB": {
       "name": "Rocket Lab",
       "share": 6452.0,
       "weight": 1.23,
-      "amount": 337568.64,
-      "price": 52.32,
+      "amount": 339826.84,
+      "price": 52.67,
       "avg_price": 71.15334159950405
     },
     "RXRX": {
       "name": "Recursion Pharmaceuticals",
       "share": 65926.0,
-      "weight": 0.86,
-      "amount": 240036.566,
-      "price": 3.641,
+      "weight": 0.88,
+      "amount": 238322.49000000002,
+      "price": 3.615,
       "avg_price": 3.8768061159481846
     },
     "SHOP": {
       "name": "Shopify",
       "share": 8253.0,
-      "weight": 5.26,
-      "amount": 1415183.175,
-      "price": 171.475,
+      "weight": 5.23,
+      "amount": 1436310.855,
+      "price": 174.035,
       "avg_price": 140.43
     },
     "SNOW": {
       "name": "Snowflake",
       "share": 476.0,
-      "weight": 0.55,
-      "amount": 151034.80000000002,
-      "price": 317.3,
+      "weight": 0.56,
+      "amount": 152672.24,
+      "price": 320.74,
       "avg_price": 340.168
     },
     "SOFI": {
       "name": "SoFi Technologies",
       "share": 3885.0,
       "weight": 0.21,
-      "amount": 56371.35,
-      "price": 14.51,
+      "amount": 57828.225,
+      "price": 14.885,
       "avg_price": 16.915
     },
     "SPCX": {
       "name": "SpaceX",
       "share": 12688.0,
-      "weight": 6.97,
-      "amount": 1889370.0799999998,
-      "price": 148.91,
+      "weight": 6.95,
+      "amount": 1884675.5199999998,
+      "price": 148.54,
       "avg_price": 152.25
     },
     "TEM": {
       "name": "Tempus",
       "share": 22116.0,
-      "weight": 5.38,
-      "amount": 1426106.0280000002,
-      "price": 64.483,
+      "weight": 5.27,
+      "amount": 1482656.6400000001,
+      "price": 67.04,
       "avg_price": 76.63
     },
     "TER": {
       "name": "Teradyne",
       "share": 491.0,
-      "weight": 0.6,
-      "amount": 166768.15,
-      "price": 339.65,
+      "weight": 0.61,
+      "amount": 167320.525,
+      "price": 340.775,
       "avg_price": 385.98
     },
     "TSLA": {
       "name": "Tesla",
-      "share": 6728.0,
-      "weight": 8.99,
-      "amount": 2480512.68,
-      "price": 368.685,
+      "share": 6705.0,
+      "weight": 9.14,
+      "amount": 2520543.6,
+      "price": 375.92,
       "avg_price": 379.985
     },
     "TWST": {
       "name": "Twist Bioscience",
       "share": 7089.0,
-      "weight": 3.54,
-      "amount": 987285.03,
-      "price": 139.27,
+      "weight": 3.67,
+      "amount": 1025494.74,
+      "price": 144.66,
       "avg_price": 158.06
     },
     "TXG": {
       "name": "10x Genomics",
       "share": 12592.0,
-      "weight": 3.31,
-      "amount": 888995.2,
-      "price": 70.6,
+      "weight": 3.26,
+      "amount": 891387.68,
+      "price": 70.79,
       "avg_price": 77.51
     },
     "VCYT": {
       "name": "Veracyte",
       "share": 814.0,
       "weight": 0.13,
-      "amount": 35498.54,
-      "price": 43.61,
+      "amount": 36263.7,
+      "price": 44.55,
       "avg_price": 43.16
     },
     "WGS": {
       "name": "GeneDx",
       "share": 2064.0,
-      "weight": 0.49,
-      "amount": 134593.43999999997,
-      "price": 65.21,
+      "weight": 0.51,
+      "amount": 141796.80000000002,
+      "price": 68.7,
       "avg_price": 88.65
     },
     "XYZ": {
       "name": "Block",
       "share": 4669.0,
-      "weight": 1.37,
-      "amount": 362594.54,
-      "price": 77.66,
+      "weight": 1.34,
+      "amount": 367637.06,
+      "price": 78.74,
       "avg_price": 75.32
     }
   },
-  "current_nav": 12.43,
-  "previous_nav": 12.27
+  "current_nav": 12.64,
+  "previous_nav": 12.43
 }
