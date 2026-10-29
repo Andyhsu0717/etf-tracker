@@ -1,268 +1,268 @@
 {
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "current": {
     "2330": {
       "name": "台積電",
       "share": 18000.0,
-      "weight": 8.05,
-      "price": 2425.0,
-      "amount": 43650000.0,
+      "weight": 8.06,
+      "price": 2415.0,
+      "amount": 43470000.0,
       "avg_price": 2500.0
     },
     "NVDA": {
       "name": "NVIDIA",
       "share": 5000.0,
-      "weight": 6.6,
-      "price": 217.061,
-      "amount": 1085305.0,
+      "weight": 6.45,
+      "price": 213.54,
+      "amount": 1067700.0,
       "avg_price": 225.505
     },
     "GOOGL": {
       "name": "Alphabet - Class A Common Stock",
       "share": 3000.0,
-      "weight": 5.82,
-      "price": 323.525,
-      "amount": 970574.9999999999,
+      "weight": 5.84,
+      "price": 285.155,
+      "amount": 855464.9999999999,
       "avg_price": 341.25
-    },
-    "CRWD": {
-      "name": "CrowdStrike Holdings",
-      "share": 3000.0,
-      "weight": 4.87,
-      "price": 265.26,
-      "amount": 795780.0,
-      "avg_price": 258.24
     },
     "AMD": {
       "name": "AMD",
       "share": 1400.0,
-      "weight": 4.75,
-      "price": 567.195,
-      "amount": 794073.0000000001,
+      "weight": 4.85,
+      "price": 569.16,
+      "amount": 796824.0,
       "avg_price": 614.66
+    },
+    "CRWD": {
+      "name": "CrowdStrike Holdings",
+      "share": 3000.0,
+      "weight": 4.79,
+      "price": 258.0,
+      "amount": 774000.0,
+      "avg_price": 258.24
     },
     "MU": {
       "name": "Micron",
       "share": 800.0,
-      "weight": 4.5,
-      "price": 972.05,
-      "amount": 777640.0,
+      "weight": 4.71,
+      "price": 942.51,
+      "amount": 754008.0,
       "avg_price": 1079.62
-    },
-    "AMZN": {
-      "name": "Amazon",
-      "share": 2800.0,
-      "weight": 4.29,
-      "price": 252.805,
-      "amount": 707854.0,
-      "avg_price": 250.3
     },
     "LITE": {
       "name": "Lumentum",
       "share": 780.0,
-      "weight": 4.09,
-      "price": 896.15,
-      "amount": 698997.0,
+      "weight": 4.27,
+      "price": 938.5,
+      "amount": 732030.0,
       "avg_price": 953.51
+    },
+    "AMZN": {
+      "name": "Amazon",
+      "share": 2800.0,
+      "weight": 4.27,
+      "price": 246.4,
+      "amount": 689920.0,
+      "avg_price": 250.3
     },
     "AVGO": {
       "name": "Broadcom",
       "share": 1800.0,
-      "weight": 3.73,
-      "price": 347.23,
-      "amount": 625014.0,
+      "weight": 3.79,
+      "price": 344.12,
+      "amount": 619416.0,
       "avg_price": 356.37
     },
     "LLY": {
       "name": "Eli Lilly",
       "share": 450.0,
-      "weight": 3.49,
-      "price": 1286.95,
-      "amount": 579127.5,
+      "weight": 3.47,
+      "price": 1373.275,
+      "amount": 617973.75,
       "avg_price": 1161.275
     },
     "MSFT": {
       "name": "Microsoft",
       "share": 1000.0,
-      "weight": 3.22,
-      "price": 528.19,
-      "amount": 528190.0,
+      "weight": 3.18,
+      "price": 523.965,
+      "amount": 523965.00000000006,
       "avg_price": 497.35
     },
     "GEV": {
       "name": "GE Vernova",
       "share": 500.0,
-      "weight": 2.71,
-      "price": 888.51,
-      "amount": 444255.0,
+      "weight": 2.63,
+      "price": 899.88,
+      "amount": 449940.0,
       "avg_price": 952.305
     },
     "AAPL": {
       "name": "Apple",
       "share": 1250.0,
-      "weight": 2.63,
-      "price": 345.5,
-      "amount": 431875.0,
+      "weight": 2.57,
+      "price": 349.303,
+      "amount": 436628.75,
       "avg_price": 337.754
-    },
-    "NET": {
-      "name": "Cloudflare",
-      "share": 1200.0,
-      "weight": 2.38,
-      "price": 319.635,
-      "amount": 383562.0,
-      "avg_price": 356.34
     },
     "ETN": {
       "name": "Eaton",
       "share": 1000.0,
-      "weight": 2.33,
-      "price": 394.34,
-      "amount": 394340.0,
+      "weight": 2.35,
+      "price": 394.81,
+      "amount": 394810.0,
       "avg_price": 440.325
+    },
+    "NET": {
+      "name": "Cloudflare",
+      "share": 1200.0,
+      "weight": 2.29,
+      "price": 301.61,
+      "amount": 361932.0,
+      "avg_price": 356.34
     },
     "SNOW": {
       "name": "Snowflake",
       "share": 1100.0,
-      "weight": 2.25,
-      "price": 340.77,
-      "amount": 374847.0,
+      "weight": 2.24,
+      "price": 330.675,
+      "amount": 363742.5,
       "avg_price": 340.168
     },
     "JPM": {
       "name": "JPMorgan Chase",
       "share": 1100.0,
       "weight": 2.24,
-      "price": 339.84,
-      "amount": 373824.0,
+      "price": 343.25,
+      "amount": 377575.0,
       "avg_price": 339.2
     },
     "2454": {
       "name": "聯發科",
       "share": 2000.0,
-      "weight": 1.48,
-      "price": 4235.0,
-      "amount": 8470000.0,
+      "weight": 1.56,
+      "price": 4045.0,
+      "amount": 8090000.0,
       "avg_price": 5185.0
     },
     "PLTR": {
       "name": "Palantir Technologies",
       "share": 1200.0,
-      "weight": 1.44,
-      "price": 194.26,
-      "amount": 233112.0,
+      "weight": 1.41,
+      "price": 194.115,
+      "amount": 232938.0,
       "avg_price": 200.31583333333333
     },
     "BE": {
       "name": "Bloom Energy",
       "share": 1000.0,
-      "weight": 1.32,
-      "price": 224.563,
-      "amount": 224563.0,
+      "weight": 1.37,
+      "price": 226.5,
+      "amount": 226500.0,
       "avg_price": 249.2005
     },
     "MA": {
       "name": "Mastercard",
       "share": 350.0,
-      "weight": 1.29,
-      "price": 613.2,
-      "amount": 214620.00000000003,
+      "weight": 1.28,
+      "price": 636.125,
+      "amount": 222643.75,
       "avg_price": 560.04
     },
     "DDOG": {
       "name": "Datadog",
       "share": 700.0,
-      "weight": 1.19,
-      "price": 276.725,
-      "amount": 193707.50000000003,
+      "weight": 1.17,
+      "price": 261.35,
+      "amount": 182945.00000000003,
       "avg_price": 254.3
     },
     "GS": {
       "name": "Goldman Sachs",
       "share": 200.0,
-      "weight": 1.1,
-      "price": 924.275,
-      "amount": 184855.0,
+      "weight": 1.11,
+      "price": 930.8,
+      "amount": 186160.0,
       "avg_price": 944.59
     },
     "8306.JP": {
       "name": "MUFG",
       "share": 8000.0,
-      "weight": 1.03,
+      "weight": 1.02,
       "price": 0.0,
       "amount": 0.0,
       "avg_price": 0.0
     },
+    "TSEM": {
+      "name": "Tower Semiconductor",
+      "share": 850.0,
+      "weight": 0.99,
+      "price": 190.84,
+      "amount": 162214.0,
+      "avg_price": 233.415
+    },
     "RBRK": {
       "name": "Rubrik",
       "share": 1200.0,
-      "weight": 0.99,
-      "price": 137.09,
-      "amount": 164508.0,
+      "weight": 0.98,
+      "price": 132.725,
+      "amount": 159270.0,
       "avg_price": 136.8375
     },
     "TER": {
       "name": "Teradyne",
       "share": 500.0,
-      "weight": 0.98,
-      "price": 309.095,
-      "amount": 154547.5,
+      "weight": 0.94,
+      "price": 300.46,
+      "amount": 150230.0,
       "avg_price": 411.23
-    },
-    "TSEM": {
-      "name": "Tower Semiconductor",
-      "share": 850.0,
-      "weight": 0.97,
-      "price": 191.03,
-      "amount": 162375.5,
-      "avg_price": 233.415
     },
     "NTRA": {
       "name": "Natera",
       "share": 300.0,
-      "weight": 0.75,
-      "price": 427.9,
-      "amount": 128370.0,
+      "weight": 0.76,
+      "price": 430.0,
+      "amount": 129000.0,
       "avg_price": 391.25224999999995
-    },
-    "HOOD": {
-      "name": "Robinhood Markets",
-      "share": 1200.0,
-      "weight": 0.69,
-      "price": 90.764,
-      "amount": 108916.79999999999,
-      "avg_price": 123.38916666666667
     },
     "ILMN": {
       "name": "Illumina",
       "share": 401.0,
-      "weight": 0.68,
-      "price": 287.122,
-      "amount": 115135.922,
+      "weight": 0.69,
+      "price": 292.165,
+      "amount": 117158.16500000001,
       "avg_price": 262.89
+    },
+    "HOOD": {
+      "name": "Robinhood Markets",
+      "share": 1200.0,
+      "weight": 0.66,
+      "price": 91.67,
+      "amount": 110004.0,
+      "avg_price": 123.38916666666667
     }
   },
   "previous": {
     "2330": {
       "name": "台積電",
       "share": 18000.0,
-      "weight": 8.26,
-      "amount": 43200000.0,
-      "price": 2400.0,
+      "weight": 8.05,
+      "amount": 43650000.0,
+      "price": 2425.0,
       "avg_price": 2500.0
     },
     "2454": {
       "name": "聯發科",
       "share": 2000.0,
-      "weight": 1.54,
-      "amount": 7920000.0,
-      "price": 3960.0,
+      "weight": 1.48,
+      "amount": 8470000.0,
+      "price": 4235.0,
       "avg_price": 5185.0
     },
     "8306.JP": {
       "name": "MUFG",
       "share": 8000.0,
-      "weight": 1.08,
+      "weight": 1.03,
       "amount": 0.0,
       "price": 0.0,
       "avg_price": 0.0
@@ -270,220 +270,220 @@
     "AAPL": {
       "name": "Apple",
       "share": 1250.0,
-      "weight": 2.73,
-      "amount": 434031.25,
-      "price": 347.225,
+      "weight": 2.63,
+      "amount": 431875.0,
+      "price": 345.5,
       "avg_price": 337.754
     },
     "AMD": {
       "name": "AMD",
       "share": 1400.0,
-      "weight": 4.46,
-      "amount": 784000.0,
-      "price": 560.0,
+      "weight": 4.75,
+      "amount": 794073.0000000001,
+      "price": 567.195,
       "avg_price": 614.66
     },
     "AMZN": {
       "name": "Amazon",
       "share": 2800.0,
-      "weight": 4.4,
-      "amount": 706048.0,
-      "price": 252.16,
+      "weight": 4.29,
+      "amount": 707854.0,
+      "price": 252.805,
       "avg_price": 250.3
     },
     "AVGO": {
       "name": "Broadcom",
       "share": 1800.0,
-      "weight": 3.65,
-      "amount": 615528.0,
-      "price": 341.96,
+      "weight": 3.73,
+      "amount": 625014.0,
+      "price": 347.23,
       "avg_price": 356.37
     },
     "BE": {
       "name": "Bloom Energy",
       "share": 1000.0,
-      "weight": 1.37,
-      "amount": 220010.0,
-      "price": 220.01,
+      "weight": 1.32,
+      "amount": 224563.0,
+      "price": 224.563,
       "avg_price": 249.2005
     },
     "CRWD": {
       "name": "CrowdStrike Holdings",
       "share": 3000.0,
-      "weight": 4.48,
-      "amount": 800400.0,
-      "price": 266.8,
+      "weight": 4.87,
+      "amount": 795780.0,
+      "price": 265.26,
       "avg_price": 258.24
     },
     "DDOG": {
       "name": "Datadog",
       "share": 700.0,
-      "weight": 1.13,
-      "amount": 194425.0,
-      "price": 277.75,
+      "weight": 1.19,
+      "amount": 193707.50000000003,
+      "price": 276.725,
       "avg_price": 254.3
     },
     "ETN": {
       "name": "Eaton",
       "share": 1000.0,
-      "weight": 2.31,
-      "amount": 383890.0,
-      "price": 383.89,
+      "weight": 2.33,
+      "amount": 394340.0,
+      "price": 394.34,
       "avg_price": 440.325
     },
     "GEV": {
       "name": "GE Vernova",
       "share": 500.0,
-      "weight": 2.59,
-      "amount": 439755.0,
-      "price": 879.51,
+      "weight": 2.71,
+      "amount": 444255.0,
+      "price": 888.51,
       "avg_price": 952.305
     },
     "GOOGL": {
       "name": "Alphabet - Class A Common Stock",
       "share": 3000.0,
-      "weight": 6.1,
-      "amount": 960960.0,
-      "price": 320.32,
+      "weight": 5.82,
+      "amount": 970574.9999999999,
+      "price": 323.525,
       "avg_price": 341.25
     },
     "GS": {
       "name": "Goldman Sachs",
       "share": 200.0,
-      "weight": 1.12,
-      "amount": 182307.8,
-      "price": 911.539,
+      "weight": 1.1,
+      "amount": 184855.0,
+      "price": 924.275,
       "avg_price": 944.59
     },
     "HOOD": {
       "name": "Robinhood Markets",
       "share": 1200.0,
-      "weight": 0.73,
-      "amount": 115440.0,
-      "price": 96.2,
+      "weight": 0.69,
+      "amount": 108916.79999999999,
+      "price": 90.764,
       "avg_price": 123.38916666666667
     },
     "ILMN": {
       "name": "Illumina",
       "share": 401.0,
       "weight": 0.68,
-      "amount": 111437.9,
-      "price": 277.9,
+      "amount": 115135.922,
+      "price": 287.122,
       "avg_price": 262.89
     },
     "JPM": {
       "name": "JPMorgan Chase",
       "share": 1100.0,
-      "weight": 2.32,
-      "amount": 369248.0,
-      "price": 335.68,
+      "weight": 2.24,
+      "amount": 373824.0,
+      "price": 339.84,
       "avg_price": 339.2
     },
     "LITE": {
       "name": "Lumentum",
       "share": 780.0,
-      "weight": 3.68,
-      "amount": 684042.84,
-      "price": 876.978,
+      "weight": 4.09,
+      "amount": 698997.0,
+      "price": 896.15,
       "avg_price": 953.51
     },
     "LLY": {
       "name": "Eli Lilly",
       "share": 450.0,
-      "weight": 3.69,
-      "amount": 579276.0,
-      "price": 1287.28,
+      "weight": 3.49,
+      "amount": 579127.5,
+      "price": 1286.95,
       "avg_price": 1161.275
     },
     "MA": {
       "name": "Mastercard",
       "share": 350.0,
-      "weight": 1.39,
-      "amount": 213633.0,
-      "price": 610.38,
+      "weight": 1.29,
+      "amount": 214620.00000000003,
+      "price": 613.2,
       "avg_price": 560.04
     },
     "MSFT": {
       "name": "Microsoft",
       "share": 1000.0,
-      "weight": 3.27,
-      "amount": 534145.0,
-      "price": 534.145,
+      "weight": 3.22,
+      "amount": 528190.0,
+      "price": 528.19,
       "avg_price": 497.35
     },
     "MU": {
       "name": "Micron",
       "share": 800.0,
-      "weight": 4.3,
-      "amount": 743432.0,
-      "price": 929.29,
+      "weight": 4.5,
+      "amount": 777640.0,
+      "price": 972.05,
       "avg_price": 1079.62
     },
     "NET": {
       "name": "Cloudflare",
       "share": 1200.0,
-      "weight": 2.28,
-      "amount": 395544.0,
-      "price": 329.62,
+      "weight": 2.38,
+      "amount": 383562.0,
+      "price": 319.635,
       "avg_price": 356.34
     },
     "NTRA": {
       "name": "Natera",
       "share": 300.0,
-      "weight": 0.76,
-      "amount": 122635.50000000001,
-      "price": 408.785,
+      "weight": 0.75,
+      "amount": 128370.0,
+      "price": 427.9,
       "avg_price": 391.25224999999995
     },
     "NVDA": {
       "name": "NVIDIA",
       "share": 5000.0,
-      "weight": 6.65,
-      "amount": 1093600.0,
-      "price": 218.72,
+      "weight": 6.6,
+      "amount": 1085305.0,
+      "price": 217.061,
       "avg_price": 225.505
     },
     "PLTR": {
       "name": "Palantir Technologies",
       "share": 1200.0,
-      "weight": 1.48,
-      "amount": 240924.0,
-      "price": 200.77,
+      "weight": 1.44,
+      "amount": 233112.0,
+      "price": 194.26,
       "avg_price": 200.31583333333333
     },
     "RBRK": {
       "name": "Rubrik",
-      "share": 600.0,
-      "weight": 0.45,
-      "amount": 81951.0,
-      "price": 136.585,
-      "avg_price": 136.585
+      "share": 1200.0,
+      "weight": 0.99,
+      "amount": 164508.0,
+      "price": 137.09,
+      "avg_price": 136.8375
     },
     "SNOW": {
       "name": "Snowflake",
       "share": 1100.0,
-      "weight": 2.17,
-      "amount": 374258.5,
-      "price": 340.235,
+      "weight": 2.25,
+      "amount": 374847.0,
+      "price": 340.77,
       "avg_price": 340.168
     },
     "TER": {
       "name": "Teradyne",
       "share": 500.0,
-      "weight": 0.97,
-      "amount": 162012.5,
-      "price": 324.025,
+      "weight": 0.98,
+      "amount": 154547.5,
+      "price": 309.095,
       "avg_price": 411.23
     },
     "TSEM": {
       "name": "Tower Semiconductor",
       "share": 850.0,
-      "weight": 0.89,
-      "amount": 158474.0,
-      "price": 186.44,
+      "weight": 0.97,
+      "amount": 162375.5,
+      "price": 191.03,
       "avg_price": 233.415
     }
   },
-  "current_nav": 14.18,
-  "previous_nav": 13.75
+  "current_nav": 14.31,
+  "previous_nav": 14.18
 }
